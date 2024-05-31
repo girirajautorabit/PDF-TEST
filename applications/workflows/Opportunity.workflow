@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>tasktest1</fullName>
+        <description>tasktest1</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>integration@00d280000019lseeaa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>test1</fullName>
+        <description>test1</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>integration@00d280000019lseeaa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityForgotPasswordEmailTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>test123</fullName>
+        <description>test123</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>integration@00d280000019lseeaa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChgEmailVerNewTemplate</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>FU1</fullName>
+        <field>Description</field>
+        <name>FU1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Fu2</fullName>
+        <field>LeadSource</field>
+        <name>Fu2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CAB_Default Opportunity Name</fullName>
+        <actions>
+            <name>Default_Opportunity_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Enforces an Opportunity naming convention. Added for the Commercial Accelerate project.</description>
+        <formula>AND(     OR(         ISNEW(),         ISCHANGED(Amount)     ), $User.No_Workflow__c = False )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CAB_Update Stage to Prospecting</fullName>
+        <actions>
+            <name>Update_Stage_to_Prospecting</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates Opportunity Stage to Prospecting prior to Opportunity conversion. Added for the Commercial Accelerate project.</description>
+        <formula>$User.No_Workflow__c = False</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>CAB_Update Stage to Qualification</fullName>
+        <actions>
+            <name>Stage_Update_Qualification</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates Opportunity Stage to Qualification after Opportunity conversion. Added for the Commercial Accelerate project.</description>
+        <formula>AND( $User.No_Workflow__c = False, ISCHANGED(cm_Conversion_Complete__c), cm_Conversion_Complete__c = true )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>LLC_BI__Update Start Date of Current Stage</fullName>
+        <actions>
+            <name>LLC_BI__Update_Start_Date_of_Current_Stage</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(StageName)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>saitest</fullName>
+        <actions>
+            <name>tasktest1</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>test1</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>FU1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Fu2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>nCino__Commercial_Real_Estate_Tenancy_Saver_Service_Access</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>nCino__Commercial_Real_Estate_Tenant_Saver_Service_Access</name>
+    </customPermissions>
+    <description>Grants a user access to create, modify and delete tenancy records.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tenancy Management - Manage Tenancies</label>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>nCino__DAODepositAccountsOriginatorXPkg</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Grants a user access to the Deposit Accounts Originator Service.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Deposit Accounts Originator Permissions</label>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>LLC_BI__Exclude_Validation</name>
+    </customPermissions>
+    <description>If a user has this permission set assigned, validation rules with &quot;Exclude Validation = False&quot; syntax will evaluate to False and not execute. This allows users to bypass validation when needed. Introduced Spring 2023.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Exclude Validation</label>
+</PermissionSet>

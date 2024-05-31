@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>LLC_BI__Balloon_Amount_terms_must_be_equal</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(LLC_BI__Balloon__c = true, ISPICKVAL(LLC_BI__Balloon_Product_Structure__c, &apos;Balloon Amount&apos;), BLANKVALUE(LLC_BI__Amortized_Term_Months__c, 0) != BLANKVALUE(LLC_BI__Term_Months__c, 0))</errorConditionFormula>
+        <errorMessage>Loan Term and Amortized Term must have the same value.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LLC_BI__Balloon_Loan_terms_cannot_be_blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(LLC_BI__Balloon__c = true, NOT(ISPICKVAL(LLC_BI__Balloon_Product_Structure__c, &apos;&apos;)),
+            OR(ISCHANGED(LLC_BI__Amortized_Term_Months__c), ISCHANGED(LLC_BI__Term_Months__c)),
+            OR(ISBLANK(LLC_BI__Amortized_Term_Months__c), ISBLANK(LLC_BI__Term_Months__c)))</errorConditionFormula>
+        <errorMessage>You must input values for Loan Term and Amortized Term.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LLC_BI__Balloon_Term_loan_not_equal_to_amortized</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(LLC_BI__Balloon__c = true, ISPICKVAL(LLC_BI__Balloon_Product_Structure__c, &apos;Balloon Term&apos;), LLC_BI__Amortized_Term_Months__c = LLC_BI__Term_Months__c)</errorConditionFormula>
+        <errorMessage>Loan Term and Amortized Term cannot be equal.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LLC_BI__Cannot_Check_More_Than_One_Loan_Type</fullName>
+        <active>true</active>
+        <description>This validation rule will enforce that no more than 1 loan type is checked.  The only fields that affect loan type are isRenewal__c and Is_Modification__c.</description>
+        <errorConditionFormula>AND(LLC_BI__isRenewal__c = true,LLC_BI__Is_Modification__c = true)</errorConditionFormula>
+        <errorMessage>A loan can be a renewal OR a modification.  It cannot be both.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LLC_BI__Takedown_Amount_Less_Or_Equal_Parent</fullName>
+        <active>true</active>
+        <errorConditionFormula>LLC_BI__Amount__c &gt;  LLC_BI__ParentLoan__r.LLC_BI__Amount__c</errorConditionFormula>
+        <errorMessage>Committed amount cannot be greater than the amount taken down from</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_01</fullName>
+        <active>true</active>
+        <description>Check to make sure the amount outstanding is not being set to be greater than the Amount (total) available</description>
+        <errorConditionFormula>AND(
+IF(LLC_BI__AmountOutstanding__c &gt; LLC_BI__Amount__c, true, false),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__AmountOutstanding__c</errorDisplayField>
+        <errorMessage>Amount Outstanding cannot exceed the maximum Amount available - LV01</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_02</fullName>
+        <active>true</active>
+        <description>Ensure that Interest rate is not above the ceiling rate.</description>
+        <errorConditionFormula>AND (
+LLC_BI__Rate_Ceiling__c &gt;= 0,
+(LLC_BI__InterestRate__c &gt;  LLC_BI__Rate_Ceiling__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__InterestRate__c</errorDisplayField>
+        <errorMessage>Please ensure that the interest rate for this loan is not above the ceiling rate - LV02</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_03</fullName>
+        <active>true</active>
+        <description>Ensure that Interest rate is not below the floor rate.</description>
+        <errorConditionFormula>AND (
+!ISNULL(LLC_BI__Rate_Floor__c),
+(LLC_BI__InterestRate__c &lt; LLC_BI__Rate_Floor__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__InterestRate__c</errorDisplayField>
+        <errorMessage>Please ensure that the interest rate for this loan is not below the floor rate - LV03</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_04</fullName>
+        <active>true</active>
+        <description>Prevents Users from manually selecting the Approval / Loan Committee Stage.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED (LLC_BI__Stage__c)),
+ISPICKVAL(LLC_BI__Stage__c, &quot;Approval / Loan Committee&quot;), TRUE)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>You Cannot Manually Change the Loan Stage to Approval / Loan Committee. Please Ensure That All Information is Accurate and Press the &apos;Submit for Approval&apos; Button at the Top of the Page. - LV04</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_05</fullName>
+        <active>true</active>
+        <description>A Loan Number is Required Prior to Changing the Loan Stage to &apos;Booked&apos;</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(LLC_BI__Stage__c , &apos;Booked&apos;),
+ISBLANK(LLC_BI__lookupKey__c),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>A Loan Number is Required Prior to Changing the Loan Stage to &apos;Booked&apos; - LV05</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_06</fullName>
+        <active>true</active>
+        <description>You Cannot Manually Change the Loan to a Post Approval Stage. The Loan Must be Approved by pressing the &apos;Submit for Approval&apos; Button at the top of the page.</description>
+        <errorConditionFormula>AND(
+OR(
+ISPICKVAL(LLC_BI__Stage__c , &apos;Processing&apos;),
+ISPICKVAL(LLC_BI__Stage__c , &apos;Doc Prep&apos;),
+ISPICKVAL(LLC_BI__Stage__c , &apos;Closing&apos;)),
+ISBLANK(LLC_BI__Credit_Approval_Date__c),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>You Cannot Manually Change the Loan to a Post Approval Stage. The Loan Must be Approved by pressing the &apos;Submit for Approval&apos; Button at the top of the page. - LV06</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_07</fullName>
+        <active>true</active>
+        <description>Ensure that the rate ceiling is higher or equal to the floor rate.</description>
+        <errorConditionFormula>AND (
+   !ISNULL(LLC_BI__Rate_Ceiling__c),
+   !ISNULL(LLC_BI__Rate_Floor__c),
+   (LLC_BI__Rate_Ceiling__c &lt; LLC_BI__Rate_Floor__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Rate_Ceiling__c</errorDisplayField>
+        <errorMessage>Please ensure that the rate ceiling is higher or equal to the floor rate - LV07</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_10</fullName>
+        <active>true</active>
+        <description>Prevents users from marking Is Review Ready to True in a post-approval loan stage.</description>
+        <errorConditionFormula>AND(
+OR(
+ISPICKVAL(LLC_BI__Stage__c, &apos;Processing&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Doc Prep&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Closing&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Boarding&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Booked&apos;)
+),
+LLC_BI__Is_Review_Ready__c = True,
+$User.No_Workflow__c = False
+)</errorConditionFormula>
+        <errorMessage>Is Review Ready cannot be marked True in a post-approval loan stage.</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>LLC_BI__Entity_Involvement_Custom_Permission</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>LLC_BI__Legal_Entities_Loader_Service_Access</name>
+    </customPermissions>
+    <description>Grants a user access to the custom permissions for Entity Involvement.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Entity Involvement - Permission Set</label>
+</PermissionSet>

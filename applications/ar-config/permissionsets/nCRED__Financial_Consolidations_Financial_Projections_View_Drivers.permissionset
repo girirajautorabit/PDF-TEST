@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>nCRED__Financial_Consolidations_Pro_Forma_View_Drivers</name>
+    </customPermissions>
+    <description>Grants a user the ability to view Pro Forma Drivers in Financial Consolidations.</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Spread_Projections_Template__c.LLC_BI__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LLC_BI__Spread_Projections_Template__c.LLC_BI__Is_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LLC_BI__Spread_Statement_Type__c.LLC_BI__Display_Projection_Drivers__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Financial Consolidations - Financial Projections - View Drivers</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LLC_BI__Spread_Projections_Template__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</PermissionSet>

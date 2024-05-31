@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>test</description>
+    <fields>
+        <fullName>F1__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>F1</label>
+        <length>4</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TestCustomMetadata2</label>
+    <listViews>
+        <fullName>tesdt</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <filterScope>Everything</filterScope>
+        <label>test</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>TestCustomMetadata2s</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

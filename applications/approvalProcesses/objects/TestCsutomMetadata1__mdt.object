@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>test</description>
+    <fields>
+        <fullName>F1__c</fullName>
+        <description>test123</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>F1</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <label>TestCsutomMetadata1</label>
+    <pluralLabel>TestCsutomMetadata1s</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

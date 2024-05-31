@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>nFORCE__Format_Expression__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A regular expression for validating the format of this field. If specified, the UI will enforce contents matching the format specified and provide a specified error message if the format is not matched.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>^[a-zA-Z0-9!#$%&amp;&apos;*+=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;&apos;*+=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$</inlineHelpText>
+        <label>Format Expression</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>SampleView</fullName>
+        <columns>nFORCE__Format_Expression__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>FC-002583</value>
+        </filters>
+        <label>SampleView</label>
+        <language>en_US</language>
+    </listViews>
+</CustomObject>

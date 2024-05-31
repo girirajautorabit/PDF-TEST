@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalAIModel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationSourceType>REPLY_RECOMMENDATION</applicationSourceType>
+    <externalModelKey>0f16dea6-b886-44df-9cfa-4d96b51d6594</externalModelKey>
+    <externalModelStatus>ENABLED</externalModelStatus>
+    <name>SR1601228426202</name>
+    <threshold>0.9</threshold>
+    <trainingJobName>TestJob</trainingJobName>
+</ExternalAIModel>

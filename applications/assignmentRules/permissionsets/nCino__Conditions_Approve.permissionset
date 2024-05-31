@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>nCino__Conditions_Approve</name>
+    </customPermissions>
+    <description>Grants the Conditions - Approve custom permission to a user.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Conditions - Approve</label>
+</PermissionSet>

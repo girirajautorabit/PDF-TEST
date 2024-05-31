@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Activity Management --></label>
+        <name>Activity_Management</name>
+    </customApplications>
+    <customLabels>
+        <label>test</label>
+        <name>AC1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC211 --></label>
+        <name>AC2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCL1 --></label>
+        <name>ACCL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCL3 --></label>
+        <name>ACCL3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACL11 --></label>
+        <name>ACL11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACL12 --></label>
+        <name>ACL12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACjan25 --></label>
+        <name>ACjan25</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AYL1 --></label>
+        <name>AYL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apr23label --></label>
+        <name>Apr23label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apr24Label1 --></label>
+        <name>Apr24Label1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aug23 --></label>
+        <name>Aug23</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSham123 --></label>
+        <name>AutoSham123</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CL90 --></label>
+        <name>CL90</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLS1 --></label>
+        <name>CLS1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLSai2 --></label>
+        <name>CLSai2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLsai1 --></label>
+        <name>CLsai1</name>
+    </customLabels>
+    <customLabels>
+        <label>11</label>
+        <name>ClN1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CutomDeploytest --></label>
+        <name>CutomDeploytest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DemoCl1 --></label>
+        <name>DemoCl1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Demo_Sai_Test --></label>
+        <name>Demo_Sai_Test</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Feb8thCl1 --></label>
+        <name>Feb8thCl1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- KMl1 --></label>
+        <name>KMl1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- L987 --></label>
+        <name>L987</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- M11cl --></label>
+        <name>M11cl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- May8saiCL1 --></label>
+        <name>May8saiCL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- May8saicl2 --></label>
+        <name>May8saicl2</name>
+    </customLabels>
+    <customLabels>
+        <label>vcv</label>
+        <name>Q1</name>
+    </customLabels>
+    <customLabels>
+        <label>11</label>
+        <name>Q10</name>
+    </customLabels>
+    <customLabels>
+        <label>1</label>
+        <name>Q11</name>
+    </customLabels>
+    <customLabels>
+        <label>11</label>
+        <name>Q12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Q13 --></label>
+        <name>Q13</name>
+    </customLabels>
+    <customLabels>
+        <label>cxv</label>
+        <name>Q2</name>
+    </customLabels>
+    <customLabels>
+        <label>1</label>
+        <name>Q3</name>
+    </customLabels>
+    <customLabels>
+        <label>1</label>
+        <name>Q4</name>
+    </customLabels>
+    <customLabels>
+        <label>1</label>
+        <name>Q5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Q6 --></label>
+        <name>Q6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Q7 --></label>
+        <name>Q7</name>
+    </customLabels>
+    <customLabels>
+        <label>1</label>
+        <name>Q8</name>
+    </customLabels>
+    <customLabels>
+        <label>11</label>
+        <name>Q9</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- R1Label1 --></label>
+        <name>R1Label1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- S1label1 --></label>
+        <name>S1label1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SSlabel1 --></label>
+        <name>SSlabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SZ1 --></label>
+        <name>SZ1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SZ2 --></label>
+        <name>SZ2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sham-label2 --></label>
+        <name>Sham_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest1 --></label>
+        <name>aTest1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest10 --></label>
+        <name>aTest10</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest11 --></label>
+        <name>aTest11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest12 --></label>
+        <name>aTest12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest13 --></label>
+        <name>aTest13</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest14 --></label>
+        <name>aTest14</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest15 --></label>
+        <name>aTest15</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest16 --></label>
+        <name>aTest16</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest17 --></label>
+        <name>aTest17</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest18 --></label>
+        <name>aTest18</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest19 --></label>
+        <name>aTest19</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest2 --></label>
+        <name>aTest2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest20 --></label>
+        <name>aTest20</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest21 --></label>
+        <name>aTest21</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest22 --></label>
+        <name>aTest22</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest3 --></label>
+        <name>aTest3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest4 --></label>
+        <name>aTest4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest5 --></label>
+        <name>aTest5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest6 --></label>
+        <name>aTest6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest7 --></label>
+        <name>aTest7</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest8 --></label>
+        <name>aTest8</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aTest9 --></label>
+        <name>aTest9</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- c2 --></label>
+        <name>c2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- cdszxvcxv --></label>
+        <name>cdszxvcxv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- feb8tCl1 --></label>
+        <name>feb8tCl1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sham-labelnov2 --></label>
+        <name>sham_labelnov2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- skvclnew1 --></label>
+        <name>skvclnew1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- vcv --></label>
+        <name>vcv</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- About Activity Management --></label>
+        <name>About_Activity_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Activity Pro Setup --></label>
+        <name>Activity_Component_Pro</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Activity Components Demo Page --></label>
+        <name>Activity_Components_Demo_Page</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Twst1 --></label>
+        <name>Twst1</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>RKFlowTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>TestFlowLabel1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>TriggerOrderExample</fullName>
+    </flowDefinitions>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily --></description>
+        <label><!-- Bot Metrics Daily --></label>
+        <name>Bot_Metrics_Daily</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Summer ’22 --></description>
+        <label><!-- Bot Metrics Daily Summer ’22 --></label>
+        <name>Bot_Metrics_Daily_v2</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Winter &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Spring &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Summer &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly --></description>
+        <label><!-- Bot Metrics Hourly --></label>
+        <name>Bot_Metrics_Hourly</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Summer ’22 --></description>
+        <label><!-- Bot Metrics Hourly Summer ’22 --></label>
+        <name>Bot_Metrics_Hourly_v2</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Winter &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Spring &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Summer &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Summer ’22 --></description>
+        <label><!-- Session Metrics Summer ’22 --></label>
+        <name>Bot_Sessions_v2</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Winter &apos;23 --></description>
+        <label><!-- Session Metrics Winter &apos;23 --></label>
+        <name>Bot_Sessions_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Spring &apos;23 --></description>
+        <label><!-- Session Metrics Spring &apos;23 --></label>
+        <name>Bot_Sessions_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Summer &apos;23 --></description>
+        <label><!-- Session Metrics Summer &apos;23 --></label>
+        <name>Bot_Sessions_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Lead Distribution --></description>
+        <label><!-- Lead Distribution --></label>
+        <name>sfdcprm_Lead_Distribution</name>
+        <sections>
+            <columns>
+                <label><!-- Partner Account --></label>
+                <name>Partner Account</name>
+            </columns>
+            <label><!-- Leads --></label>
+            <name>Leads</name>
+        </sections>
+    </reportTypes>
+</Translations>
