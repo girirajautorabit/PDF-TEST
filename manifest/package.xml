@@ -2,6 +2,7 @@
     <version>61.0</version>
     <types>
         <members>LLC_BI_Loan__c.Field_set_1</members>
+        <members>User.Giri_field</members>
         <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
