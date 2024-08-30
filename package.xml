@@ -5,6 +5,8 @@
         <members>Broker__c.Email__c</members>
         <members>Broker__c.Mobile_Phone__c</members>
         <members>Broker__c.Phone__c</members>
+        <members>SDOC__Envelope__c.SDOC__Verification_Secret__c</members>
+        <members>SDOC__Envelope__c.SDOC__View_Expiration__c</members>
         <name>CustomField</name>
     </types>
     <types>
