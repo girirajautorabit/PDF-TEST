@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
-        <fullName>SCOB</fullName>
         <fullName>SCOB_2</fullName>
+        <fullName>SCOB</fullName>
         <accessLevel>Read</accessLevel>
         <label>SCOB</label>
         <sharedTo>
