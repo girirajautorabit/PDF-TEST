@@ -15,4 +15,12 @@
         <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
+    <types>
+        <members>SaiObj10__c.SCOB</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>SaiObj10__c</members>
+        <name>SharingRules</name>
+    </types>
 </Package>
