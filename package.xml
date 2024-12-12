@@ -2,6 +2,20 @@
     <version>60.0</version>
     <types>
         <members>aCCOUNTLIST</members>
+        <members>documentEditorModal</members>
+        <members>documentVersionModal</members>
+        <members>emailEditorModal</members>
+        <members>envelopeMaker</members>
+        <members>errorAlert</members>
+        <members>generateDocumentFromObject</members>
+        <members>generateDocumentSdk</members>
+        <members>generatedDocumentsForObject</members>
+        <members>modalToastEventSender</members>
+        <members>sDocMaker</members>
+        <members>sObjectSearchBar</members>
+        <members>templatePicker</members>
+        <members>templateTile</members>
+        <members>trackUsage</members>
         <name>LightningComponentBundle</name>
     </types>
 </Package>

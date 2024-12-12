@@ -3,7 +3,6 @@ import { NavigationMixin } from 'lightning/navigation';
 import getRecentModifiedAccounts from "@salesforce/apex/AccountListController.getRecentModifiedAccounts"
 
 // Fields to Display for Selected record in RecordForm
-// added commdnt
 const fields=['Name','AccountNumber','OwnerId','AccountSource','ParentId','AnnualRevenue','Type','CreatedById','LastModifiedById','Industry','Description','Phone'];
 
 const columns = [ 
