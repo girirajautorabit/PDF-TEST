@@ -16,4 +16,8 @@
         <members>Account.NewLastWeek</members>
         <name>ListView</name>
     </types>
+    <types>
+        <members>Account.Billing</members>
+        <name>WebLink</name>
+    </types>
 </Package>
