@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obj900</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Obj900s</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Obj900RC1 --></label>
+        <name>Obj900RC1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BotBlock xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botBlockVersions>
+        <fullName>Published</fullName>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>diag2</message>
+                    <messageIdentifier>7eba75ee-897a-f0f8-95d9-c9457de0ec8a</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>e48a9dda-e774-46df-93f8-12cdf4a54459</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <stepIdentifier>f0cd77f9-5d56-4b0c-972e-07d202100ca7</stepIdentifier>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>diag2</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
+            <label>diag2</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <conversationLanguages>en_US</conversationLanguages>
+        <mlDomain>
+            <label>BOTblock2</label>
+            <name>BOTblock2</name>
+        </mlDomain>
+        <status>Published</status>
+    </botBlockVersions>
+    <masterLabel>BOTblock2</masterLabel>
+    <richContentEnabled>false</richContentEnabled>
+</BotBlock>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningOnboardingConfig xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <collaborationGroup>0F9IT0000019KTo</collaborationGroup>
+    <customQuestion>Why are you switching back to Salesforce Classic?</customQuestion>
+    <feedbackFormDaysFrequency>2</feedbackFormDaysFrequency>
+    <isCustom>true</isCustom>
+    <masterLabel>LightningOnboardingConfig</masterLabel>
+    <promptDelayTime xsi:nil="true"/>
+    <sendFeedbackToSalesforce>true</sendFeedbackToSalesforce>
+</LightningOnboardingConfig>

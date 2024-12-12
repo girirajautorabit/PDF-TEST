@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Output format of the generated documents. To support multiple formats, simply clone the template with a different Format field value. --></help>
+    <label><!-- Template Format --></label>
+    <name>SDOC__Template_Format__c</name>
+    <picklistValues>
+        <masterLabel>CSV</masterLabel>
+        <translation><!-- CSV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Component</masterLabel>
+        <translation><!-- Component --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Component (DOCX)</masterLabel>
+        <translation><!-- Component (DOCX) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOC</masterLabel>
+        <translation><!-- DOC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DOCX</masterLabel>
+        <translation><!-- DOCX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HTML</masterLabel>
+        <translation><!-- HTML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JSON</masterLabel>
+        <translation><!-- JSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF</masterLabel>
+        <translation><!-- PDF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF-UPLOAD</masterLabel>
+        <translation><!-- PDF-UPLOAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PPTX</masterLabel>
+        <translation><!-- PPTX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XLS</masterLabel>
+        <translation><!-- XLS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XLSX</masterLabel>
+        <translation><!-- XLSX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XML</masterLabel>
+        <translation><!-- XML --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

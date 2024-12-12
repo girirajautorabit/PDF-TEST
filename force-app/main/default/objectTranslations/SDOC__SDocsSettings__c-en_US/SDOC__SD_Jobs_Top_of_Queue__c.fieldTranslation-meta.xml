@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Global Setting will move all S-Docs Batch jobs to top of queue ahead of any other asynchronous jobs (eg Batch Jobs, Future Callouts etc) --></help>
+    <label><!-- SD Jobs Move to Top of Flex Queue --></label>
+    <name>SDOC__SD_Jobs_Top_of_Queue__c</name>
+</CustomFieldTranslation>

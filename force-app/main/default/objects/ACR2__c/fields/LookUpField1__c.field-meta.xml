@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LookUpField1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>LookUpField1</label>
+    <referenceTo>ACR3__c</referenceTo>
+    <relationshipLabel>ACR2s</relationshipLabel>
+    <relationshipName>ACR2s</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If you are using a custom junction object to the Contact object, this value specifies the relationship name to that object. --></help>
+    <label><!-- Contact Role Related Table --></label>
+    <name>SDOC__ContactRole__c</name>
+</CustomFieldTranslation>

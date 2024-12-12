@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>AutoRespnseRul1</fullName>
+        <active>false</active>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>AutoResponseRule2</fullName>
+        <active>true</active>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>AutoResponseRule5</fullName>
+        <active>false</active>
+    </autoResponseRule>
+</AutoResponseRules>

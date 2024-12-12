@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employee details --></label>
+    <name>Employee_detail_s__c</name>
+    <picklistValues>
+        <masterLabel>Adress</masterLabel>
+        <translation><!-- Adress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Name</masterLabel>
+        <translation><!-- Name --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone number</masterLabel>
+        <translation><!-- Phone number --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Place</masterLabel>
+        <translation><!-- Place --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

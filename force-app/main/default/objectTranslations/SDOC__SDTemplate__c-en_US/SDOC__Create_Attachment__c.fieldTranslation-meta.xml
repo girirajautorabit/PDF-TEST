@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- By checking, an attachment will be created for each document that uses this template. Enabling this feature will consume more file storage space. --></help>
+    <label><!-- Auto Create Attachment --></label>
+    <name>SDOC__Create_Attachment__c</name>
+</CustomFieldTranslation>

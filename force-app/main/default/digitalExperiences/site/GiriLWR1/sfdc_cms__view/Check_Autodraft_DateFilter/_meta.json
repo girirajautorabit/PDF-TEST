@@ -1,0 +1,5 @@
+{
+  "apiName" : "Check_Autodraft_DateFilter",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

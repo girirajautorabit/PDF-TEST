@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>ACDemoOBj1__c</contextRecordType>
+    <description>Test Strategy Description</description>
+    <label>TestNewStrategy1</label>
+    <union>
+        <label>Output</label>
+        <name>Output_d024aa30b03648f1afd237b13eba6339</name>
+    </union>
+</RecommendationStrategy>
