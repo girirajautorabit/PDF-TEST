@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>38737-Custom-Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>38737-Custom-Objects</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- EPIC Verification report --></label>
+        <name>EPIC_Verification_report</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, the S-Doc Job will automatically attach all files related to the base record to the email. --></help>
+    <label><!-- Include All Related Files --></label>
+    <name>SDOC__Include_All_Related_Files__c</name>
+</CustomFieldTranslation>

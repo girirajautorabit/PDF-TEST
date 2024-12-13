@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Job Chained From --></label>
+    <name>SDOC__Job_Chained_From__c</name>
+    <relationshipLabel><!-- Jobs Chained --></relationshipLabel>
+</CustomFieldTranslation>
