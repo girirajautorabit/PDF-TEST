@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>KrithiLWR</label>
-    <site>
-        <urlPathPrefix>KrithiLWR</urlPathPrefix>
-    </site>
-    <space>site/KrithiLWR1</space>
-</DigitalExperienceConfig>

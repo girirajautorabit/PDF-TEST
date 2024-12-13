@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<IPAddressRange xmlns="http://soap.sforce.com/2006/04/metadata">
-    <endIpAddress>103.120.51.85</endIpAddress>
-    <ipAddressFeature>EmailIpFiltering</ipAddressFeature>
-    <ipAddressUsageScope>Exclusion</ipAddressUsageScope>
-    <masterLabel>d</masterLabel>
-    <startIpAddress>103.120.51.85</startIpAddress>
-</IPAddressRange>

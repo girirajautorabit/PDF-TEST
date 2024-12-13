@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>VL3</fullName>
-    <active>false</active>
-    <description>12345678974108520963</description>
-    <errorConditionFormula>City  &lt;&gt;  &quot;Vizag&quot;</errorConditionFormula>
-    <errorMessage>Not a valid city</errorMessage>
-</ValidationRule>

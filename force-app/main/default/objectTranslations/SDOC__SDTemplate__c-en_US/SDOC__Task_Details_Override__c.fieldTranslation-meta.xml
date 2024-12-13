@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Check if you want a User to edit the details of the follow up task whenever a document is generated --></help>
-    <label><!-- Task_Details_Override --></label>
-    <name>SDOC__Task_Details_Override__c</name>
-</CustomFieldTranslation>

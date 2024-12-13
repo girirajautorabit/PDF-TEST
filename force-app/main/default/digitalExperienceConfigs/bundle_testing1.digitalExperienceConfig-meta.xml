@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>bundle-testing</label>
-    <site>
-        <urlPathPrefix>bundletesting</urlPathPrefix>
-    </site>
-    <space>site/bundle_testing1</space>
-</DigitalExperienceConfig>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
-    <forecastingSourceDefinition>FSD_Opportunity120374413523777</forecastingSourceDefinition>
-    <forecastingType>Oppq</forecastingType>
-    <isProtected>false</isProtected>
-    <masterLabel>FTS_Oppq7syIT000000oLkPYAU145414965883058</masterLabel>
-    <sourceGroup>1</sourceGroup>
-</ForecastingTypeSource>

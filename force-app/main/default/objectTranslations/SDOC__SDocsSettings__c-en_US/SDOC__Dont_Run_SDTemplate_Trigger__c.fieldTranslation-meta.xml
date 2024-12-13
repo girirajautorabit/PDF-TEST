@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Don&apos;t Run SDTemplate Trigger --></label>
-    <name>SDOC__Dont_Run_SDTemplate_Trigger__c</name>
-</CustomFieldTranslation>

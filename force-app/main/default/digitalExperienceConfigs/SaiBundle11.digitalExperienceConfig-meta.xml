@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>SaiBundle1</label>
-    <site>
-        <urlPathPrefix>SaiBundl1</urlPathPrefix>
-    </site>
-    <space>site/SaiBundle11</space>
-</DigitalExperienceConfig>
