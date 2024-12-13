@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LLC_BI__Loan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LLC_BI__Loans</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Field-set-1 --></label>
+        <name>Field_set_1</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- RecordType-1 --></label>
+        <name>RecordType_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType-2 --></label>
+        <name>RecordType_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType-3 --></label>
+        <name>RecordType_3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType-4-2 --></label>
+        <name>RecordType_4</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

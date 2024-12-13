@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Upon document generation, the user will be auto-forwarded back to the record detail page. --></help>
+    <label><!-- Redirect Back To Record --></label>
+    <name>SDOC__Email_ReturnToRecord__c</name>
+</CustomFieldTranslation>

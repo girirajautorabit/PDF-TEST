@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>cx</description>
+    <externalId>false</externalId>
+    <label>A1</label>
+    <referenceTo>A1__c</referenceTo>
+    <relationshipLabel>Aug12obj1s</relationshipLabel>
+    <relationshipName>Aug12obj1s</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areGuestUsersAllowed>false</areGuestUsersAllowed>
+    <deploymentFeature>Flows</deploymentFeature>
+    <deploymentType>Web</deploymentType>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Container_Base_Close_04IW00000008OM7_5672333</customLabel>
+        <labelKey>LA_Container_Base_Close</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceFlowConfig>
+        <enabled>true</enabled>
+    </embeddedServiceFlowConfig>
+    <isEnabled>true</isEnabled>
+    <isTermsAndConditionsEnabled>false</isTermsAndConditionsEnabled>
+    <isTermsAndConditionsRequired>false</isTermsAndConditionsRequired>
+    <masterLabel>Test_Deploy</masterLabel>
+    <shouldHideAuthDialog>false</shouldHideAuthDialog>
+    <site>Catch_up</site>
+</EmbeddedServiceConfig>
