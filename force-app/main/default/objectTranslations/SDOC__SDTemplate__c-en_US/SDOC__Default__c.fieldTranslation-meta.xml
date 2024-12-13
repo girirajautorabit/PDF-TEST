@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Checking this box will make this template visible on initial load of document creation page based on the Object Type. Typically, you want to set this checkbox for the 10 most used templates for each object type. --></help>
-    <label><!-- Initially Visible --></label>
-    <name>SDOC__Default__c</name>
-</CustomFieldTranslation>
