@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "A1 List",
+  "contentBody" : {
+    "activeViewId" : "A1_List",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "list-A1__c",
+    "urlPrefix" : "a1"
+  },
+  "urlName" : "a1-list"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>saitest_2</flowApiName>
+    <label>test2</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;AccountId&quot;:&quot;0010K00001ibMM7QAM&quot;,&quot;Amount&quot;:235000,&quot;AutorabitExtId__c&quot;:&quot;0067F00000AtDqiQAF&quot;,&quot;CloseDate&quot;:&quot;2018-02-03&quot;,&quot;CurrentGenerators__c&quot;:&quot;John Deere&quot;,&quot;DeliveryInstallationStatus__c&quot;:&quot;Yet to begin&quot;,&quot;ForecastCategoryName&quot;:&quot;Pipeline&quot;,&quot;IsExcludedFromTerritory2Filter&quot;:false,&quot;IsPrivate&quot;:false,&quot;Is_this_a_duplicate__c&quot;:false,&quot;LeadSource&quot;:&quot;Web&quot;,&quot;MainCompetitors__c&quot;:&quot;John Deere&quot;,&quot;Name&quot;:&quot;Burlington Textiles Weaving Plant Generator&quot;,&quot;OrderNumber__c&quot;:&quot;645612&quot;,&quot;OwnerId&quot;:&quot;005280000021aLrAAI&quot;,&quot;Probability&quot;:70,&quot;StageName&quot;:&quot;Perception Analysis&quot;,&quot;TmobileDemo__c&quot;:false,&quot;TrackingNumber__c&quot;:&quot;830150301360&quot;,&quot;Type&quot;:&quot;New Customer&quot;}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>tasktest1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

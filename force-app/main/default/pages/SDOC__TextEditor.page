@@ -1,0 +1,117 @@
+<apex:page >
+  <apex:includeScript value="{!URLFOR($Resource.SDOC__ckEditor, '/ckeditor/ckeditor.js')}"/>
+  <script type="text/javascript">
+
+    // Timer used to implement debouncing for onchange event
+    var debounceTimer;
+
+    // Event listener for when data is provided to the editor from the parent window
+    function loadData(event) {
+      if (event.data.eventName !== 'dataToLoad') return; // not expecting this message, reject
+      document.querySelector('textarea[id$="ckeditor1"]').value = event.data.payload;
+      bind();
+    }
+
+    // Posts message to parent containing changed data
+    function handleDataChange() {
+      var CKEDITOR = window.CKEDITOR;
+      for (var i in CKEDITOR.instances) {
+          var currentInstance = i;
+          break;
+      }
+      window.parent.postMessage(
+        { eventName: 'dataChange', payload: CKEDITOR.instances[currentInstance].getData() }, '*');
+    }
+
+    // Onload, tells the parent it's ready to receive data and bind CKEditor to the textarea
+    window.onload = function () {
+      window.addEventListener('message', loadData, false);
+      window.parent.postMessage({ eventName: 'readyToLoad' }, '*');
+    };
+
+    // Resizes the editor to 100% height
+    function resizeEditor() {
+      var defaultHeight = 300;
+      var newHeight = window.innerHeight;
+      var height = defaultHeight > newHeight ? defaultHeight: newHeight;
+      var CKEDITOR = window.CKEDITOR;
+      for (var i in CKEDITOR.instances) {
+          var currentInstance = i;
+          break;
+      }
+      CKEDITOR.instances[currentInstance].resize('100%', height);
+    }
+
+    // Re-does binding of CKEditor to textarea
+    rebind = function() {
+      var CKEDITOR = window.CKEDITOR;
+      for (var i in CKEDITOR.instances) {
+        var currentInstance = i;
+        break;
+      }
+      delete CKEDITOR.instances[currentInstance];
+      bind();
+    };
+
+    // Configures CKEditor toolbar and binds CKEditor to textarea
+    bind = function() {
+      var CKEDITOR_BASEPATH = '{!URLFOR($Resource.SDOC__ckEditor, 'ckeditor/')}';
+      CKEDITOR.editorConfig = function(config) {
+        config.height = '100%';
+        config.disableNativeSpellChecker = false;
+        config.language = 'en';
+        config.filebrowserBrowseUrl = '{!$Page.SDOC__SDFileList}';
+        config.filebrowserUploadUrl = '{!$Page.SDOC__SDFileUpload}';
+        config.filebrowserImageBrowseUrl = '{!$Page.SDOC__SDFileList}';
+        config.filebrowserImageUploadUrl = '{!$Page.SDOC__SDFileUpload}' + '?isImageUpload=true';
+        config.enterMode = CKEDITOR.ENTER_BR;
+        config.shiftEnterMode = CKEDITOR.ENTER_P;
+        config.allowedContent = true;
+        config.entities = false;
+        config.removePlugins = 'liststyle,tabletools,scayt,menubutton,contextmenu';
+        config.extraPlugins = 'codemirror,justify';
+        config.toolbar = [
+          ['Undo','Redo'],
+          ['Styles','Format','Font','FontSize'],
+          ['TextColor','BGColor'],
+          ['Bold','Italic','Underline','Strike','-',],
+          ['Image', 'PageBreak'],
+          ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock']
+        ];
+      };
+
+      if (document.getElementsByClassName) {
+        var e = document.getElementsByClassName('ckeditor1');
+        for (var i = 0; i < e.length; i++) {
+          var editor1 = CKEDITOR.replace(e[i],
+            { on: {
+              instanceReady: function(ev) { setTimeout(resizeEditor, 500); },
+              change: function(ev) {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => handleDataChange(), 250);
+              }
+            }, },
+          );
+        }
+      }
+    };
+
+    // Resizes the texteditor when the window is resized
+    window.onresize = function() {
+      resizeEditor();
+    }
+  </script>
+
+  <apex:form >
+    <apex:inputTextarea id="ckeditor1" styleClass="ckeditor1" />
+  </apex:form>
+
+  <style>
+    .ckeditor1 {
+      margin-left: 1%;
+      width: 98%;
+      height: 100%;
+    }
+
+  </style>
+</apex:page>

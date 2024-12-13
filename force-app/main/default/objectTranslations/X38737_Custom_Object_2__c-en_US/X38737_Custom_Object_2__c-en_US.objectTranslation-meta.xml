@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>38737-Custom-Object-2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>38737-Custom-Object-2s</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Verification review --></label>
+        <name>Verification_review</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- pick list test --></label>
+        <name>pick_list_test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- pick list test 2 --></label>
+        <name>pick_list_test_2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

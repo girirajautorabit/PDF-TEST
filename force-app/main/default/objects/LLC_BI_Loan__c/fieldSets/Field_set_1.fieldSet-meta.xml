@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_set_1</fullName>
+    <description>Faltu</description>
+    <label>Field-set-1</label>
+</FieldSet>
