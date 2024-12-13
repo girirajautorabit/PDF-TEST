@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- All emails will only be sent from an org wide email address (emails cannot be sent from logged in users email address) --></help>
-    <label><!-- Email From: Show only Org-Wide Addresses --></label>
-    <name>SDOC__Email_From_OrgWideAddress_Only__c</name>
-</CustomFieldTranslation>
