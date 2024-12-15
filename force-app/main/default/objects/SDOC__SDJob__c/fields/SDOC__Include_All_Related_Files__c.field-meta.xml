@@ -3,7 +3,6 @@
     <fullName>SDOC__Include_All_Related_Files__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, the S-Doc Job will automatically attach all files related to the base record to the email.</inlineHelpText>
     <label>Include All Related Files</label>
     <trackTrending>false</trackTrending>

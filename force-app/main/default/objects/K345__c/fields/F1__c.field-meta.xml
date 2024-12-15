@@ -3,7 +3,6 @@
     <fullName>F1__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>cxv new</description>
-    <externalId>false</externalId>
     <label>A1</label>
     <referenceTo>A1__c</referenceTo>
     <relationshipLabel>K345s</relationshipLabel>

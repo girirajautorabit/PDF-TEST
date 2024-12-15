@@ -3,7 +3,6 @@
     <fullName>SDOC__Email_Send_To_Long__c</fullName>
     <deprecated>false</deprecated>
     <description>Default Send To Address</description>
-    <externalId>false</externalId>
     <inlineHelpText>Default Send To Address</inlineHelpText>
     <label>Email SendTo</label>
     <length>2000</length>

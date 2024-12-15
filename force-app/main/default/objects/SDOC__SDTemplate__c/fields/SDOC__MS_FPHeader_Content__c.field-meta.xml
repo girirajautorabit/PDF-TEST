@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_FPHeader_Content__c</fullName>
     <deprecated>false</deprecated>
     <description>Content to appear on the First Page Header</description>
-    <externalId>false</externalId>
     <inlineHelpText>Content to appear on the First Page Header</inlineHelpText>
     <label>MS First Page Header Content</label>
     <required>false</required>

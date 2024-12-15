@@ -4,7 +4,6 @@
     <defaultValue>&quot;width:800px;height:158px;position:absolute;top:0;left:0;border:0;&quot;</defaultValue>
     <deprecated>false</deprecated>
     <description>Definition used for the background image of the First Page Header</description>
-    <externalId>false</externalId>
     <inlineHelpText>Definition used for the background image of the First Page Header</inlineHelpText>
     <label>MS First Page Header BackImage Style</label>
     <required>false</required>

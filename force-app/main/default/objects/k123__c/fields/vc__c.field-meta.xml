@@ -3,7 +3,6 @@
     <fullName>vc__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>vc</description>
-    <externalId>false</externalId>
     <label>A1</label>
     <referenceTo>A1__c</referenceTo>
     <relationshipLabel>k123s</relationshipLabel>

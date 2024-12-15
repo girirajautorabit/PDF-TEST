@@ -3,7 +3,6 @@
     <fullName>SDOC__SD_Jobs_Fail_If_Template_Error__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>SD Jobs Fail If Template Error</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

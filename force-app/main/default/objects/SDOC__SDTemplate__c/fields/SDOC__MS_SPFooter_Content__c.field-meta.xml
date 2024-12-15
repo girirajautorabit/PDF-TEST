@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_SPFooter_Content__c</fullName>
     <deprecated>false</deprecated>
     <description>Content to appear on all pages (except first) Footers</description>
-    <externalId>false</externalId>
     <inlineHelpText>Content to appear on all pages (except first) Footers</inlineHelpText>
     <label>MS Second Page Footer Content</label>
     <required>false</required>

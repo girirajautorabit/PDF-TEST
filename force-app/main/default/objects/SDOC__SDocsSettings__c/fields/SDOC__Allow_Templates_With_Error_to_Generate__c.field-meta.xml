@@ -3,7 +3,6 @@
     <fullName>SDOC__Allow_Templates_With_Error_to_Generate__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Allow Templates With Error to Generate</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

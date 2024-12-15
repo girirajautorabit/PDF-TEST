@@ -3,7 +3,6 @@
     <fullName>SDOC__Email_Lock_Body__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Email Lock Body</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Field3__c</fullName>
     <description>sai phone symbol test 📞 and edit 📞</description>
-    <externalId>false</externalId>
     <label>Field3</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

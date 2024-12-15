@@ -3,7 +3,6 @@
     <fullName>SDOC__Email_SendTo__c</fullName>
     <deprecated>false</deprecated>
     <description>Default Send To address (This field has been deprecated, please use SDOC__Email_Send_To_Long__c)</description>
-    <externalId>false</externalId>
     <inlineHelpText>Default Send To address (This field has been deprecated, please use SDOC__Email_Send_To_Long__c)</inlineHelpText>
     <label>Email SendTo (Deprecated)</label>
     <required>false</required>

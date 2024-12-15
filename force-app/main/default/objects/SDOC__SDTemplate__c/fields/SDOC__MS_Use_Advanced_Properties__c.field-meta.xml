@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable MS header, footer and paproperty definitions</description>
-    <externalId>false</externalId>
     <inlineHelpText>Checking this box will enable Advanced MS Properties like Footer/Header Definitions and page properties. You should leave this unchecked for your existing S-Docs templates where you have defined this in the template body.</inlineHelpText>
     <label>MS Use Advanced Properties</label>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>SDOC__Dont_Run_SDTemplate_Trigger__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Don&apos;t Run SDTemplate Trigger</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

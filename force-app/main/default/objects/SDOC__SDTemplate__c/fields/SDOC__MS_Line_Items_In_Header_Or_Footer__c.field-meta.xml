@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_Line_Items_In_Header_Or_Footer__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>MS Line Items In Header Or Footer</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

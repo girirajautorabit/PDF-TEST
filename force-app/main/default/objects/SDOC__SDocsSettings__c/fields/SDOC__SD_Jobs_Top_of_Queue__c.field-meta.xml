@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Global Setting will move all S-Docs Batch jobs to top of queue ahead of any other asynchronous jobs (eg Batch Jobs, Future Callouts etc)</description>
-    <externalId>false</externalId>
     <inlineHelpText>Global Setting will move all S-Docs Batch jobs to top of queue ahead of any other asynchronous jobs (eg Batch Jobs, Future Callouts etc)</inlineHelpText>
     <label>SD Jobs Move to Top of Flex Queue</label>
     <trackTrending>false</trackTrending>

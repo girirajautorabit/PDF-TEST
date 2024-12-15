@@ -3,7 +3,6 @@
     <fullName>SDOC__Finished_Preprocessing_Docx_Template__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Finished Preprocessing .docx Template</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

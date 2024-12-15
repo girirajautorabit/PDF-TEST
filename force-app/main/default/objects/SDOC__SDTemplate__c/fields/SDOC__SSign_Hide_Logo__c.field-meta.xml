@@ -3,7 +3,6 @@
     <fullName>SDOC__SSign_Hide_Logo__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>S-Sign Hide Logo</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

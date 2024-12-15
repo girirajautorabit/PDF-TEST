@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_FPFooter_BackGrndImgUrl__c</fullName>
     <deprecated>false</deprecated>
     <description>This image will be used for the background of the First Page Footer</description>
-    <externalId>false</externalId>
     <inlineHelpText>This image will be used for the background of the First Page Footer</inlineHelpText>
     <label>MS First Page Footer Backgrnd Img Url</label>
     <required>false</required>

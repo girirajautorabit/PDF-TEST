@@ -3,7 +3,6 @@
     <fullName>SDOC__Tags_2__c</fullName>
     <deprecated>false</deprecated>
     <description>Comma separated list of dot-notation fields used in this template in merge fields and line item related lists. This is an overflow field of Tags__c.</description>
-    <externalId>false</externalId>
     <label>Tags 2</label>
     <length>32000</length>
     <trackHistory>false</trackHistory>

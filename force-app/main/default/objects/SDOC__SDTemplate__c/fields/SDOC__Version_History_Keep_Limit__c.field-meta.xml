@@ -3,7 +3,6 @@
     <fullName>SDOC__Version_History_Keep_Limit__c</fullName>
     <deprecated>false</deprecated>
     <description>Limits the number of versions to keep in the &apos;Version History&apos; related list.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Limits the number of versions to keep in the &apos;Version History&apos; related list.</inlineHelpText>
     <label>Version History Keep Limit</label>
     <required>false</required>

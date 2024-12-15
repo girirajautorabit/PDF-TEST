@@ -3,7 +3,6 @@
     <fullName>SDOC__Master_Template__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Master Template</label>
     <referenceTo>SDOC__SDTemplate__c</referenceTo>
     <relationshipLabel>Version History</relationshipLabel>

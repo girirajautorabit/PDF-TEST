@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Allows User to edit the details of a follow up task when a document is generated</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check if you want a User to edit the details of the follow up task whenever a document is generated</inlineHelpText>
     <label>Task_Details_Override</label>
     <trackHistory>false</trackHistory>

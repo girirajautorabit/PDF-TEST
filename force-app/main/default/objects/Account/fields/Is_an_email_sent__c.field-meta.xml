@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Is_an_email_sent__c</fullName>
     <defaultValue>false</defaultValue>
-    <externalId>false</externalId>
     <label>Is an email sent?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

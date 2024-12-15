@@ -3,7 +3,6 @@
     <fullName>SDOC__Dont_Save_Mass_Merge_Docs__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Don&apos;t Save Mass Merge Docs</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

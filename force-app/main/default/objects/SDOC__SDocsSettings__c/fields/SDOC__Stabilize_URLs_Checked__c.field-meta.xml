@@ -3,7 +3,6 @@
     <fullName>SDOC__Stabilize_URLs_Checked__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Stabilize URLs Checked (Deprecated)</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

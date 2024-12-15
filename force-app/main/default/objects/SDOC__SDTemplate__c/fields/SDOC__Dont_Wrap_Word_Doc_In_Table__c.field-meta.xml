@@ -3,7 +3,6 @@
     <fullName>SDOC__Dont_Wrap_Word_Doc_In_Table__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Don&apos;t Wrap Word Doc In Table</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

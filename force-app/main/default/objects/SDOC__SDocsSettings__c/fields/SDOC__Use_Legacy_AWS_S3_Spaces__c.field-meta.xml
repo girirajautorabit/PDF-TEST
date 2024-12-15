@@ -3,7 +3,6 @@
     <fullName>SDOC__Use_Legacy_AWS_S3_Spaces__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Use Legacy AWS S3 Spaces</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

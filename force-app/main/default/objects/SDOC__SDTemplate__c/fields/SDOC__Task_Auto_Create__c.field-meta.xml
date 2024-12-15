@@ -3,7 +3,6 @@
     <fullName>SDOC__Task_Auto_Create__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Task Auto Create</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

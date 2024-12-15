@@ -3,7 +3,6 @@
     <fullName>SDOC__Mass_Merge_Summary_Document__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Mass Merge Summary Document</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

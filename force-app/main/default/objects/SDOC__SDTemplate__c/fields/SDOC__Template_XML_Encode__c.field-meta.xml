@@ -3,7 +3,6 @@
     <fullName>SDOC__Template_XML_Encode__c</fullName>
     <deprecated>false</deprecated>
     <description>System field: Holds an encoded copy of the XML Field value</description>
-    <externalId>false</externalId>
     <label>Template XML Encode</label>
     <length>32000</length>
     <trackHistory>false</trackHistory>

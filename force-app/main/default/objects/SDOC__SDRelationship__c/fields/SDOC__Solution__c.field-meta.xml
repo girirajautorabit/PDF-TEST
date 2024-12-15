@@ -3,7 +3,6 @@
     <fullName>SDOC__Solution__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Solution</label>
     <referenceTo>Solution</referenceTo>
     <relationshipLabel>S-Docs</relationshipLabel>

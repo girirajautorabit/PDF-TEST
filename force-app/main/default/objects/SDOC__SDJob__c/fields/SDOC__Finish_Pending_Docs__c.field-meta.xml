@@ -3,7 +3,6 @@
     <fullName>SDOC__Finish_Pending_Docs__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Finish Pending Docs</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

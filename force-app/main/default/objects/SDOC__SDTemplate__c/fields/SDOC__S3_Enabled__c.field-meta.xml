@@ -3,7 +3,6 @@
     <fullName>SDOC__S3_Enabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Enable Amazon S3 Docs Upload. Check here if you want to allow users to upload this doc to Amazon S3.</inlineHelpText>
     <label>Amazon S3 Enabled</label>
     <trackHistory>false</trackHistory>

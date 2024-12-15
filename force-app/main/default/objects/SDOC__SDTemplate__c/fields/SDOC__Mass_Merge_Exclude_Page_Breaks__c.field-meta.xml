@@ -3,7 +3,6 @@
     <fullName>SDOC__Mass_Merge_Exclude_Page_Breaks__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Mass Merge Exclude Page Breaks</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

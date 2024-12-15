@@ -22,6 +22,7 @@
     <deploymentContexts>
         <entityName>A4s__c</entityName>
     </deploymentContexts>
+    <hasComponents>false</hasComponents>
     <hasGuidedActions>true</hasGuidedActions>
     <hasOmniscripts>false</hasOmniscripts>
     <hasRecommendations>true</hasRecommendations>

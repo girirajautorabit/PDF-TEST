@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This field previously was &quot;Keep Span Tags When Using Job Splitters&quot; and was deprecated in version 4.217</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field previously was &quot;Keep Span Tags When Using Job Splitters&quot; and was deprecated in version 4.217</inlineHelpText>
     <label>(Deprecated Setting)</label>
     <trackTrending>false</trackTrending>

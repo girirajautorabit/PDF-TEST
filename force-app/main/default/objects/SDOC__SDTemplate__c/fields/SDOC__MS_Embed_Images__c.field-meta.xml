@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, referenced images will be deep embedded (saved with) the document. Otherwise, images are linked to. Embedded images requires a user to click &apos;Yes&apos; when initially opening the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, referenced images will be deep embedded (saved with) the document. Otherwise, images are linked to. Embedded images requires a user to click &apos;Yes&apos; when initially opening the document.</inlineHelpText>
     <label>MS Embed Images</label>
     <trackHistory>false</trackHistory>

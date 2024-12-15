@@ -3,7 +3,6 @@
     <fullName>SDOC__GD_Upload_By__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Doc Link Uploaded By</label>
     <referenceTo>User</referenceTo>
     <relationshipName>S_Docs</relationshipName>

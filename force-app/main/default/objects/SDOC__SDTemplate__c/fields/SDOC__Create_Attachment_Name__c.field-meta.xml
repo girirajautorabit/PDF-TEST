@@ -3,7 +3,6 @@
     <fullName>SDOC__Create_Attachment_Name__c</fullName>
     <deprecated>false</deprecated>
     <description>Name of generated attachment</description>
-    <externalId>false</externalId>
     <inlineHelpText>Name of generated attachment</inlineHelpText>
     <label>Auto Create Attachment Name</label>
     <required>false</required>

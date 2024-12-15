@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Upon document generation, the user will be auto-forwarded back to the record detail page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Upon document generation, the user will be auto-forwarded back to the record detail page.</inlineHelpText>
     <label>Redirect Back To Record</label>
     <trackHistory>false</trackHistory>

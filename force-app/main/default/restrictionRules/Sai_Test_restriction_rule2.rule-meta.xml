@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>test</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Sai Test restriction rule2</masterLabel>
+    <recordFilter>Name=&apos;New1&apos;</recordFilter>
+    <targetEntity>ACR4__c</targetEntity>
+    <userCriteria>$User.CompanyName=&apos;AutoRABIT&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>

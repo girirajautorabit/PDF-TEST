@@ -3,7 +3,6 @@
     <fullName>SDOC__Mass_Merge_Allow_Email__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Mass Merge Allow Email</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

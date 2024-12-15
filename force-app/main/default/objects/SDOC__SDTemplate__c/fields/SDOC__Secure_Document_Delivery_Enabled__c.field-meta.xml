@@ -3,7 +3,6 @@
     <fullName>SDOC__Secure_Document_Delivery_Enabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Secure Document Delivery Enabled</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

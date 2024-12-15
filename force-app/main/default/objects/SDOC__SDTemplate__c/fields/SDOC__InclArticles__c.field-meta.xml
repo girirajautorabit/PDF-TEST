@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Automatically Attach case articles to outbound email</description>
-    <externalId>false</externalId>
     <inlineHelpText>Automatically Attach case articles to outbound email</inlineHelpText>
     <label>Auto-attach Case Articles</label>
     <trackHistory>false</trackHistory>

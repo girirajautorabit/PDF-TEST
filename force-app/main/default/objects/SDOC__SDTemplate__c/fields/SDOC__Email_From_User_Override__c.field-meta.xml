@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Shows a picklist that allows a user to select the email &quot;from&quot; address from the org-wide addresses.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Shows a picklist that allows a user to select the email &quot;from&quot; address from the org-wide addresses.</inlineHelpText>
     <label>Email From: User can pick from address</label>
     <trackHistory>false</trackHistory>

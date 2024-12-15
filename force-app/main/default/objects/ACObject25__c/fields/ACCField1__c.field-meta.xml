@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ACCField1__c</fullName>
     <description>1</description>
-    <externalId>false</externalId>
     <label>ACCField1</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

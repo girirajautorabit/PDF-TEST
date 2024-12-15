@@ -3,7 +3,6 @@
     <fullName>SDOC__Process_Job_Splitters_Concurrently__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Process Job Splitters Concurrently</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

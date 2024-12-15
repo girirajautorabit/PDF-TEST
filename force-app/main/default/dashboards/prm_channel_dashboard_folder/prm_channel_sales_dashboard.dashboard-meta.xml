@@ -20,7 +20,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_sales_reports_folder/prm_lead_conversion</report>
+                <report>prm_channel_reports_folder/prm_channel_sales_reports_folder/prm_lead_conversion</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>

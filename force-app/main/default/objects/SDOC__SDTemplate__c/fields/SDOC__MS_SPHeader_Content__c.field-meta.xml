@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_SPHeader_Content__c</fullName>
     <deprecated>false</deprecated>
     <description>Content to appear on all pages (except first) Headers</description>
-    <externalId>false</externalId>
     <inlineHelpText>Content to appear on all pages (except first) Headers</inlineHelpText>
     <label>MS Second Page Header Content</label>
     <required>false</required>

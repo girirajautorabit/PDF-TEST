@@ -3,7 +3,6 @@
     <fullName>SDOC__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description of this document template. Optionally include any keywords, as this field along with the Name field are both searched during the document selection step.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description of this document template. Optionally include any keywords, as this field along with the Name field are both searched during the document selection step.</inlineHelpText>
     <label>Description</label>
     <required>false</required>

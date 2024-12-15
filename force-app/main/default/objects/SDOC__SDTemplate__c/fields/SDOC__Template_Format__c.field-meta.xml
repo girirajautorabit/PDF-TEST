@@ -3,7 +3,6 @@
     <fullName>SDOC__Template_Format__c</fullName>
     <deprecated>false</deprecated>
     <description>Output format of the generated documents. To support multiple formats, simply clone the template with a different Format field value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Output format of the generated documents. To support multiple formats, simply clone the template with a different Format field value.</inlineHelpText>
     <label>Template Format</label>
     <required>true</required>

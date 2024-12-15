@@ -3,7 +3,6 @@
     <fullName>SDOC__Terms_XML__c</fullName>
     <deprecated>false</deprecated>
     <description>Terms and Conditions</description>
-    <externalId>false</externalId>
     <label>Terms_XML</label>
     <length>256</length>
     <trackHistory>false</trackHistory>

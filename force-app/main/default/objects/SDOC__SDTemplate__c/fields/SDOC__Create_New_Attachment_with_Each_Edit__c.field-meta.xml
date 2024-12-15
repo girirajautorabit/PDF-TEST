@@ -3,7 +3,6 @@
     <fullName>SDOC__Create_New_Attachment_with_Each_Edit__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Create New Attachment with Each Edit</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

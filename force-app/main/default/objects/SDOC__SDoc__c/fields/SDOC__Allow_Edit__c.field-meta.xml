@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Allows the user to make edits to the document using their browser after it is generated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Allows the user to make edits to the document using their browser after it is generated.</inlineHelpText>
     <label>Allow Edit</label>
     <trackHistory>false</trackHistory>

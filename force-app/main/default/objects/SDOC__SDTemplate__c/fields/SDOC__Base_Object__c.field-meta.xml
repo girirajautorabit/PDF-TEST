@@ -3,7 +3,6 @@
     <fullName>SDOC__Base_Object__c</fullName>
     <deprecated>false</deprecated>
     <description>Primary object this template will be used with. Fields available are based on this object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Primary object this template will be used with. Fields available are based on this object.</inlineHelpText>
     <label>Related To Type</label>
     <required>true</required>

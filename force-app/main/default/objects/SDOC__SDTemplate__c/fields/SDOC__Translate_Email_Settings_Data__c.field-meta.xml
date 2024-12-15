@@ -3,7 +3,6 @@
     <fullName>SDOC__Translate_Email_Settings_Data__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Translate Email Settings Data</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable Google Docs Upload. Check here if you want to allow users to upload this doc to Google docs. Your org must be properly configured for S-Docs to work with Google Docs (see documentation for setup steps)</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable Google Docs Upload. Check here if you want to allow users to upload this doc to Google docs. Your org must be properly configured for S-Docs to work with Google Docs (see documentation for setup steps)</inlineHelpText>
     <label>Google Docs Enabled</label>
     <trackHistory>false</trackHistory>

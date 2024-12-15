@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>shamshun_lookupfiled__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
-    <externalId>false</externalId>
     <label>shamshun_tabobject</label>
     <referenceTo>shamshun_tabobject__c</referenceTo>
     <relationshipLabel>shamobject2s</relationshipLabel>

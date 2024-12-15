@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, the &quot;Send&quot; button on the email page will be disabled until the user fills in the subject line.</description>
-    <externalId>false</externalId>
     <label>Require Subject Line</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

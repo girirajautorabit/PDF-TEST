@@ -3,7 +3,6 @@
     <fullName>SDOC__Template_XML__c</fullName>
     <deprecated>false</deprecated>
     <description>Enter static information that is specific to this Template such as the body of a letter or Terms and Conditions of an Agreement.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter static information that is specific to this Template such as the body of a letter or Terms and Conditions of an Agreement.</inlineHelpText>
     <label>Template XML</label>
     <length>32000</length>

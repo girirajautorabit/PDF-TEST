@@ -3,7 +3,6 @@
     <fullName>SDOC__Create_Attachment__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Auto Create Attachment</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

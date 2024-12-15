@@ -3,7 +3,6 @@
     <fullName>SDOC__Enable_Create_Salesforce_Task_Feature__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable Create Salesforce Task Feature</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

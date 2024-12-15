@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>All emails will only be sent from an org wide email address (emails cannot be sent from logged in users email address)</description>
-    <externalId>false</externalId>
     <inlineHelpText>All emails will only be sent from an org wide email address (emails cannot be sent from logged in users email address)</inlineHelpText>
     <label>Email From: Show only Org-Wide Addresses</label>
     <trackHistory>false</trackHistory>

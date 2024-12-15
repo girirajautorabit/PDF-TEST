@@ -3,7 +3,6 @@
     <fullName>SDOC__MS_Unit_of_Measure__c</fullName>
     <deprecated>false</deprecated>
     <description>Margins and Spacing Values are in this unit of measure.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Margins and Spacing Values are in this unit of measure.</inlineHelpText>
     <label>MS Unit of Measure</label>
     <required>false</required>

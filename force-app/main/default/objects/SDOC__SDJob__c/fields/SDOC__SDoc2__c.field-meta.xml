@@ -3,7 +3,6 @@
     <fullName>SDOC__SDoc2__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>SDoc2</label>
     <referenceTo>SDOC__SDoc__c</referenceTo>
     <relationshipName>SDJobs1</relationshipName>

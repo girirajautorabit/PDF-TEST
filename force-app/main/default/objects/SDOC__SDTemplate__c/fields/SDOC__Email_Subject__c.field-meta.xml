@@ -3,7 +3,6 @@
     <fullName>SDOC__Email_Subject__c</fullName>
     <deprecated>false</deprecated>
     <description>For HTML templates that are used to produce the email content, this value will be placed in the outbound email subject line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For HTML templates that are used to produce the email content, this value will be placed in the outbound email subject line.</inlineHelpText>
     <label>Email Subject</label>
     <required>false</required>

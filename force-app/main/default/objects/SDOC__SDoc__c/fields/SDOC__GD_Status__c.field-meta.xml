@@ -3,7 +3,6 @@
     <fullName>SDOC__GD_Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Google Docs - Status linking S-Doc to Google Docs</description>
-    <externalId>false</externalId>
     <label>Doc Link Status (Deprecated)</label>
     <required>false</required>
     <trackHistory>true</trackHistory>

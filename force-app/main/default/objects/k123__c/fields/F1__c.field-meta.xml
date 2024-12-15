@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>F1__c</fullName>
     <description>vcv</description>
-    <externalId>false</externalId>
     <label>A1</label>
     <referenceTo>A1__c</referenceTo>
     <relationshipLabel>k123s (A1)</relationshipLabel>

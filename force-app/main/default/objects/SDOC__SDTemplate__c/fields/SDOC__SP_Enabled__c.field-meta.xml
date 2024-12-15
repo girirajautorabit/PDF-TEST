@@ -3,7 +3,6 @@
     <fullName>SDOC__SP_Enabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>SharePoint Enabled</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

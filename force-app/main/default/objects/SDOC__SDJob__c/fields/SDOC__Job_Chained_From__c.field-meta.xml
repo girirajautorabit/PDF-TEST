@@ -3,7 +3,6 @@
     <fullName>SDOC__Job_Chained_From__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Job Chained From</label>
     <referenceTo>SDOC__SDJob__c</referenceTo>
     <relationshipLabel>Jobs Chained</relationshipLabel>

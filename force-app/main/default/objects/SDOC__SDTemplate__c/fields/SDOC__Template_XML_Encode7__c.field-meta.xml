@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SDOC__Template_XML_Encode7__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Template XML Encode7</label>
     <length>32000</length>
     <trackHistory>false</trackHistory>

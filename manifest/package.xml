@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>60.0</version>
+    <version>61.0</version>
     <types>
         <members>Lead_Share</members>
         <members>Share_opportunity</members>
@@ -2718,34 +2718,33 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Folder1/</members>
+        <members>Folder1</members>
         <members>Folder1/HkwisWVAvcDlTchFEBqOTFbhWByjNX</members>
-        <members>Folder1/folder2/</members>
-        <members>Folder1/folder2/Folder3/</members>
+        <members>Folder1/folder2</members>
+        <members>Folder1/folder2/Folder3</members>
         <members>Folder1/folder2/Folder3/DszNowGjktQwaRBoSZGPwpbrNmfwfg</members>
         <members>Folder1/folder2/Folder3/iCrtaIoRTlOCdvUpZECAcDOGPUBkKg</members>
         <members>Folder1/kiSXSdxwShusCjIrNpVIXCqgJFbWgy</members>
         <members>Folder1/test1</members>
-        <members>Folder1/test1/</members>
-        <members>GiriFolder/</members>
-        <members>GlobalSalesDashboards/</members>
-        <members>SaiDB/</members>
-        <members>SaiJun1DBFolder1/</members>
-        <members>SaiMay20DBFolder/</members>
+        <members>GiriFolder</members>
+        <members>GlobalSalesDashboards</members>
+        <members>SaiDB</members>
+        <members>SaiJun1DBFolder1</members>
+        <members>SaiMay20DBFolder</members>
         <members>SaiMay20DBFolder/SaiMay20DBf1</members>
-        <members>SaiNewsep11/</members>
-        <members>Sep11SaiDashBoRD/</members>
-        <members>prm_channel_dashboard_folder/</members>
-        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/</members>
-        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707585049702/</members>
+        <members>SaiNewsep11</members>
+        <members>Sep11SaiDashBoRD</members>
+        <members>prm_channel_dashboard_folder</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707585049702</members>
         <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707585049702/prm_spring24_ch_marketing_dashboardSPLIT1707585049702</members>
-        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707585049702/</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707585049702</members>
         <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707585049702/cmc_spring_24_cmc_home_dashboard</members>
         <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707585049702/prm_winter24_ch_sales_dashboardSPLIT1707585049702</members>
         <members>prm_channel_dashboard_folder/prm_channel_sales_dashboard</members>
-        <members>saidashoboardfolder1/</members>
+        <members>saidashoboardfolder1</members>
         <members>saidashoboardfolder1/saidb1</members>
-        <members>saisep4dashboardFolder/</members>
+        <members>saisep4dashboardFolder</members>
         <name>Dashboard</name>
     </types>
     <types>
@@ -4041,8 +4040,8 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
-        <members>AccountFolder/</members>
-        <members>EBotR_v3/</members>
+        <members>AccountFolder</members>
+        <members>EBotR_v3</members>
         <members>EBotR_v3/AllAndEngagedSessiLast30Days_v3</members>
         <members>EBotR_v3/AllAndEngagedSessionsToday_v3</members>
         <members>EBotR_v3/AllBotSessionsLast30Days_v3</members>
@@ -4084,7 +4083,7 @@
         <members>EBotR_v3/NLPIntentCalledToday_v3</members>
         <members>EBotR_v3/SessionsEndedLast30Days_v3</members>
         <members>EBotR_v3/SessionsEndedToday_v3</members>
-        <members>EBotR_v4/</members>
+        <members>EBotR_v4</members>
         <members>EBotR_v4/AllAndEngagedSessionsToday_v4</members>
         <members>EBotR_v4/AllBotSessionsToday_v4</members>
         <members>EBotR_v4/AllEngagedSessionsLast7Days_v4</members>
@@ -4112,7 +4111,7 @@
         <members>EBotR_v4/GoalAchievedToday_v4</members>
         <members>EBotR_v4/NLPIntentCalledToday_v4</members>
         <members>EBotR_v4/SessionsEndedToday_v4</members>
-        <members>EBotR_v5/</members>
+        <members>EBotR_v5</members>
         <members>EBotR_v5/AllAndEngagedSessiLast30Days_v5</members>
         <members>EBotR_v5/AllAndEngagedSessionsToday_v5</members>
         <members>EBotR_v5/AllBotSessionsLast30Days_v5</members>
@@ -4164,7 +4163,7 @@
         <members>EBotR_v5/NLPIntentCalledToday_v5</members>
         <members>EBotR_v5/SessionsEndedLast30Days_v5</members>
         <members>EBotR_v5/SessionsEndedToday_v5</members>
-        <members>EinsteinBotReports/</members>
+        <members>EinsteinBotReports</members>
         <members>EinsteinBotReports/All_Bot_Sessions_Last_30_Days</members>
         <members>EinsteinBotReports/Article_Chosen_Last_30_Days</members>
         <members>EinsteinBotReports/Article_Positive_Feedback_Last_30_Days</members>
@@ -4180,7 +4179,7 @@
         <members>EinsteinBotReports/NLP_Intent_Called_Today</members>
         <members>EinsteinBotReports/Session_Ended_Last_30_Days</members>
         <members>EinsteinBotReports/Session_Ended_Today</members>
-        <members>EinsteinBotReports_v2/</members>
+        <members>EinsteinBotReports_v2</members>
         <members>EinsteinBotReports_v2/AllBotSessionsLast30v2</members>
         <members>EinsteinBotReports_v2/AllEngagedSessions7_v2</members>
         <members>EinsteinBotReports_v2/ArticleChosen30_v2</members>
@@ -4215,53 +4214,53 @@
         <members>EinsteinBotReports_v2/NLPIntentCalledToday_v2</members>
         <members>EinsteinBotReports_v2/SessionEnded30_v2</members>
         <members>EinsteinBotReports_v2/SessionEndedToday_v2</members>
-        <members>F2/</members>
-        <members>F2/F2Folder2/</members>
-        <members>F2/F2Folder2/F2Folder3/</members>
+        <members>F2</members>
+        <members>F2/F2Folder2</members>
+        <members>F2/F2Folder2/F2Folder3</members>
         <members>F2/F2Folder2/F2Folder3/New_Accounts_Report_NjI</members>
         <members>F2/New_Contacts_Accounts_Report_fnx</members>
-        <members>SaI11/</members>
-        <members>SaiMay2_Rptfolder/</members>
+        <members>SaI11</members>
+        <members>SaiMay2_Rptfolder</members>
         <members>SaiMay2_Rptfolder/May20_Rptfile1</members>
-        <members>SaiReportFolder1/</members>
+        <members>SaiReportFolder1</members>
         <members>SaiReportFolder1/sairp1</members>
-        <members>SaiSep3Reportfolder/</members>
+        <members>SaiSep3Reportfolder</members>
         <members>SaiSep3Reportfolder/SaiSep3RP1</members>
-        <members>Sai_ReportFolder2/</members>
+        <members>Sai_ReportFolder2</members>
         <members>Sai_ReportFolder2/test1</members>
-        <members>Sai_ReportFolder4/</members>
-        <members>Saisep24/</members>
-        <members>Sep11saiRP/</members>
-        <members>Snew1/</members>
+        <members>Sai_ReportFolder4</members>
+        <members>Saisep24</members>
+        <members>Sep11saiRP</members>
+        <members>Snew1</members>
         <members>Snew1/Sf1</members>
-        <members>prm_channel_reports_folder/</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/</members>
+        <members>prm_channel_reports_folder</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/prm_approved_claim_by_partnerSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/prm_mdf_approved_request_by_partnerSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/prm_mdf_submitted_request_by_partnerSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/prm_submitted_claim_by_partnerSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_ch_marketing_reports_folderSPLIT1707585049702/prm_total_marketing_budgetSPLIT1707585049702</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_pt_engagement_reports_folderSPLIT1707585049702/</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_pt_engagement_reports_folderSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_pt_engagement_reports_folderSPLIT1707585049702/prm_total_portal_login_reportSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707585049702/prm_spring24_pt_engagement_reports_folderSPLIT1707585049702/prm_unique_portal_login_reportSPLIT1707585049702</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_prod_reports_folderSPLIT1707585049702/</members>
-        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_prod_reports_folderSPLIT1707585049702</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/prm_lead_conversionSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/prm_open_opportunity_by_partnerSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/prm_open_opportunity_by_stageSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/prm_opportunity_by_amountSPLIT1707585049702</members>
         <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707585049702/prm_winter24_ch_sales_reports_folderSPLIT1707585049702/prm_revenue_closedSPLIT1707585049702</members>
-        <members>prm_channel_reports_folder/prm_channel_producivity_reports_folder/</members>
-        <members>prm_channel_reports_folder/prm_channel_sales_reports_folder/</members>
+        <members>prm_channel_reports_folder/prm_channel_producivity_reports_folder</members>
+        <members>prm_channel_reports_folder/prm_channel_sales_reports_folder</members>
         <members>prm_channel_reports_folder/prm_channel_sales_reports_folder/prm_lead_conversion</members>
-        <members>saiJun1RpFolder/</members>
+        <members>saiJun1RpFolder</members>
         <members>saiJun1RpFolder/SaiRpJun1File1</members>
-        <members>saireport2/</members>
-        <members>saisep4RF/</members>
-        <members>sfdcprm_Lead_Distribution_Reports/</members>
+        <members>saireport2</members>
+        <members>saisep4RF</members>
+        <members>sfdcprm_Lead_Distribution_Reports</members>
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Lead_Owner_Breakdown</members>
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Lead_Trends</members>
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Leads_By_Region</members>
@@ -4270,7 +4269,7 @@
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Leads_With_No_Acitvity</members>
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Unassigned_Leads</members>
         <members>sfdcprm_Lead_Distribution_Reports/sfdcprm_Unassigned_Leads_By_Age</members>
-        <members>test/</members>
+        <members>test</members>
         <members>unfiled$public/GiriKiReport_U2a</members>
         <members>unfiled$public/Opporutnity_Customer_yRx</members>
         <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
@@ -4280,7 +4279,7 @@
         <members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
         <members>unfiled$public/flow_screen_prebuilt_report</members>
         <members>unfiled$public/test</members>
-        <members>vp009/</members>
+        <members>vp009</members>
         <name>Report</name>
     </types>
     <types>
@@ -4312,6 +4311,11 @@
         <members>screen_flows_prebuilt_crt</members>
         <members>sfdcprm_Lead_Distribution</members>
         <name>ReportType</name>
+    </types>
+    <types>
+        <members>Sai_Test_Restrictionrule1</members>
+        <members>Sai_Test_restriction_rule2</members>
+        <name>RestrictionRule</name>
     </types>
     <types>
         <members>sso_2222</members>

@@ -3,7 +3,6 @@
     <fullName>SDOC__Envelope__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Envelope</label>
     <referenceTo>SDOC__Envelope__c</referenceTo>
     <relationshipLabel>S-Docs</relationshipLabel>

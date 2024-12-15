@@ -3,7 +3,6 @@
     <fullName>SDOC__PDF_Unicode__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>PDF Unicode</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

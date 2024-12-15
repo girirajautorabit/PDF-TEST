@@ -215,6 +215,7 @@ hi</message>
                     <targetName>Thanks</targetName>
                     <targetType>ConversationVariable</targetType>
                 </botVariableOperands>
+                <ignoreIntentRecognition>false</ignoreIntentRecognition>
                 <invalidInputBotNavigation>
                     <botNavigationLinks>
                         <targetBotDialog>End_Chat</targetBotDialog>
@@ -271,6 +272,7 @@ hi</message>
     <entryDialog>Welcome</entryDialog>
     <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
     <intentV3Enabled>true</intentV3Enabled>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
     <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
     <mainMenuDialog>Main_Menu</mainMenuDialog>
     <nlpProviders>

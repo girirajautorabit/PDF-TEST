@@ -3,7 +3,6 @@
     <fullName>SDOC__Product__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>
     <relationshipLabel>S-Docs (Not Product2)</relationshipLabel>

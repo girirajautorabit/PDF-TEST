@@ -3,7 +3,6 @@
     <fullName>SDOC__Base_Related_Object__c</fullName>
     <deprecated>false</deprecated>
     <description>Use this field to automatically associate this document with a secondary parent object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Attempts to associate document generated using this template with a second object (parent). For example, you can relate documents created from an Opportunity (the base object) to also appear in the related list for an Account (additional Relationship).</inlineHelpText>
     <label>Additional Relationship</label>
     <required>false</required>

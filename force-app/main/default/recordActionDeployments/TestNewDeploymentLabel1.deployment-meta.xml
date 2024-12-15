@@ -13,6 +13,7 @@
         <isAutopopEnabled>false</isAutopopEnabled>
     </channelConfigurations>
     <componentName>ActionsAndRecommendations</componentName>
+    <hasComponents>false</hasComponents>
     <hasGuidedActions>true</hasGuidedActions>
     <hasOmniscripts>false</hasOmniscripts>
     <hasRecommendations>false</hasRecommendations>

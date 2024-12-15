@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Dob__c</fullName>
     <businessStatus>Active</businessStatus>
-    <externalId>false</externalId>
     <inlineHelpText>please enter date of birth</inlineHelpText>
     <label>Dob</label>
     <required>true</required>

@@ -3,7 +3,6 @@
     <fullName>SDOC__WM__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>WM</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SDOC__Allow_Create_New_Attachment__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Allow Create New Attachment</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

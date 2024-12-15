@@ -3,7 +3,6 @@
     <fullName>SDOC__Mass_Merge_Clear_Email_Jobs__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Mass Merge Clear Jobs after Emailing</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

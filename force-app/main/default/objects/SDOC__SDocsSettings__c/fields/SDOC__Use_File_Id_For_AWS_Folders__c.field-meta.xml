@@ -3,7 +3,6 @@
     <fullName>SDOC__Use_File_Id_For_AWS_Folders__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Use File Id For AWS Folders</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

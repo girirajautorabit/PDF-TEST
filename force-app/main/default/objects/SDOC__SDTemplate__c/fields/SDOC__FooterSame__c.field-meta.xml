@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>If this box is checked, the only the first page footer information will be used, and will apply to all pages of the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this box is checked, the only the first page footer information will be used, and will apply to all pages of the document.</inlineHelpText>
     <label>Use First Page Footer for All Pages</label>
     <trackHistory>false</trackHistory>

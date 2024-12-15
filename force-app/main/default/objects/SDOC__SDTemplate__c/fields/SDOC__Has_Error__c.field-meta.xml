@@ -3,7 +3,6 @@
     <fullName>SDOC__Has_Error__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Has Error</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

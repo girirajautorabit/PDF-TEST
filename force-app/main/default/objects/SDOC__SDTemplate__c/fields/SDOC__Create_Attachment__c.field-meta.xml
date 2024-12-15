@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>By checking, an attachment will be created for each document that uses this template. Enabling this feature will consume more file storage space.</description>
-    <externalId>false</externalId>
     <inlineHelpText>By checking, an attachment will be created for each document that uses this template. Enabling this feature will consume more file storage space.</inlineHelpText>
     <label>Auto Create Attachment</label>
     <trackHistory>false</trackHistory>

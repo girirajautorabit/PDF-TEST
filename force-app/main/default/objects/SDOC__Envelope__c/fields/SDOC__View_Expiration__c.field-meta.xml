@@ -3,7 +3,6 @@
     <fullName>SDOC__View_Expiration__c</fullName>
     <deprecated>false</deprecated>
     <description>The date and time at which the ability to view this envelope&apos;s document(s) expires or expired.</description>
-    <externalId>false</externalId>
     <label>View Expiration</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

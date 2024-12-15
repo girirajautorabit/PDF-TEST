@@ -3,7 +3,6 @@
     <fullName>SDOC__Task_Auto_Create_Default__c</fullName>
     <deprecated>false</deprecated>
     <description>Controls auto-task creation defaults</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use this field to control if you want a task to be auto-created, required, or if user needs to opt-in to create a task.</inlineHelpText>
     <label>Task Auto Create Default</label>
     <required>false</required>

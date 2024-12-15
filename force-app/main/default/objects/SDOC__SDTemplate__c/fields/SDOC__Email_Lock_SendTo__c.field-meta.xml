@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Prevents a user from changing the outbound emails send to address field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Prevents a user from changing the outbound emails send to address field.</inlineHelpText>
     <label>Lock SendTo Address</label>
     <trackHistory>false</trackHistory>

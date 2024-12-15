@@ -3,7 +3,6 @@
     <fullName>SDOC__Email_Lock_bcc__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Email Lock bcc</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SDOC__Allow_Toggle_Task_Creation__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Allow Toggle Task Creation</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

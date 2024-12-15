@@ -3,7 +3,6 @@
     <fullName>SDOC__Auto_Create_Attachment_On_Email__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Auto Create Attachment On Email</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
