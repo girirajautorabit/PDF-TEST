@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyCoolCheckBox__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Some Description</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hello World!</inlineHelpText>
+    <label>MyCoolCheckBox</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

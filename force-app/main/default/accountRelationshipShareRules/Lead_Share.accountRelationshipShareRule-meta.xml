@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountRelationshipShareRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessLevel>Edit</accessLevel>
+    <accountToCriteriaField>Lead.ConvertedAccountId</accountToCriteriaField>
+    <description>share th</description>
+    <entityType>Lead</entityType>
+    <masterLabel>Lead_Share</masterLabel>
+    <type>Supplier</type>
+</AccountRelationshipShareRule>

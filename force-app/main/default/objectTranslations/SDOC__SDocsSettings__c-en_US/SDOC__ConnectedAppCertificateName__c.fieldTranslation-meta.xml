@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Name of the certificate Record you used to sign the SDocs connected App.
+In the Connected App settings, under the API (Enable OAuth Settings) header a Digital Signature was uploaded. This corresponds the the name (Label) of the certificate record. -->
+    </help>
+    <label><!-- ConnectedAppCertificateName --></label>
+    <name>SDOC__ConnectedAppCertificateName__c</name>
+</CustomFieldTranslation>

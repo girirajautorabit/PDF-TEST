@@ -1,0 +1,60 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Account List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"704be826-08e3-4b1f-a417-c3fa6012619e\",\"columns\":[{\"UUID\":\"5e8779a4-cdc4-46de-9443-de01ab070656\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "5e8779a4-cdc4-46de-9443-de01ab070656",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "704be826-08e3-4b1f-a417-c3fa6012619e",
+          "type" : "component"
+        } ],
+        "id" : "ee009a1c-904c-4153-8a84-331d4596575e",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "298b0841-27bb-40c7-8544-9a80cf9271d1",
+          "type" : "component"
+        } ],
+        "id" : "7464e29b-5d2e-40d3-a4be-d85f86408539",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5d08eaa1-fe68-4afd-80a9-3de72f801479",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "list-001"
+  },
+  "urlName" : "account-list"
+}

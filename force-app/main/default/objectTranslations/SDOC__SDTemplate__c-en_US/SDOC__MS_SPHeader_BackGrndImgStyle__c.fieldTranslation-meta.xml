@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Definition used for the background image of the Remaining Page Headers --></help>
+    <label><!-- MS Second Page Header BackImage Style --></label>
+    <name>SDOC__MS_SPHeader_BackGrndImgStyle__c</name>
+</CustomFieldTranslation>

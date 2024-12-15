@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>ctc_Loan_BeforeSave_Create {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ctc_Loan_BeforeSave_Create</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <start>
+        <locationX>425</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>dd</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>dd</name>
+        <label>dd</label>
+        <locationX>565</locationX>
+        <locationY>222</locationY>
+        <flowName>prm_slack_flows__DealApproval</flowName>
+    </subflows>
+</Flow>
