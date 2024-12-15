@@ -3,6 +3,7 @@
     <fullName>MyCoolCheckBox__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Some Description</description>
+    <externalId>false</externalId>
     <inlineHelpText>Hello World!</inlineHelpText>
     <label>MyCoolCheckBox</label>
     <trackFeedHistory>false</trackFeedHistory>
