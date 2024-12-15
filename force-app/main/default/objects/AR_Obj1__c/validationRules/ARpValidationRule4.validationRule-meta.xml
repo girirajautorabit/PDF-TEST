@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ARpValidationRule4</fullName>
-    <active>true</active>
-    <description>Add comment</description>
-    <errorConditionFormula>ISBLANK( AR_SField4__c )</errorConditionFormula>
-    <errorMessage>PLease enter avalue</errorMessage>
-</ValidationRule>

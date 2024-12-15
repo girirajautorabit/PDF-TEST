@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MobileApplicationDetail xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationInstallUrl>https://saikolipaka55-dev-ed1-dev-ed.lightning.force.com/</applicationInstallUrl>
-    <devicePlatform>android</devicePlatform>
-    <privateApp>false</privateApp>
-    <version>3</version>
-</MobileApplicationDetail>

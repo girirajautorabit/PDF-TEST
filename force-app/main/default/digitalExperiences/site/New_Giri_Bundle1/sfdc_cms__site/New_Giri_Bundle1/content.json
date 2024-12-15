@@ -1,8 +1,0 @@
-{
-  "type" : "sfdc_cms__site",
-  "title" : "New-Giri-Bundle",
-  "contentBody" : {
-    "authenticationType" : "AUTHENTICATED"
-  },
-  "urlName" : "new-giri-bundle"
-}

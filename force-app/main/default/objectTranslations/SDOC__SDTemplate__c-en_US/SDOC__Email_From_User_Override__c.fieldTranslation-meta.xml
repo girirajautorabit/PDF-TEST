@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Shows a picklist that allows a user to select the email &quot;from&quot; address from the org-wide addresses. --></help>
-    <label><!-- Email From: User can pick from address --></label>
-    <name>SDOC__Email_From_User_Override__c</name>
-</CustomFieldTranslation>

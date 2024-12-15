@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Are you a Admin --></label>
-    <name>Are_you_a_Admin__c</name>
-</CustomFieldTranslation>
