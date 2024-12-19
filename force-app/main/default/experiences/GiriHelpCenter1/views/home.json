@@ -1,0 +1,77 @@
+{
+  "appPageId" : "c577c266-3a6e-4d91-816d-b5bc3a23b19f",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "dataProviders" : [ ],
+  "id" : "42482385-c19b-4a23-90f0-342c299f3b9a",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.6)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : false,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "d826dd3c-38f0-4b67-acb4-df29638403c7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5c25943f-b2b9-4fe1-95d1-a2b11803e219",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : { }
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "8dc9c929-c110-4fa7-a073-e170903e711c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "851110b5-fe6d-4a0c-952f-5228c3674438",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e461b225-c5da-4365-8421-a6590c329916",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "44f939e9-d1ec-4892-bbb2-cf3d938d3f0f",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "ef300dbc-b2c8-4980-be9a-8e540d0c976a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2f1de6cc-90e9-4c0f-89b3-d6e1fd882469",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "592a7584-ecf8-4ceb-a2e2-486b4b452716",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

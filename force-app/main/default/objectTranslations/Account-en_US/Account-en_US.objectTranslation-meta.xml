@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- test --></description>
+        <label><!-- ARC1 --></label>
+        <name>ARC1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestVisible --></label>
+        <name>TestVisible</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- L = 7 --></errorMessage>
+        <name>V1</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- customlink1 --></label>
+        <name>customlink1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>kcs_dev__AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>kcs_dev__GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>kcs_dev__GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>kcs_dev__GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>kcs_dev__HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>kcs_dev__YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

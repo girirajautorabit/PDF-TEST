@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "071bf42d-6a86-49b5-b5ee-2d9051b220f6",
+  "appPageId" : "f11bbada-d405-4f1a-8314-e7043b8a9459",
+  "configurationTags" : [ ],
+  "devName" : "relatedlist_005",
+  "id" : "b6f7c9e2-13cb-45c7-9313-482b7a9bb7e2",
+  "label" : "User 関連リスト",
+  "routeType" : "relatedlist-005",
+  "type" : "route",
+  "urlPrefix" : "profile"
+}

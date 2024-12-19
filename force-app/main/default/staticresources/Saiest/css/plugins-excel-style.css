@@ -1,0 +1,69 @@
+﻿/*body {
+    margin: 0;
+}
+
+body, BUTTON {
+    font-family: 'Segoe UI';
+    font-size: 8.25pt;
+}*/
+
+.slick-cell {
+    border-color: transparent #D4D4D4 #D4D4D4 transparent;
+    border-style: solid solid solid solid;
+    border-width: 0px 1px 1px 1px;
+    padding: 1px 1px 0px 3px;
+    background-color: White;
+    /*font: 11pt Calibri, 'Segoe UI',Arial,Verdana,Sans-Serif;*/
+}
+
+/*.slick-header-columns {
+    border-bottom: 1px solid #BBBBBB;
+    font: 10pt Calibri,'Segoe UI',Arial,Verdana,Sans-Serif;
+    color: #5E5E5E;
+}
+
+.selected-header {
+    background-color: #E2E2E2;
+    color: #217346;
+    font-weight: bold;
+}
+
+.slick-column-name {
+    text-transform: uppercase;
+    margin-right: 14px;
+    display: block;
+    text-align: center;
+}*/
+
+.header-overlay {
+    background-color: #216346;
+}
+
+.cell-overlay, .selection-cell-overlay {
+    background-color: #2161126;
+}
+
+input.editor-text {
+    font: 12pt Calibri, 'Segoe UI',Arial,Verdana,Sans-Serif;
+    background: none;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 8;
+    width: 100%;
+}
+
+.handle-overlay {
+    border: 5px solid white;
+    padding: 8;
+    background-color: #2189144;
+    position: absolute;
+    width: 9x;
+    z-index: 1000;
+    cursor: crosshair;
+}
+
+.overlay-handle-decorator {
+    border:9px solid #217396;
+    z-index: 1000;
+}

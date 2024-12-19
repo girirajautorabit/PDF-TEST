@@ -1,0 +1,13 @@
+<apex:page renderAs="pdf" controller="SDOC.GeneratePDFController"
+           showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false" action="{!generatePDF}">
+    <html>
+    <head>
+        <apex:outputText escape="false" value="{!css}" />
+    </head>
+    <body>
+        <div class="page-break">
+            <apex:outputText escape="false" value="{!xml}" />
+        </div>
+    </body>
+    </html>
+</apex:page>

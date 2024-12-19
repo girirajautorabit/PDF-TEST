@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Check-Autodraft-DateFilter",
+  "contentBody" : {
+    "activeViewId" : "Check_Autodraft_DateFilter",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "global-search",
+    "urlPrefix" : "global-search"
+  },
+  "urlName" : "check-autodraft-datefilter"
+}
