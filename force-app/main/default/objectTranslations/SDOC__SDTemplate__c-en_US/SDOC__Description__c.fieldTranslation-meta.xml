@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Description of this document template. Optionally include any keywords, as this field along with the Name field are both searched during the document selection step. --></help>
+    <label><!-- Description --></label>
+    <name>SDOC__Description__c</name>
+</CustomFieldTranslation>

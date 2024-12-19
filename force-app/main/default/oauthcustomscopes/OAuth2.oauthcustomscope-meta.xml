@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OauthCustomScope xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>OAuth2</description>
+    <developerName>OAuth2</developerName>
+    <isProtected>false</isProtected>
+    <isPublic>false</isPublic>
+    <masterLabel>OAuth2</masterLabel>
+</OauthCustomScope>

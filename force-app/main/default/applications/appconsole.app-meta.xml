@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>appconsole</label>
+    <navType>Console</navType>
+    <tabs>standard-AccountBrand</tabs>
+    <tabs>standard-AccountRelationship</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>DataLoader__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>appconsole_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>DataLoader__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-AccountBrand</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-AccountRelationship</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

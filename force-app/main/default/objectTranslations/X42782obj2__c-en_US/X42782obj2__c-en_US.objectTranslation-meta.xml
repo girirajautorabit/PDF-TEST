@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>42782obj2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>42782obj2s</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- RCN3 --></label>
+        <name>RCN3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RCN4 --></label>
+        <name>RCN4</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Andhra pradesh</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Telangana</masterLabel>
+        <translation>re</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>bihar</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>himachal pradesh</masterLabel>
+        <translation>test</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>kakinada</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>karnataka</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>madhya pradesh</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>nepal</masterLabel>
+        <translation>er</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

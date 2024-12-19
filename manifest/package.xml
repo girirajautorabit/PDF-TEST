@@ -11,6 +11,10 @@
         <name>ActionLinkGroupTemplate</name>
     </types>
     <types>
+        <members>test1</members>
+        <name>AnimationRule</name>
+    </types>
+    <types>
         <members>A</members>
         <members>A0</members>
         <members>A00</members>
@@ -724,8 +728,13 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>apexEmailNotifications</members>
+        <name>ApexEmailNotifications</name>
+    </types>
+    <types>
         <members>AnswersHome</members>
         <members>ApexPage</members>
+        <members>ApexPage2</members>
         <members>ApexPage5</members>
         <members>Apexpage1</members>
         <members>Apexpage6</members>
@@ -800,9 +809,15 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>ApexTestSuite</members>
+        <members>test</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
         <members>AccountDeletion</members>
         <members>AccountTrigger1</members>
         <members>ApexTrigger1</members>
+        <members>ApexTrigger2</members>
         <members>ContactTrigger1</members>
         <members>Leadtrigger1</members>
         <members>SDOC__SDJobs</members>
@@ -811,6 +826,61 @@
         <members>SDOC__SDTemplate</members>
         <members>SDOC__SDocTrigger</members>
         <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c.July24thStandardprocess1</members>
+        <members>ACCObjTest1__c.PG_Metric_SME_Approval_Process_withemail</members>
+        <members>Account.Apppro1</members>
+        <members>Account.AprrovprocessTest1</members>
+        <members>Account.testap</members>
+        <members>PG_Metric__c.PG_Metric_SME_Approval_Process1_withemai</members>
+        <members>PG_Metric__c.PG_Metric_SME_Approval_Process_withemai</members>
+        <members>PG_Metric__c.PG_Metric_SME_Approval_Process_withemail</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <members>Lead.ddd</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Default_API55TEST</members>
+        <members>Default_Aloha</members>
+        <members>Default_Catch up</members>
+        <members>Default_Giri-2</members>
+        <members>Default_Giri1</members>
+        <members>Default_GiriHelpCenter</members>
+        <members>Default_GiriLWR</members>
+        <members>Default_Helpcenter</members>
+        <members>Default_KrithiLWR</members>
+        <members>Default_LeadsPage</members>
+        <members>Default_New-Giri-Bundle</members>
+        <members>Default_New1</members>
+        <members>Default_PartnerCentral</members>
+        <members>Default_SaiBundle1</members>
+        <members>Default_SaiBundle2</members>
+        <members>Default_SaiTest1</members>
+        <members>Default_SaiTest12</members>
+        <members>Default_Salesforce Tabs %2B Visualforce</members>
+        <members>Default_Test1233</members>
+        <members>Default_TestCommunity</members>
+        <members>Default_TestCommunity1</members>
+        <members>Default_bundle-testing</members>
+        <members>Default_test1</members>
+        <members>Default_test1yrt</members>
+        <members>Default_test4</members>
+        <name>Audience</name>
     </types>
     <types>
         <members>ARIndexCmp</members>
@@ -844,6 +914,35 @@
         <members>setStartUrl</members>
         <members>viewRecordFooter</members>
         <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>DEVOPS_CENTER_BITBUCKET</members>
+        <members>Salesforce_Auth</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>Case.AutoRespnseRul1</members>
+        <members>Case.AutoResponseRule2</members>
+        <members>Case.AutoResponseRule5</members>
+        <members>Lead.AutoResponseRule3</members>
+        <members>Lead.AutoResponseRule4</members>
+        <members>Lead.AutoresponseRule1</members>
+        <members>Lead.ECSLeadAutoResponseRule</members>
+        <name>AutoResponseRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>MyBot1_Copy</members>
+        <members>SaiNewbot</members>
+        <members>SaiTest1</members>
+        <members>SanewBoth</members>
+        <members>TestBot1</members>
+        <members>siri</members>
+        <name>Bot</name>
     </types>
     <types>
         <members>BOTblock2</members>
@@ -880,6 +979,30 @@
         <name>BriefcaseDefinition</name>
     </types>
     <types>
+        <members>Lead.LeadProcess1</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>test1.test</members>
+        <members>test1.test1</members>
+        <name>CMSConnectSource</name>
+    </types>
+    <types>
+        <members>CSIMIntegration</members>
+        <members>callCenter001</members>
+        <name>CallCenter</name>
+    </types>
+    <types>
+        <members>rr</members>
+        <members>yu</members>
+        <name>CallCoachingMediaProvider</name>
+    </types>
+    <types>
+        <members>test1</members>
+        <members>test2</members>
+        <name>Certificate</name>
+    </types>
+    <types>
         <members>Quotes</members>
         <members>twst</members>
         <name>ChatterExtension</name>
@@ -887,6 +1010,10 @@
     <types>
         <members>DataCloudGeoLocation</members>
         <name>CleanDataService</name>
+    </types>
+    <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
     </types>
     <types>
         <members>A1__c.CustomLayout</members>
@@ -900,10 +1027,18 @@
         <members>ACR3__c.Layout_layout</members>
         <members>ACR4__c.Layout_layout</members>
         <members>LLC_BI_Loan__c.Compact_layout_1</members>
+        <members>Lead.Cl1</members>
         <members>NewObj1__c.Account_new</members>
         <members>Nobj1__c.Account_new</members>
         <members>SMobj1__c.TestCompactlayout</members>
         <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>DEVHUB_lsok0ohy2yoqdibubdb2</members>
+        <members>SalesforceAPIAutomation</members>
+        <members>test2</members>
+        <members>tst2</members>
+        <name>ConnectedApp</name>
     </types>
     <types>
         <members>MicrosoftTeamsimage</members>
@@ -1066,40 +1201,593 @@
         <members>Account.f1__c</members>
         <members>Account.pick1__c</members>
         <members>AccountAPP1__c.Appf1__c</members>
+        <members>AccountBrand.AccountId</members>
+        <members>AccountBrand.CompanyName</members>
+        <members>AccountBrand.Email</members>
+        <members>AccountBrand.LogoId</members>
+        <members>AccountBrand.Name</members>
+        <members>AccountBrand.OwnerId</members>
+        <members>AccountBrand.Phone</members>
+        <members>AccountBrand.Website</members>
+        <members>AccountCleanInfo.Industry</members>
+        <members>AccountCleanInfo.Ownership</members>
+        <members>AccountContactRelation.AccountId</members>
+        <members>AccountContactRelation.ContactId</members>
+        <members>AccountContactRelation.EndDate</members>
+        <members>AccountContactRelation.IsActive</members>
+        <members>AccountContactRelation.IsDirect</members>
+        <members>AccountContactRelation.Roles</members>
+        <members>AccountContactRelation.StartDate</members>
+        <members>AccountContactRole.Role</members>
+        <members>AccountRelationship.AccountFromId</members>
+        <members>AccountRelationship.AccountToId</members>
+        <members>AccountRelationship.Name</members>
+        <members>AccountRelationship.OwnerId</members>
+        <members>AccountRelationship.Type</members>
+        <members>AccountTeamMember.AccountAccessLevel</members>
+        <members>AccountTeamMember.AccountId</members>
+        <members>AccountTeamMember.CaseAccessLevel</members>
+        <members>AccountTeamMember.ContactAccessLevel</members>
+        <members>AccountTeamMember.OpportunityAccessLevel</members>
+        <members>AccountTeamMember.TeamMemberRole</members>
+        <members>AccountTeamMember.UserId</members>
         <members>Account_Address__c.Account__c</members>
         <members>AcntrObj1__c.AccFt1s__c</members>
         <members>AcntrObj1__c.AcntrOrg2F1__c</members>
         <members>AcntrObj1__c.AcntrOrg3F1__c</members>
+        <members>ActiveScratchOrg.Description</members>
+        <members>ActiveScratchOrg.Edition</members>
+        <members>ActiveScratchOrg.ExpirationDate</members>
+        <members>ActiveScratchOrg.Features</members>
+        <members>ActiveScratchOrg.Id</members>
+        <members>ActiveScratchOrg.LastLoginDate</members>
+        <members>ActiveScratchOrg.Name</members>
+        <members>ActiveScratchOrg.Namespace</members>
+        <members>ActiveScratchOrg.OrgName</members>
+        <members>ActiveScratchOrg.ScratchOrg</members>
+        <members>ActiveScratchOrg.ScratchOrgInfoId</members>
+        <members>ActiveScratchOrg.SignupEmail</members>
+        <members>ActiveScratchOrg.SignupInstance</members>
+        <members>ActiveScratchOrg.SignupTrialDays</members>
+        <members>ActiveScratchOrg.SignupUsername</members>
+        <members>ActiveScratchOrg.Snapshot</members>
         <members>Activity.AutorabitExtId__c</members>
         <members>Activity.F1__c</members>
         <members>Activity.GIRI_PS_F_ON_ACTIVITY__c</members>
+        <members>AgentWork.AcceptDateTime</members>
+        <members>AgentWork.ActiveTime</members>
+        <members>AgentWork.AcwExtensionCount</members>
+        <members>AgentWork.AcwExtensionDuration</members>
+        <members>AgentWork.AfterConversationActualTime</members>
+        <members>AgentWork.AgentCapacityWhenDeclined</members>
+        <members>AgentWork.AgentIntCapacityWhenDeclined</members>
+        <members>AgentWork.CancelDateTime</members>
+        <members>AgentWork.CapacityPercentage</members>
+        <members>AgentWork.CapacityWeight</members>
+        <members>AgentWork.ChannelData</members>
+        <members>AgentWork.CloseDateTime</members>
+        <members>AgentWork.DeclineDateTime</members>
+        <members>AgentWork.DeclineReason</members>
+        <members>AgentWork.FlagIcon</members>
+        <members>AgentWork.FlagMessage</members>
+        <members>AgentWork.HandleTime</members>
+        <members>AgentWork.HasNotification</members>
+        <members>AgentWork.IsAutoAcceptEnabled</members>
+        <members>AgentWork.IsConference</members>
+        <members>AgentWork.IsFallback</members>
+        <members>AgentWork.IsFlagSupervisorOnly</members>
+        <members>AgentWork.IsFlagged</members>
+        <members>AgentWork.IsInterruptible</members>
+        <members>AgentWork.IsPreferredUserRequired</members>
+        <members>AgentWork.IsTransfer</members>
+        <members>AgentWork.LASessionId</members>
+        <members>AgentWork.OriginalQueueId</members>
+        <members>AgentWork.OwnerId</members>
+        <members>AgentWork.PausedCapacityPercentage</members>
+        <members>AgentWork.PausedCapacityWeight</members>
+        <members>AgentWork.PendingServiceRoutingId</members>
+        <members>AgentWork.PreferredUserId</members>
+        <members>AgentWork.PushTimeout</members>
+        <members>AgentWork.PushTimeoutDateTime</members>
+        <members>AgentWork.RequestDateTime</members>
+        <members>AgentWork.RoutingModel</members>
+        <members>AgentWork.RoutingPriority</members>
+        <members>AgentWork.RoutingType</members>
+        <members>AgentWork.ServiceChannelId</members>
+        <members>AgentWork.ShouldSkipCapacityCheck</members>
+        <members>AgentWork.ShouldSkipChannelCheck</members>
+        <members>AgentWork.SpeedToAnswer</members>
+        <members>AgentWork.Status</members>
+        <members>AgentWork.StatusSequence</members>
+        <members>AgentWork.UserId</members>
+        <members>AgentWork.WorkItemId</members>
         <members>Aobj2__c.Afieldt1__c</members>
+        <members>ApiAnomalyEventStore.EventDate</members>
+        <members>ApiAnomalyEventStore.EventIdentifier</members>
+        <members>ApiAnomalyEventStore.Operation</members>
+        <members>ApiAnomalyEventStore.QueriedEntities</members>
+        <members>ApiAnomalyEventStore.RequestIdentifier</members>
+        <members>ApiAnomalyEventStore.RowsProcessed</members>
+        <members>ApiAnomalyEventStore.Score</members>
+        <members>ApiAnomalyEventStore.SecurityEventData</members>
+        <members>ApiAnomalyEventStore.SourceIp</members>
+        <members>ApiAnomalyEventStore.Summary</members>
+        <members>ApiAnomalyEventStore.Uri</members>
+        <members>ApiAnomalyEventStore.UserAgent</members>
+        <members>ApiAnomalyEventStore.UserId</members>
+        <members>Asset.AccountId</members>
+        <members>Asset.Address</members>
+        <members>Asset.AssetLevel</members>
+        <members>Asset.AssetProvidedById</members>
+        <members>Asset.AssetServicedById</members>
         <members>Asset.AutorabitExtId__c</members>
+        <members>Asset.ConsequenceOfFailure</members>
+        <members>Asset.ContactId</members>
+        <members>Asset.Description</members>
+        <members>Asset.DigitalAssetStatus</members>
+        <members>Asset.ExternalIdentifier</members>
+        <members>Asset.InstallDate</members>
+        <members>Asset.IsCompetitorProduct</members>
+        <members>Asset.IsInternal</members>
+        <members>Asset.ManufactureDate</members>
+        <members>Asset.Name</members>
+        <members>Asset.OwnerId</members>
+        <members>Asset.ParentId</members>
+        <members>Asset.Price</members>
+        <members>Asset.Product2Id</members>
+        <members>Asset.ProductCode</members>
+        <members>Asset.ProductDescription</members>
+        <members>Asset.ProductFamily</members>
+        <members>Asset.PurchaseDate</members>
+        <members>Asset.Quantity</members>
+        <members>Asset.RootAssetId</members>
+        <members>Asset.SerialNumber</members>
+        <members>Asset.Status</members>
+        <members>Asset.StatusReason</members>
+        <members>Asset.StockKeepingUnit</members>
+        <members>Asset.UsageEndDate</members>
+        <members>Asset.Uuid</members>
+        <members>AssetRelationship.AssetId</members>
+        <members>AssetRelationship.FromDate</members>
+        <members>AssetRelationship.RelatedAssetId</members>
+        <members>AssetRelationship.RelationshipType</members>
+        <members>AssetRelationship.ToDate</members>
         <members>Aug12obj1__c.F1__c</members>
         <members>Aug22test__mdt.F1__c</members>
         <members>Aug22test__mdt.F2__c</members>
         <members>Aug29_Obj1__c.Field1__c</members>
         <members>Aug7__c.F1__c</members>
+        <members>AuthorizationForm.DefaultAuthFormTextId</members>
+        <members>AuthorizationForm.EffectiveFromDate</members>
+        <members>AuthorizationForm.EffectiveToDate</members>
+        <members>AuthorizationForm.IsSignatureRequired</members>
+        <members>AuthorizationForm.Name</members>
+        <members>AuthorizationForm.OwnerId</members>
+        <members>AuthorizationForm.RevisionNumber</members>
+        <members>AuthorizationFormConsent.AuthorizationFormTextId</members>
+        <members>AuthorizationFormConsent.ConsentCapturedDateTime</members>
+        <members>AuthorizationFormConsent.ConsentCapturedSource</members>
+        <members>AuthorizationFormConsent.ConsentCapturedSourceType</members>
+        <members>AuthorizationFormConsent.ConsentGiverId</members>
+        <members>AuthorizationFormConsent.DocumentVersionId</members>
+        <members>AuthorizationFormConsent.Name</members>
+        <members>AuthorizationFormConsent.OwnerId</members>
+        <members>AuthorizationFormConsent.RelatedRecordId</members>
+        <members>AuthorizationFormConsent.Status</members>
+        <members>AuthorizationFormDataUse.AuthorizationFormId</members>
+        <members>AuthorizationFormDataUse.DataUsePurposeId</members>
+        <members>AuthorizationFormDataUse.Name</members>
+        <members>AuthorizationFormDataUse.OwnerId</members>
+        <members>AuthorizationFormText.AuthorizationFormId</members>
+        <members>AuthorizationFormText.ContentDocumentId</members>
+        <members>AuthorizationFormText.DetailAuthorizationFormText</members>
+        <members>AuthorizationFormText.FullAuthorizationFormUrl</members>
+        <members>AuthorizationFormText.Locale</members>
+        <members>AuthorizationFormText.Name</members>
+        <members>AuthorizationFormText.SummaryAuthFormText</members>
         <members>BigHack__b.ID__c</members>
         <members>Bj1__c.Field1__c</members>
+        <members>BusinessBrand.Name</members>
+        <members>BusinessBrand.OrgId</members>
+        <members>BusinessBrand.OwnerId</members>
+        <members>BusinessBrand.ParentId</members>
         <members>CAObj1__c.CAField1__c</members>
         <members>CAObj1__c.CAField2__c</members>
         <members>CAObj1__c.CAField3__c</members>
         <members>CAcobj1__c.AutorabitExtId__c</members>
         <members>CAcobj1__c.CACField1s__c</members>
         <members>CSObj1__c.SCField1__c</members>
+        <members>Campaign.ActualCost</members>
+        <members>Campaign.AmountAllOpportunities</members>
+        <members>Campaign.AmountWonOpportunities</members>
+        <members>Campaign.BudgetedCost</members>
+        <members>Campaign.CampaignImageId</members>
+        <members>Campaign.CampaignMemberRecordTypeId</members>
+        <members>Campaign.Description</members>
+        <members>Campaign.EndDate</members>
+        <members>Campaign.ExpectedResponse</members>
+        <members>Campaign.ExpectedRevenue</members>
+        <members>Campaign.HierarchyActualCost</members>
+        <members>Campaign.HierarchyAmountAllOpportunities</members>
+        <members>Campaign.HierarchyAmountWonOpportunities</members>
+        <members>Campaign.HierarchyBudgetedCost</members>
+        <members>Campaign.HierarchyExpectedRevenue</members>
+        <members>Campaign.HierarchyNumberOfContacts</members>
+        <members>Campaign.HierarchyNumberOfConvertedLeads</members>
+        <members>Campaign.HierarchyNumberOfLeads</members>
+        <members>Campaign.HierarchyNumberOfOpportunities</members>
+        <members>Campaign.HierarchyNumberOfResponses</members>
+        <members>Campaign.HierarchyNumberOfWonOpportunities</members>
+        <members>Campaign.HierarchyNumberSent</members>
+        <members>Campaign.IsActive</members>
+        <members>Campaign.Name</members>
+        <members>Campaign.NumberOfContacts</members>
+        <members>Campaign.NumberOfConvertedLeads</members>
+        <members>Campaign.NumberOfLeads</members>
+        <members>Campaign.NumberOfOpportunities</members>
+        <members>Campaign.NumberOfResponses</members>
+        <members>Campaign.NumberOfWonOpportunities</members>
+        <members>Campaign.NumberSent</members>
+        <members>Campaign.OwnerId</members>
+        <members>Campaign.ParentId</members>
+        <members>Campaign.StartDate</members>
+        <members>Campaign.Status</members>
+        <members>Campaign.Type</members>
+        <members>CampaignMember.CampaignId</members>
+        <members>CampaignMember.City</members>
+        <members>CampaignMember.CompanyOrAccount</members>
+        <members>CampaignMember.ContactId</members>
+        <members>CampaignMember.Country</members>
+        <members>CampaignMember.Description</members>
+        <members>CampaignMember.DoNotCall</members>
+        <members>CampaignMember.Email</members>
+        <members>CampaignMember.Fax</members>
+        <members>CampaignMember.FirstName</members>
+        <members>CampaignMember.FirstRespondedDate</members>
+        <members>CampaignMember.HasOptedOutOfEmail</members>
+        <members>CampaignMember.HasOptedOutOfFax</members>
+        <members>CampaignMember.HasResponded</members>
+        <members>CampaignMember.LastName</members>
+        <members>CampaignMember.LeadId</members>
+        <members>CampaignMember.LeadSource</members>
+        <members>CampaignMember.MobilePhone</members>
+        <members>CampaignMember.Phone</members>
+        <members>CampaignMember.PostalCode</members>
+        <members>CampaignMember.Salutation</members>
+        <members>CampaignMember.State</members>
+        <members>CampaignMember.Status</members>
+        <members>CampaignMember.Street</members>
+        <members>CampaignMember.Title</members>
+        <members>Case.AccountId</members>
+        <members>Case.AssetId</members>
         <members>Case.AutorabitExtId__c</members>
+        <members>Case.BusinessHoursId</members>
+        <members>Case.ClosedDate</members>
+        <members>Case.Comments</members>
+        <members>Case.ContactEmail</members>
+        <members>Case.ContactFax</members>
+        <members>Case.ContactId</members>
+        <members>Case.ContactMobile</members>
+        <members>Case.ContactPhone</members>
+        <members>Case.Description</members>
         <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.EntitlementId</members>
+        <members>Case.IsClosedOnCreate</members>
+        <members>Case.IsEscalated</members>
+        <members>Case.IsStopped</members>
+        <members>Case.MilestoneStatus</members>
+        <members>Case.MilestoneStatusIcon</members>
+        <members>Case.Origin</members>
+        <members>Case.OwnerId</members>
+        <members>Case.ParentId</members>
         <members>Case.PotentialLiability__c</members>
+        <members>Case.Priority</members>
+        <members>Case.ProductId</members>
         <members>Case.Product__c</members>
+        <members>Case.Reason</members>
         <members>Case.SLAViolation__c</members>
+        <members>Case.ServiceContractId</members>
+        <members>Case.SlaExitDate</members>
+        <members>Case.SlaStartDate</members>
+        <members>Case.Status</members>
+        <members>Case.StopStartDate</members>
+        <members>Case.Subject</members>
+        <members>Case.SuppliedCompany</members>
+        <members>Case.SuppliedEmail</members>
+        <members>Case.SuppliedName</members>
+        <members>Case.SuppliedPhone</members>
+        <members>Case.Type</members>
+        <members>CaseContactRole.Role</members>
+        <members>CaseMilestone.BusinessHoursId</members>
+        <members>CaseMilestone.CaseId</members>
+        <members>CaseMilestone.CompletionDate</members>
+        <members>CaseMilestone.ElapsedTimeInDays</members>
+        <members>CaseMilestone.ElapsedTimeInHrs</members>
+        <members>CaseMilestone.ElapsedTimeInMins</members>
+        <members>CaseMilestone.IsCompleted</members>
+        <members>CaseMilestone.IsViolated</members>
+        <members>CaseMilestone.MilestoneId</members>
+        <members>CaseMilestone.SlaProcessId</members>
+        <members>CaseMilestone.StartDate</members>
+        <members>CaseMilestone.TargetDate</members>
+        <members>CaseMilestone.TargetResponseInDays</members>
+        <members>CaseMilestone.TargetResponseInHrs</members>
+        <members>CaseMilestone.TargetResponseInMins</members>
+        <members>CaseMilestone.TimeRemainingInDays</members>
+        <members>CaseMilestone.TimeRemainingInHrs</members>
+        <members>CaseMilestone.TimeRemainingInMins</members>
+        <members>CaseMilestone.TimeSinceTargetInDays</members>
+        <members>CaseMilestone.TimeSinceTargetInHrs</members>
+        <members>CaseMilestone.TimeSinceTargetInMins</members>
+        <members>ChannelProgram.Category</members>
+        <members>ChannelProgram.Description</members>
+        <members>ChannelProgram.IsActive</members>
+        <members>ChannelProgram.Name</members>
+        <members>ChannelProgram.OwnerId</members>
+        <members>ChannelProgramLevel.Description</members>
+        <members>ChannelProgramLevel.Name</members>
+        <members>ChannelProgramLevel.OwnerId</members>
+        <members>ChannelProgramLevel.ProgramId</members>
+        <members>ChannelProgramLevel.Rank</members>
+        <members>ChannelProgramMember.LevelId</members>
+        <members>ChannelProgramMember.OwnerId</members>
+        <members>ChannelProgramMember.PartnerId</members>
+        <members>ChannelProgramMember.ProgramId</members>
+        <members>CommSubscription.CommunicationSubscriptionCode</members>
+        <members>CommSubscription.DataUsePurposeId</members>
+        <members>CommSubscription.IsDefault</members>
+        <members>CommSubscription.Name</members>
+        <members>CommSubscription.OwnerId</members>
+        <members>CommSubscriptionChannelType.CommunicationSubscriptionId</members>
+        <members>CommSubscriptionChannelType.EngagementChannelTypeId</members>
+        <members>CommSubscriptionChannelType.Name</members>
+        <members>CommSubscriptionChannelType.OwnerId</members>
+        <members>ConsumptionRate.ConsumptionScheduleId</members>
+        <members>ConsumptionRate.Description</members>
+        <members>ConsumptionRate.LowerBound</members>
+        <members>ConsumptionRate.Name</members>
+        <members>ConsumptionRate.Price</members>
+        <members>ConsumptionRate.PricingMethod</members>
+        <members>ConsumptionRate.ProcessingOrder</members>
+        <members>ConsumptionRate.UpperBound</members>
+        <members>ConsumptionSchedule.BillingTerm</members>
+        <members>ConsumptionSchedule.BillingTermUnit</members>
+        <members>ConsumptionSchedule.Description</members>
+        <members>ConsumptionSchedule.IsActive</members>
+        <members>ConsumptionSchedule.MatchingAttribute</members>
+        <members>ConsumptionSchedule.Name</members>
+        <members>ConsumptionSchedule.NumberOfRates</members>
+        <members>ConsumptionSchedule.RatingMethod</members>
+        <members>ConsumptionSchedule.Type</members>
+        <members>ConsumptionSchedule.UnitOfMeasure</members>
+        <members>Contact.AccountId</members>
+        <members>Contact.AssistantName</members>
+        <members>Contact.AssistantPhone</members>
         <members>Contact.AutorabitExtId__c</members>
+        <members>Contact.Birthdate</members>
+        <members>Contact.CleanStatus</members>
+        <members>Contact.ContactSource</members>
+        <members>Contact.Department</members>
+        <members>Contact.Description</members>
+        <members>Contact.DoNotCall</members>
+        <members>Contact.Email</members>
+        <members>Contact.Fax</members>
+        <members>Contact.HasOptedOutOfEmail</members>
+        <members>Contact.HasOptedOutOfFax</members>
+        <members>Contact.HomePhone</members>
+        <members>Contact.IndividualId</members>
+        <members>Contact.Jigsaw</members>
         <members>Contact.Languages__c</members>
+        <members>Contact.LastCURequestDate</members>
+        <members>Contact.LastCUUpdateDate</members>
+        <members>Contact.LeadSource</members>
         <members>Contact.Level__c</members>
+        <members>Contact.MailingAddress</members>
+        <members>Contact.MobilePhone</members>
+        <members>Contact.Name</members>
+        <members>Contact.OtherAddress</members>
+        <members>Contact.OtherPhone</members>
+        <members>Contact.OwnerId</members>
+        <members>Contact.Phone</members>
+        <members>Contact.ReportsToId</members>
+        <members>Contact.Title</members>
+        <members>ContactPointTypeConsent.BusinessBrandId</members>
+        <members>ContactPointTypeConsent.CaptureContactPointType</members>
+        <members>ContactPointTypeConsent.CaptureDate</members>
+        <members>ContactPointTypeConsent.CaptureSource</members>
+        <members>ContactPointTypeConsent.ContactPointType</members>
+        <members>ContactPointTypeConsent.DataUsePurposeId</members>
+        <members>ContactPointTypeConsent.DoubleConsentCaptureDate</members>
+        <members>ContactPointTypeConsent.EffectiveFrom</members>
+        <members>ContactPointTypeConsent.EffectiveTo</members>
+        <members>ContactPointTypeConsent.EngagementChannelTypeId</members>
+        <members>ContactPointTypeConsent.Name</members>
+        <members>ContactPointTypeConsent.OwnerId</members>
+        <members>ContactPointTypeConsent.PartyId</members>
+        <members>ContactPointTypeConsent.PartyRoleId</members>
+        <members>ContactPointTypeConsent.PrivacyConsentStatus</members>
+        <members>ContactRequest.IsCallback</members>
+        <members>ContactRequest.OwnerId</members>
+        <members>ContactRequest.PreferredChannel</members>
+        <members>ContactRequest.PreferredPhone</members>
+        <members>ContactRequest.RequestDescription</members>
+        <members>ContactRequest.RequestReason</members>
+        <members>ContactRequest.Status</members>
+        <members>ContactRequest.WhatId</members>
+        <members>ContactRequest.WhoId</members>
+        <members>ContentVersion.ContentSize</members>
+        <members>ContentVersion.Description</members>
+        <members>ContentVersion.FileExtension</members>
+        <members>ContentVersion.FileType</members>
+        <members>ContentVersion.IsAssetEnabled</members>
+        <members>ContentVersion.Language</members>
+        <members>ContentVersion.OwnerId</members>
+        <members>ContentVersion.SharingOption</members>
+        <members>ContentVersion.SharingPrivacy</members>
+        <members>ContentVersion.TagCsv</members>
+        <members>ContentVersion.Title</members>
+        <members>Contract.AccountId</members>
+        <members>Contract.ActivatedById</members>
+        <members>Contract.ActivatedDate</members>
+        <members>Contract.BillingAddress</members>
+        <members>Contract.CompanySignedDate</members>
+        <members>Contract.CompanySignedId</members>
+        <members>Contract.ContractTerm</members>
+        <members>Contract.CustomerSignedDate</members>
+        <members>Contract.CustomerSignedId</members>
+        <members>Contract.CustomerSignedTitle</members>
+        <members>Contract.Description</members>
+        <members>Contract.EndDate</members>
+        <members>Contract.Name</members>
+        <members>Contract.OwnerExpirationNotice</members>
+        <members>Contract.OwnerId</members>
+        <members>Contract.Pricebook2Id</members>
+        <members>Contract.ShippingAddress</members>
+        <members>Contract.SpecialTerms</members>
+        <members>Contract.StartDate</members>
+        <members>Contract.Status</members>
+        <members>ContractContactRole.Role</members>
+        <members>ContractLineItem.AssetId</members>
+        <members>ContractLineItem.Description</members>
+        <members>ContractLineItem.Discount</members>
+        <members>ContractLineItem.EndDate</members>
+        <members>ContractLineItem.ListPrice</members>
+        <members>ContractLineItem.ParentContractLineItemId</members>
+        <members>ContractLineItem.PricebookEntryId</members>
+        <members>ContractLineItem.Product2Id</members>
+        <members>ContractLineItem.Quantity</members>
+        <members>ContractLineItem.RootContractLineItemId</members>
+        <members>ContractLineItem.ServiceContractId</members>
+        <members>ContractLineItem.StartDate</members>
+        <members>ContractLineItem.Status</members>
+        <members>ContractLineItem.StatusIndicator</members>
+        <members>ContractLineItem.Subtotal</members>
+        <members>ContractLineItem.TotalPrice</members>
+        <members>ContractLineItem.UnitPrice</members>
+        <members>CredentialStuffingEventStore.AcceptLanguage</members>
+        <members>CredentialStuffingEventStore.EventDate</members>
+        <members>CredentialStuffingEventStore.EventIdentifier</members>
+        <members>CredentialStuffingEventStore.LoginType</members>
+        <members>CredentialStuffingEventStore.LoginUrl</members>
+        <members>CredentialStuffingEventStore.Score</members>
+        <members>CredentialStuffingEventStore.SourceIp</members>
+        <members>CredentialStuffingEventStore.Summary</members>
+        <members>CredentialStuffingEventStore.UserAgent</members>
+        <members>CredentialStuffingEventStore.UserId</members>
+        <members>Customer.CustomerStatusType</members>
+        <members>Customer.Name</members>
+        <members>Customer.OwnerId</members>
+        <members>Customer.PartyId</members>
+        <members>Customer.TotalLifeTimeValue</members>
         <members>DLConfigTestObj__c.Field1__c</members>
         <members>DObj2__c.Field3__c</members>
         <members>DObj2__c.field1__c</members>
         <members>DXObj2__c.F1__c</members>
+        <members>DandBCompany.CompanyCurrencyIsoCode</members>
+        <members>DandBCompany.CountryAccessCode</members>
+        <members>DandBCompany.CurrencyCode</members>
+        <members>DandBCompany.Description</members>
+        <members>DandBCompany.DomesticUltimateBusinessName</members>
+        <members>DandBCompany.DomesticUltimateDunsNumber</members>
+        <members>DandBCompany.DunsNumber</members>
+        <members>DandBCompany.EmployeeQuantityGrowthRate</members>
+        <members>DandBCompany.EmployeesHere</members>
+        <members>DandBCompany.EmployeesHereReliability</members>
+        <members>DandBCompany.EmployeesTotal</members>
+        <members>DandBCompany.EmployeesTotalReliability</members>
+        <members>DandBCompany.FamilyMembers</members>
+        <members>DandBCompany.Fax</members>
+        <members>DandBCompany.FifthNaics</members>
+        <members>DandBCompany.FifthNaicsDesc</members>
+        <members>DandBCompany.FifthSic</members>
+        <members>DandBCompany.FifthSic8</members>
+        <members>DandBCompany.FifthSic8Desc</members>
+        <members>DandBCompany.FifthSicDesc</members>
+        <members>DandBCompany.FipsMsaCode</members>
+        <members>DandBCompany.FipsMsaDesc</members>
+        <members>DandBCompany.FortuneRank</members>
+        <members>DandBCompany.FourthNaics</members>
+        <members>DandBCompany.FourthNaicsDesc</members>
+        <members>DandBCompany.FourthSic</members>
+        <members>DandBCompany.FourthSic8</members>
+        <members>DandBCompany.FourthSic8Desc</members>
+        <members>DandBCompany.FourthSicDesc</members>
+        <members>DandBCompany.GeoCodeAccuracy</members>
+        <members>DandBCompany.GlobalUltimateBusinessName</members>
+        <members>DandBCompany.GlobalUltimateDunsNumber</members>
+        <members>DandBCompany.GlobalUltimateTotalEmployees</members>
+        <members>DandBCompany.ImportExportAgent</members>
+        <members>DandBCompany.IncludedInSnP500</members>
+        <members>DandBCompany.Latitude</members>
+        <members>DandBCompany.LegalStatus</members>
+        <members>DandBCompany.LocationStatus</members>
+        <members>DandBCompany.Longitude</members>
+        <members>DandBCompany.MarketingPreScreen</members>
+        <members>DandBCompany.MarketingSegmentationCluster</members>
+        <members>DandBCompany.MinorityOwned</members>
+        <members>DandBCompany.Name</members>
+        <members>DandBCompany.NationalId</members>
+        <members>DandBCompany.NationalIdType</members>
+        <members>DandBCompany.OutOfBusiness</members>
+        <members>DandBCompany.OwnOrRent</members>
+        <members>DandBCompany.ParentOrHqBusinessName</members>
+        <members>DandBCompany.ParentOrHqDunsNumber</members>
+        <members>DandBCompany.Phone</members>
+        <members>DandBCompany.PremisesMeasure</members>
+        <members>DandBCompany.PremisesMeasureReliability</members>
+        <members>DandBCompany.PremisesMeasureUnit</members>
+        <members>DandBCompany.PrimaryNaics</members>
+        <members>DandBCompany.PrimaryNaicsDesc</members>
+        <members>DandBCompany.PrimarySic</members>
+        <members>DandBCompany.PrimarySic8</members>
+        <members>DandBCompany.PrimarySic8Desc</members>
+        <members>DandBCompany.PrimarySicDesc</members>
+        <members>DandBCompany.PriorYearEmployees</members>
+        <members>DandBCompany.PriorYearRevenue</members>
+        <members>DandBCompany.PublicIndicator</members>
+        <members>DandBCompany.SalesTurnoverGrowthRate</members>
+        <members>DandBCompany.SalesVolume</members>
+        <members>DandBCompany.SalesVolumeReliability</members>
+        <members>DandBCompany.SecondNaics</members>
+        <members>DandBCompany.SecondNaicsDesc</members>
+        <members>DandBCompany.SecondSic</members>
+        <members>DandBCompany.SecondSic8</members>
+        <members>DandBCompany.SecondSic8Desc</members>
+        <members>DandBCompany.SecondSicDesc</members>
+        <members>DandBCompany.SixthNaics</members>
+        <members>DandBCompany.SixthNaicsDesc</members>
+        <members>DandBCompany.SixthSic</members>
+        <members>DandBCompany.SixthSic8</members>
+        <members>DandBCompany.SixthSic8Desc</members>
+        <members>DandBCompany.SixthSicDesc</members>
+        <members>DandBCompany.SmallBusiness</members>
+        <members>DandBCompany.StockExchange</members>
+        <members>DandBCompany.StockSymbol</members>
+        <members>DandBCompany.Subsidiary</members>
+        <members>DandBCompany.ThirdNaics</members>
+        <members>DandBCompany.ThirdNaicsDesc</members>
+        <members>DandBCompany.ThirdSic</members>
+        <members>DandBCompany.ThirdSic8</members>
+        <members>DandBCompany.ThirdSic8Desc</members>
+        <members>DandBCompany.ThirdSicDesc</members>
+        <members>DandBCompany.TradeStyle1</members>
+        <members>DandBCompany.TradeStyle2</members>
+        <members>DandBCompany.TradeStyle3</members>
+        <members>DandBCompany.TradeStyle4</members>
+        <members>DandBCompany.TradeStyle5</members>
+        <members>DandBCompany.URL</members>
+        <members>DandBCompany.UsTaxId</members>
+        <members>DandBCompany.WomenOwned</members>
+        <members>DandBCompany.YearStarted</members>
+        <members>DataUseLegalBasis.Description</members>
+        <members>DataUseLegalBasis.Name</members>
+        <members>DataUseLegalBasis.OwnerId</members>
+        <members>DataUseLegalBasis.Source</members>
+        <members>DataUsePurpose.CanDataSubjectOptOut</members>
+        <members>DataUsePurpose.Description</members>
+        <members>DataUsePurpose.LegalBasisId</members>
+        <members>DataUsePurpose.Name</members>
+        <members>DataUsePurpose.OwnerId</members>
         <members>Dbj1__c.F1__c</members>
         <members>Dbj1__c.F2__c</members>
         <members>Dbj1__c.F3__c</members>
@@ -1109,6 +1797,10 @@
         <members>Dbj1__c.testfield2__c</members>
         <members>Dbj1__c.testfield3__c</members>
         <members>Dbj1__c.testfield__c</members>
+        <members>DelegatedAccount.ManagedById</members>
+        <members>DelegatedAccount.Name</members>
+        <members>DelegatedAccount.OwnerId</members>
+        <members>DelegatedAccount.TargetId</members>
         <members>Demo4Obj7__c.Demo4Field1__c</members>
         <members>Demo4Obj7__c.Demo4Field2__c</members>
         <members>DemoObj007__c.F1__c</members>
@@ -1117,23 +1809,208 @@
         <members>DlConfigObj151__c.Feild1__c</members>
         <members>DlConfigObj151__c.Field2__c</members>
         <members>Dobj3__c.Field1__c</members>
+        <members>DuplicateRecordItem.DuplicateRecordSetId</members>
+        <members>DuplicateRecordItem.RecordId</members>
+        <members>DuplicateRecordSet.DuplicateRuleId</members>
+        <members>DuplicateRecordSet.RecordCount</members>
         <members>EC_AccObj1__c.Afield__c</members>
         <members>EC_AccObj1__c.ECOBjField1__c</members>
         <members>EC_AccObj1__c.EaField__c</members>
         <members>EC_AccObj1__c.Pl3__c</members>
         <members>EObj1__c.Field1__c</members>
+        <members>EmailMessage.AutomationType</members>
+        <members>EmailMessage.BccAddress</members>
+        <members>EmailMessage.CcAddress</members>
+        <members>EmailMessage.FirstOpenedDate</members>
+        <members>EmailMessage.FromAddress</members>
+        <members>EmailMessage.FromName</members>
+        <members>EmailMessage.HasAttachment</members>
+        <members>EmailMessage.Headers</members>
+        <members>EmailMessage.HtmlBody</members>
+        <members>EmailMessage.Incoming</members>
+        <members>EmailMessage.IsExternallyVisible</members>
+        <members>EmailMessage.IsPrivateDraft</members>
+        <members>EmailMessage.LastOpenedDate</members>
+        <members>EmailMessage.MessageDate</members>
+        <members>EmailMessage.MessageSize</members>
+        <members>EmailMessage.ParentId</members>
+        <members>EmailMessage.RelatedToId</members>
+        <members>EmailMessage.Status</members>
+        <members>EmailMessage.Subject</members>
+        <members>EmailMessage.TextBody</members>
+        <members>EmailMessage.ToAddress</members>
+        <members>EmailMessage.ValidatedFromAddress</members>
+        <members>EngagementChannelType.ContactPointType</members>
+        <members>EngagementChannelType.Name</members>
+        <members>EngagementChannelType.OwnerId</members>
+        <members>Entitlement.AccountId</members>
+        <members>Entitlement.AssetId</members>
+        <members>Entitlement.BusinessHoursId</members>
+        <members>Entitlement.CasesPerEntitlement</members>
+        <members>Entitlement.ContractLineItemId</members>
+        <members>Entitlement.EndDate</members>
+        <members>Entitlement.IsPerIncident</members>
+        <members>Entitlement.Name</members>
+        <members>Entitlement.RemainingCases</members>
+        <members>Entitlement.RemainingWorkOrders</members>
+        <members>Entitlement.ServiceContractId</members>
+        <members>Entitlement.SlaProcessId</members>
+        <members>Entitlement.StartDate</members>
+        <members>Entitlement.Status</members>
+        <members>Entitlement.StatusIndicator</members>
+        <members>Entitlement.Type</members>
+        <members>Entitlement.WorkOrdersPerEntitlement</members>
+        <members>EntitlementContact.ContactId</members>
+        <members>EntitlementContact.EntitlementId</members>
+        <members>EntityMilestone.BusinessHoursId</members>
+        <members>EntityMilestone.CompletionDate</members>
+        <members>EntityMilestone.ElapsedTimeInDays</members>
+        <members>EntityMilestone.ElapsedTimeInHrs</members>
+        <members>EntityMilestone.ElapsedTimeInMins</members>
+        <members>EntityMilestone.IsCompleted</members>
+        <members>EntityMilestone.IsViolated</members>
+        <members>EntityMilestone.MilestoneId</members>
+        <members>EntityMilestone.ParentEntityId</members>
+        <members>EntityMilestone.SlaProcessId</members>
+        <members>EntityMilestone.StartDate</members>
+        <members>EntityMilestone.TargetDate</members>
+        <members>EntityMilestone.TargetResponseInDays</members>
+        <members>EntityMilestone.TargetResponseInHrs</members>
+        <members>EntityMilestone.TargetResponseInMins</members>
+        <members>EntityMilestone.TimeRemainingInDays</members>
+        <members>EntityMilestone.TimeRemainingInHrs</members>
+        <members>EntityMilestone.TimeRemainingInMins</members>
+        <members>EntityMilestone.TimeSinceTargetInDays</members>
+        <members>EntityMilestone.TimeSinceTargetInHrs</members>
+        <members>EntityMilestone.TimeSinceTargetInMins</members>
         <members>EntityMilestone.X23marchs__c</members>
+        <members>Event.ActivityDate</members>
+        <members>Event.ActivityDateTime</members>
+        <members>Event.Attendees</members>
+        <members>Event.Description</members>
+        <members>Event.DurationInMinutes</members>
+        <members>Event.Email</members>
+        <members>Event.EndDateTime</members>
+        <members>Event.EventSubtype</members>
+        <members>Event.IsAllDayEvent</members>
+        <members>Event.IsPrivate</members>
+        <members>Event.IsRecurrence2</members>
+        <members>Event.IsReminderSet</members>
+        <members>Event.IsVisibleInSelfService</members>
+        <members>Event.Location</members>
+        <members>Event.OwnerId</members>
+        <members>Event.Phone</members>
+        <members>Event.ShowAs</members>
+        <members>Event.StartDateTime</members>
+        <members>Event.Subject</members>
+        <members>Event.Type</members>
+        <members>Event.WhatId</members>
+        <members>Event.WhoId</members>
+        <members>ExternalAccountHierarchy.AccountId</members>
+        <members>ExternalAccountHierarchy.Description</members>
+        <members>ExternalAccountHierarchy.HierarchyType</members>
+        <members>ExternalAccountHierarchy.IsAccessibleToParent</members>
+        <members>ExternalAccountHierarchy.IsActive</members>
+        <members>ExternalAccountHierarchy.Name</members>
+        <members>ExternalAccountHierarchy.OwnerId</members>
+        <members>ExternalAccountHierarchy.ParentId</members>
         <members>Feb21Obj1__c.F1__c</members>
         <members>Feb21Obj1__c.F2__c</members>
         <members>Feb22ndObj1__c.F1__c</members>
         <members>Feb22ndObj1__c.F2__c</members>
         <members>Feb26Obj123__c.F1__c</members>
+        <members>FlowOrchestrationInstance.OrchestrationDeveloperName</members>
+        <members>FlowOrchestrationInstance.OwnerId</members>
+        <members>FlowOrchestrationInstance.Status</members>
+        <members>FlowOrchestrationLog.Actor</members>
+        <members>FlowOrchestrationLog.Assignee</members>
+        <members>FlowOrchestrationLog.AssigneeType</members>
+        <members>FlowOrchestrationLog.Comments</members>
+        <members>FlowOrchestrationLog.Context</members>
+        <members>FlowOrchestrationLog.Duration</members>
+        <members>FlowOrchestrationLog.Kind</members>
+        <members>FlowOrchestrationLog.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationLog.OrchestrationName</members>
+        <members>FlowOrchestrationLog.OrchestrationVersion</members>
+        <members>FlowOrchestrationLog.StageName</members>
+        <members>FlowOrchestrationLog.StepName</members>
+        <members>FlowOrchestrationLog.Timestamp</members>
+        <members>FlowOrchestrationStageInstance.Label</members>
+        <members>FlowOrchestrationStageInstance.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationStageInstance.Status</members>
+        <members>FlowOrchestrationStepInstance.Label</members>
+        <members>FlowOrchestrationStepInstance.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationStepInstance.StageInstanceId</members>
+        <members>FlowOrchestrationStepInstance.Status</members>
+        <members>FlowOrchestrationWorkItem.AssigneeId</members>
+        <members>FlowOrchestrationWorkItem.Description</members>
+        <members>FlowOrchestrationWorkItem.Label</members>
+        <members>FlowOrchestrationWorkItem.OwnerId</members>
+        <members>FlowOrchestrationWorkItem.RelatedRecordId</members>
+        <members>FlowOrchestrationWorkItem.ScreenFlow</members>
+        <members>FlowOrchestrationWorkItem.Status</members>
+        <members>FlowOrchestrationWorkItem.StepInstanceId</members>
+        <members>ForecastingAdjustment.ForecastingItemCategory</members>
+        <members>ForecastingAdjustment.ProductFamily</members>
+        <members>ForecastingCategoryMapping.ForecastingItemCategory</members>
+        <members>ForecastingCustomData.CompositeKeyId</members>
+        <members>ForecastingCustomData.Name</members>
+        <members>ForecastingCustomData.ProductFamily</members>
+        <members>ForecastingOwnerAdjustment.ForecastingItemCategory</members>
+        <members>ForecastingOwnerAdjustment.ProductFamily</members>
+        <members>ForecastingQuota.ProductFamily</members>
+        <members>ForecastingTypeToCategory.ForecastingItemCategory</members>
         <members>GIRI_PROFILE_CO__c.F1__c</members>
         <members>GiriKaCustomObj__c.NamesMultiSelect__c</members>
         <members>GiriKaCustomObj__c.Names__c</members>
         <members>Giri_Custom_Setting_Protected__c.Giri_Custom_Setting_Protected_Field__c</members>
         <members>Giri_Custom_Setting__c.Giri_Custom_Setting_Field__c</members>
+        <members>GuestUserAnomalyEventStore.EventDate</members>
+        <members>GuestUserAnomalyEventStore.EventIdentifier</members>
+        <members>GuestUserAnomalyEventStore.RequestedEntities</members>
+        <members>GuestUserAnomalyEventStore.Score</members>
+        <members>GuestUserAnomalyEventStore.SoqlCommands</members>
+        <members>GuestUserAnomalyEventStore.SourceIp</members>
+        <members>GuestUserAnomalyEventStore.Summary</members>
+        <members>GuestUserAnomalyEventStore.TotalControllerEvents</members>
+        <members>GuestUserAnomalyEventStore.UserAgent</members>
+        <members>GuestUserAnomalyEventStore.UserId</members>
+        <members>GuestUserAnomalyEventStore.UserType</members>
         <members>HarishObject1__c.PhoneField1__c</members>
+        <members>Idea.Categories</members>
+        <members>Idea.Status</members>
+        <members>Image.AlternateText</members>
+        <members>Image.CapturedAngle</members>
+        <members>Image.ContentDocumentId</members>
+        <members>Image.ImageClass</members>
+        <members>Image.ImageClassObjectType</members>
+        <members>Image.ImageViewType</members>
+        <members>Image.IsActive</members>
+        <members>Image.Name</members>
+        <members>Image.Title</members>
+        <members>Image.Url</members>
+        <members>Individual.BirthDate</members>
+        <members>Individual.CanStorePiiElsewhere</members>
+        <members>Individual.ChildrenCount</members>
+        <members>Individual.ConsumerCreditScore</members>
+        <members>Individual.ConsumerCreditScoreProviderName</members>
+        <members>Individual.ConvictionsCount</members>
+        <members>Individual.DeathDate</members>
+        <members>Individual.HasOptedOutGeoTracking</members>
+        <members>Individual.HasOptedOutProcessing</members>
+        <members>Individual.HasOptedOutProfiling</members>
+        <members>Individual.HasOptedOutSolicit</members>
+        <members>Individual.HasOptedOutTracking</members>
+        <members>Individual.IndividualsAge</members>
+        <members>Individual.InfluencerRating</members>
+        <members>Individual.IsHomeOwner</members>
+        <members>Individual.MilitaryService</members>
+        <members>Individual.Name</members>
+        <members>Individual.Occupation</members>
+        <members>Individual.OwnerId</members>
+        <members>Individual.SendIndividualData</members>
+        <members>Individual.ShouldForget</members>
+        <members>Individual.Website</members>
         <members>Jan25obj1__c.F1__c</members>
         <members>Jan25obj1__c.F2__c</members>
         <members>K345__c.F1__c</members>
@@ -1148,14 +2025,56 @@
         <members>LB500obj2__c.f1__c</members>
         <members>LLC_BI_Loan__c.Tex_Field_1__c</members>
         <members>LLC_BI_Loan__c.Text_Area_1__c</members>
+        <members>Lead.Address</members>
+        <members>Lead.AnnualRevenue</members>
         <members>Lead.AutorabitExtId__c</members>
+        <members>Lead.CampaignId</members>
+        <members>Lead.CleanStatus</members>
+        <members>Lead.Company</members>
+        <members>Lead.CompanyDunsNumber</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.DandbCompanyId</members>
+        <members>Lead.Description</members>
+        <members>Lead.DoNotCall</members>
+        <members>Lead.Email</members>
+        <members>Lead.Fax</members>
+        <members>Lead.HasOptedOutOfEmail</members>
+        <members>Lead.HasOptedOutOfFax</members>
+        <members>Lead.IndividualId</members>
+        <members>Lead.Industry</members>
+        <members>Lead.Jigsaw</members>
+        <members>Lead.LastTransferDate</members>
         <members>Lead.LeadCustomFiled__c</members>
+        <members>Lead.LeadSource</members>
+        <members>Lead.MobilePhone</members>
+        <members>Lead.Name</members>
+        <members>Lead.NumberOfEmployees</members>
+        <members>Lead.OwnerId</members>
+        <members>Lead.PartnerAccountId</members>
+        <members>Lead.Phone</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
+        <members>Lead.Rating</members>
         <members>Lead.SICCode__c</members>
+        <members>Lead.Status</members>
+        <members>Lead.Title</members>
+        <members>Lead.Website</members>
+        <members>LeadCleanInfo.Industry</members>
+        <members>LearningItem.AssignedCount</members>
+        <members>LearningItem.CompletedCount</members>
+        <members>LearningItem.LearningContentId</members>
+        <members>LearningItem.LearningLinkId</members>
+        <members>LearningItem.Name</members>
+        <members>LearningItem.OwnerId</members>
+        <members>LearningItem.Type</members>
         <members>M11obj1__c.F1__c</members>
         <members>M11obj1__c.f2__c</members>
+        <members>Macro.Description</members>
+        <members>Macro.IsAlohaSupported</members>
+        <members>Macro.IsLightningSupported</members>
+        <members>Macro.Name</members>
+        <members>Macro.OwnerId</members>
+        <members>Macro.StartingContext</members>
         <members>Mar1811__c.f1__c</members>
         <members>Mar1811__c.f2__c</members>
         <members>Mar19SaiObj1__c.F1__c</members>
@@ -1175,6 +2094,7 @@
         <members>NA23Obj2__c.Field1__c</members>
         <members>NA23obj3__c.Field1__c</members>
         <members>NS25Obj1__c.Field1__c</members>
+        <members>NamespaceRegistry.NamespacePrefix</members>
         <members>NewObj1__c.F1__c</members>
         <members>NewObj2__c.Field1__c</members>
         <members>NewObj600__c.Field1__c</members>
@@ -1199,27 +2119,202 @@
         <members>Oct14Test1__c.F2__c</members>
         <members>Oct23obj1__c.field1__c</members>
         <members>Oobj1__c.f__c</members>
+        <members>Opportunity.AccountId</members>
+        <members>Opportunity.Amount</members>
         <members>Opportunity.AutorabitExtId__c</members>
+        <members>Opportunity.CampaignId</members>
+        <members>Opportunity.CloseDate</members>
+        <members>Opportunity.ContractId</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Description</members>
+        <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.IqScore</members>
+        <members>Opportunity.IsExcludedFromTerritory2Filter</members>
+        <members>Opportunity.IsPrivate</members>
         <members>Opportunity.Is_this_a_duplicate__c</members>
+        <members>Opportunity.LeadSource</members>
         <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.Name</members>
+        <members>Opportunity.NextStep</members>
         <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.OwnerId</members>
+        <members>Opportunity.PartnerAccountId</members>
+        <members>Opportunity.Pricebook2Id</members>
+        <members>Opportunity.Probability</members>
+        <members>Opportunity.StageName</members>
+        <members>Opportunity.Territory2Id</members>
         <members>Opportunity.TmobileDemo__c</members>
+        <members>Opportunity.TotalOpportunityQuantity</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.Type</members>
+        <members>OpportunityCompetitor.CompetitorName</members>
+        <members>OpportunityContactRole.ContactId</members>
+        <members>OpportunityContactRole.IsPrimary</members>
+        <members>OpportunityContactRole.OpportunityId</members>
+        <members>OpportunityContactRole.Role</members>
+        <members>OpportunityLineItem.Description</members>
+        <members>OpportunityLineItem.Discount</members>
+        <members>OpportunityLineItem.ListPrice</members>
+        <members>OpportunityLineItem.Name</members>
+        <members>OpportunityLineItem.OpportunityId</members>
+        <members>OpportunityLineItem.Product2Id</members>
+        <members>OpportunityLineItem.ProductCode</members>
+        <members>OpportunityLineItem.Quantity</members>
+        <members>OpportunityLineItem.ServiceDate</members>
+        <members>OpportunityLineItem.Subtotal</members>
+        <members>OpportunityLineItem.TotalPrice</members>
+        <members>OpportunityLineItem.UnitPrice</members>
         <members>Opportunity_historyreport__c.OpportunityNumber__c</members>
+        <members>Order.AccountId</members>
+        <members>Order.AccountNumber</members>
+        <members>Order.ActivatedById</members>
+        <members>Order.ActivatedDate</members>
+        <members>Order.BillToContactId</members>
+        <members>Order.BillingAddress</members>
+        <members>Order.CompanyAuthorizedById</members>
+        <members>Order.CompanyAuthorizedDate</members>
+        <members>Order.ContractEndDate</members>
+        <members>Order.ContractId</members>
+        <members>Order.ContractName</members>
+        <members>Order.CustomerAuthorizedById</members>
+        <members>Order.CustomerAuthorizedDate</members>
+        <members>Order.Description</members>
+        <members>Order.EffectiveDate</members>
+        <members>Order.EndDate</members>
+        <members>Order.IsReductionOrder</members>
+        <members>Order.Name</members>
+        <members>Order.OpportunityId</members>
+        <members>Order.OrderReferenceNumber</members>
+        <members>Order.OriginalOrderId</members>
+        <members>Order.OwnerId</members>
+        <members>Order.PoDate</members>
+        <members>Order.PoNumber</members>
+        <members>Order.Pricebook2Id</members>
+        <members>Order.ShipToContactId</members>
+        <members>Order.ShippingAddress</members>
+        <members>Order.Status</members>
+        <members>Order.TotalAmount</members>
+        <members>Order.Type</members>
+        <members>OrderItem.AvailableQuantity</members>
+        <members>OrderItem.Description</members>
+        <members>OrderItem.EndDate</members>
+        <members>OrderItem.ListPrice</members>
+        <members>OrderItem.OrderId</members>
+        <members>OrderItem.OriginalOrderItemId</members>
+        <members>OrderItem.Product2Id</members>
+        <members>OrderItem.ProductCode</members>
+        <members>OrderItem.Quantity</members>
+        <members>OrderItem.ServiceDate</members>
+        <members>OrderItem.SubscriptionTerm</members>
+        <members>OrderItem.TotalPrice</members>
+        <members>OrderItem.UnitPrice</members>
+        <members>OrgMetricScanResult.ItemStatus</members>
+        <members>OrgMetricScanSummary.ErrorMessage</members>
+        <members>OrgMetricScanSummary.ImplementationEffort</members>
+        <members>OrgMetricScanSummary.Status</members>
         <members>PIcklistObject1__c.PIcklistfield1__c</members>
         <members>PIcklistObject2__c.Pf1__c</members>
         <members>PackObj1__c.F1__c</members>
         <members>PackObj1__c.F2__c</members>
+        <members>PartnerFundAllocation.Amount</members>
+        <members>PartnerFundAllocation.BudgetId</members>
+        <members>PartnerFundAllocation.ChannelPartnerId</members>
+        <members>PartnerFundAllocation.Description</members>
+        <members>PartnerFundAllocation.OwnerId</members>
+        <members>PartnerFundAllocation.Title</members>
+        <members>PartnerFundAllocation.TotalApprovedFcs</members>
+        <members>PartnerFundAllocation.TotalApprovedFrs</members>
+        <members>PartnerFundAllocation.TotalReimbursedFcs</members>
+        <members>PartnerFundClaim.AllocationId</members>
+        <members>PartnerFundClaim.Amount</members>
+        <members>PartnerFundClaim.BudgetId</members>
+        <members>PartnerFundClaim.ChannelPartnerId</members>
+        <members>PartnerFundClaim.Description</members>
+        <members>PartnerFundClaim.OwnerId</members>
+        <members>PartnerFundClaim.RequestId</members>
+        <members>PartnerFundClaim.Status</members>
+        <members>PartnerFundClaim.Title</members>
+        <members>PartnerFundRequest.Activity</members>
+        <members>PartnerFundRequest.AllocationId</members>
+        <members>PartnerFundRequest.Amount</members>
+        <members>PartnerFundRequest.BudgetId</members>
+        <members>PartnerFundRequest.CampaignId</members>
+        <members>PartnerFundRequest.ChannelPartnerId</members>
+        <members>PartnerFundRequest.Description</members>
+        <members>PartnerFundRequest.DesiredOutcome</members>
+        <members>PartnerFundRequest.OwnerId</members>
+        <members>PartnerFundRequest.RequestedAmount</members>
+        <members>PartnerFundRequest.Status</members>
+        <members>PartnerFundRequest.Title</members>
+        <members>PartnerFundRequest.TotalApprovedFcs</members>
+        <members>PartnerFundRequest.TotalReimbursedFcs</members>
+        <members>PartnerMarketingBudget.Amount</members>
+        <members>PartnerMarketingBudget.ChannelPartnerId</members>
+        <members>PartnerMarketingBudget.Description</members>
+        <members>PartnerMarketingBudget.EndDate</members>
+        <members>PartnerMarketingBudget.IsIgnoreValidation</members>
+        <members>PartnerMarketingBudget.OwnerId</members>
+        <members>PartnerMarketingBudget.ParentMdfBudgetId</members>
+        <members>PartnerMarketingBudget.StartDate</members>
+        <members>PartnerMarketingBudget.Title</members>
+        <members>PartnerMarketingBudget.TotalAllocatedAmount</members>
+        <members>PartnerMarketingBudget.TotalApprovedFcs</members>
+        <members>PartnerMarketingBudget.TotalApprovedFrs</members>
+        <members>PartnerMarketingBudget.TotalReimbursedFcs</members>
+        <members>PartnerMarketingBudget.Type</members>
+        <members>PartnerRole.ReverseRole</members>
+        <members>PartyConsent.Action</members>
+        <members>PartyConsent.BusinessBrandId</members>
+        <members>PartyConsent.CaptureContactPointType</members>
+        <members>PartyConsent.CaptureDate</members>
+        <members>PartyConsent.CaptureSource</members>
+        <members>PartyConsent.DataUsePurposeId</members>
+        <members>PartyConsent.DoubleConsentCaptureDate</members>
+        <members>PartyConsent.EffectiveFrom</members>
+        <members>PartyConsent.EffectiveTo</members>
+        <members>PartyConsent.Name</members>
+        <members>PartyConsent.OwnerId</members>
+        <members>PartyConsent.PartyId</members>
+        <members>PartyConsent.PartyRoleId</members>
+        <members>PartyConsent.PrivacyConsentStatus</members>
         <members>PradeepObj1__c.F1__c</members>
+        <members>Pricebook2.Description</members>
+        <members>Pricebook2.IsActive</members>
+        <members>Pricebook2.IsStandard</members>
+        <members>Pricebook2.Name</members>
+        <members>PricebookEntry.IsActive</members>
+        <members>PricebookEntry.Pricebook2Id</members>
+        <members>PricebookEntry.Product2Id</members>
+        <members>PricebookEntry.ProductCode</members>
+        <members>PricebookEntry.StandardPrice</members>
+        <members>PricebookEntry.UnitPrice</members>
+        <members>PricebookEntry.UseStandardPrice</members>
         <members>Product2.AutorabitExtId__c</members>
+        <members>Product2.Description</members>
+        <members>Product2.DisplayUrl</members>
+        <members>Product2.ExternalDataSourceId</members>
+        <members>Product2.ExternalId</members>
+        <members>Product2.Family</members>
+        <members>Product2.IsActive</members>
+        <members>Product2.Name</members>
+        <members>Product2.ProductCode</members>
+        <members>Product2.QuantityUnitOfMeasure</members>
+        <members>Product2.StockKeepingUnit</members>
+        <members>ProductConsumptionSchedule.ConsumptionScheduleId</members>
+        <members>ProductConsumptionSchedule.ProductId</members>
         <members>QAobj500__c.f1__c</members>
         <members>QAobj501__c.F2__c</members>
         <members>QAobj501__c.F3__c</members>
         <members>QAobj501__c.f1__c</members>
         <members>QObj2__c.AutorabitExtId__c</members>
         <members>QObj2__c.field1__c</members>
+        <members>QuickText.Category</members>
+        <members>QuickText.Channel</members>
+        <members>QuickText.IsInsertable</members>
+        <members>QuickText.Message</members>
+        <members>QuickText.Name</members>
+        <members>QuickText.OwnerId</members>
         <members>RC1__c.F1__c</members>
         <members>RLObject1__c.RLObject1Field1__c</members>
         <members>RLObject1__c.RLObject1Field2__c</members>
@@ -1235,6 +2330,31 @@
         <members>ROb1__c.RobField1__c</members>
         <members>RTObj2__c.f1__c</members>
         <members>RTObj2__c.f2__c</members>
+        <members>Recommendation.AcceptanceLabel</members>
+        <members>Recommendation.ActionReference</members>
+        <members>Recommendation.Description</members>
+        <members>Recommendation.ImageId</members>
+        <members>Recommendation.IsActionActive</members>
+        <members>Recommendation.Name</members>
+        <members>Recommendation.RejectionLabel</members>
+        <members>RecordAction.ActionDefinition</members>
+        <members>RecordAction.ActionType</members>
+        <members>RecordAction.FlowDefinition</members>
+        <members>RecordAction.FlowInterviewId</members>
+        <members>RecordAction.IsMandatory</members>
+        <members>RecordAction.IsUiRemoveHidden</members>
+        <members>RecordAction.Order</members>
+        <members>RecordAction.Pinned</members>
+        <members>RecordAction.RecordId</members>
+        <members>RecordAction.Status</members>
+        <members>ReportAnomalyEventStore.EventDate</members>
+        <members>ReportAnomalyEventStore.EventIdentifier</members>
+        <members>ReportAnomalyEventStore.Report</members>
+        <members>ReportAnomalyEventStore.Score</members>
+        <members>ReportAnomalyEventStore.SecurityEventData</members>
+        <members>ReportAnomalyEventStore.SourceIp</members>
+        <members>ReportAnomalyEventStore.Summary</members>
+        <members>ReportAnomalyEventStore.UserId</members>
         <members>SB100__c.F1__c</members>
         <members>SB100__c.Field2__c</members>
         <members>SBM1__c.F1__c</members>
@@ -1643,6 +2763,54 @@
         <members>Sbapr23object1__c.PF2__c</members>
         <members>Sbapr23object1__c.f1__c</members>
         <members>Sbapr23object1__c.pf1__c</members>
+        <members>Scorecard.Description</members>
+        <members>Scorecard.Name</members>
+        <members>Scorecard.OwnerId</members>
+        <members>ScorecardAssociation.ScorecardId</members>
+        <members>ScorecardAssociation.TargetEntityId</members>
+        <members>ScorecardMetric.Category</members>
+        <members>ScorecardMetric.Description</members>
+        <members>ScorecardMetric.Name</members>
+        <members>ScorecardMetric.ReportId</members>
+        <members>ScorecardMetric.ScorecardId</members>
+        <members>ScratchOrgInfo.AdminEmail</members>
+        <members>ScratchOrgInfo.AuthCode</members>
+        <members>ScratchOrgInfo.ConnectedAppCallbackUrl</members>
+        <members>ScratchOrgInfo.ConnectedAppConsumerKey</members>
+        <members>ScratchOrgInfo.Country</members>
+        <members>ScratchOrgInfo.DeletedBy</members>
+        <members>ScratchOrgInfo.DeletedDate</members>
+        <members>ScratchOrgInfo.Description</members>
+        <members>ScratchOrgInfo.Edition</members>
+        <members>ScratchOrgInfo.ErrorCode</members>
+        <members>ScratchOrgInfo.ExpirationDate</members>
+        <members>ScratchOrgInfo.Features</members>
+        <members>ScratchOrgInfo.Instance</members>
+        <members>ScratchOrgInfo.Language</members>
+        <members>ScratchOrgInfo.LastLoginDate</members>
+        <members>ScratchOrgInfo.Name</members>
+        <members>ScratchOrgInfo.Namespace</members>
+        <members>ScratchOrgInfo.OrgName</members>
+        <members>ScratchOrgInfo.Package2AncestorIds</members>
+        <members>ScratchOrgInfo.Release</members>
+        <members>ScratchOrgInfo.ScratchOrg</members>
+        <members>ScratchOrgInfo.SignupCountry</members>
+        <members>ScratchOrgInfo.SignupEmail</members>
+        <members>ScratchOrgInfo.SignupInstance</members>
+        <members>ScratchOrgInfo.SignupLanguage</members>
+        <members>ScratchOrgInfo.SignupTrialDays</members>
+        <members>ScratchOrgInfo.SignupUsername</members>
+        <members>ScratchOrgInfo.SourceOrg</members>
+        <members>ScratchOrgInfo.Status</members>
+        <members>ScratchOrgInfo.Username</members>
+        <members>Seller.ActiveFromDate</members>
+        <members>Seller.ActiveToDate</members>
+        <members>Seller.Name</members>
+        <members>Seller.OwnerId</members>
+        <members>Seller.PartyId</members>
+        <members>Seller.SalesAmount</members>
+        <members>Seller.SellerTier</members>
+        <members>Seller.SellerType</members>
         <members>Sep15Obj2__c.F2__c</members>
         <members>Sep23rdObj1__c.F8__c</members>
         <members>Sep2ndObj2__c.f2__c</members>
@@ -1653,13 +2821,117 @@
         <members>Sep_15_ob1__c.Sep_F1__c</members>
         <members>Sep_15_ob1__c.Sep_F2__c</members>
         <members>Sep_15_ob1__c.Sep_F3__c</members>
+        <members>ServiceContract.AccountId</members>
+        <members>ServiceContract.ActivationDate</members>
+        <members>ServiceContract.AdditionalDiscount</members>
+        <members>ServiceContract.ApprovalStatus</members>
+        <members>ServiceContract.BillingAddress</members>
+        <members>ServiceContract.ContactId</members>
+        <members>ServiceContract.Description</members>
+        <members>ServiceContract.Discount</members>
+        <members>ServiceContract.EndDate</members>
+        <members>ServiceContract.GrandTotal</members>
+        <members>ServiceContract.LineItemCount</members>
+        <members>ServiceContract.Name</members>
+        <members>ServiceContract.OwnerId</members>
+        <members>ServiceContract.ParentServiceContractId</members>
+        <members>ServiceContract.Pricebook2Id</members>
+        <members>ServiceContract.RootServiceContractId</members>
+        <members>ServiceContract.ShippingAddress</members>
+        <members>ServiceContract.ShippingHandling</members>
+        <members>ServiceContract.SpecialTerms</members>
+        <members>ServiceContract.StartDate</members>
+        <members>ServiceContract.Status</members>
+        <members>ServiceContract.StatusIndicator</members>
+        <members>ServiceContract.Subtotal</members>
+        <members>ServiceContract.Tax</members>
+        <members>ServiceContract.Term</members>
+        <members>ServiceContract.TotalPrice</members>
+        <members>ServiceResource.AccountId</members>
+        <members>ServiceResource.Description</members>
+        <members>ServiceResource.IsActive</members>
+        <members>ServiceResource.Name</members>
+        <members>ServiceResource.OwnerId</members>
+        <members>ServiceResource.RelatedRecordId</members>
+        <members>ServiceResource.ResourceType</members>
+        <members>SessionHijackingEventStore.CurrentIp</members>
+        <members>SessionHijackingEventStore.CurrentPlatform</members>
+        <members>SessionHijackingEventStore.CurrentScreen</members>
+        <members>SessionHijackingEventStore.CurrentUserAgent</members>
+        <members>SessionHijackingEventStore.CurrentWindow</members>
+        <members>SessionHijackingEventStore.EventDate</members>
+        <members>SessionHijackingEventStore.EventIdentifier</members>
+        <members>SessionHijackingEventStore.PreviousIp</members>
+        <members>SessionHijackingEventStore.PreviousPlatform</members>
+        <members>SessionHijackingEventStore.PreviousScreen</members>
+        <members>SessionHijackingEventStore.PreviousUserAgent</members>
+        <members>SessionHijackingEventStore.PreviousWindow</members>
+        <members>SessionHijackingEventStore.Score</members>
+        <members>SessionHijackingEventStore.SecurityEventData</members>
+        <members>SessionHijackingEventStore.SourceIp</members>
+        <members>SessionHijackingEventStore.Summary</members>
+        <members>SessionHijackingEventStore.UserId</members>
         <members>Sob1__c.SF1__c</members>
         <members>Sob1__c.SF2__c</members>
         <members>Sob1__c.SF3__c</members>
         <members>Sobj1new__c.F1__c</members>
         <members>Sobj98__c.F1__c</members>
         <members>Sobj98__c.F2__c</members>
+        <members>SocialPersona.ExternalId</members>
+        <members>SocialPersona.ExternalPictureURL</members>
+        <members>SocialPersona.Name</members>
+        <members>SocialPersona.ParentId</members>
+        <members>SocialPersona.ProfileUrl</members>
+        <members>SocialPersona.Provider</members>
+        <members>SocialPersona.SourceApp</members>
+        <members>Solution.IsPublished</members>
+        <members>Solution.IsPublishedInPublicKb</members>
+        <members>Solution.SolutionName</members>
+        <members>Solution.SolutionNote</members>
+        <members>Solution.Status</members>
         <members>TFSObject2__c.TFField1__c</members>
+        <members>Task.ActivityDate</members>
+        <members>Task.CallDisposition</members>
+        <members>Task.CallDurationInSeconds</members>
+        <members>Task.CallObject</members>
+        <members>Task.CallType</members>
+        <members>Task.CompletedDateTime</members>
+        <members>Task.Description</members>
+        <members>Task.Email</members>
+        <members>Task.IsRecurrence</members>
+        <members>Task.IsReminderSet</members>
+        <members>Task.IsVisibleInSelfService</members>
+        <members>Task.OwnerId</members>
+        <members>Task.Phone</members>
+        <members>Task.Priority</members>
+        <members>Task.RecurrenceInterval</members>
+        <members>Task.RecurrenceRegeneratedType</members>
+        <members>Task.Status</members>
+        <members>Task.Subject</members>
+        <members>Task.TaskSubtype</members>
+        <members>Task.Type</members>
+        <members>Task.WhatId</members>
+        <members>Task.WhoId</members>
+        <members>Territory2.AccountAccessLevel</members>
+        <members>Territory2.CaseAccessLevel</members>
+        <members>Territory2.ContactAccessLevel</members>
+        <members>Territory2.Description</members>
+        <members>Territory2.DeveloperName</members>
+        <members>Territory2.ForecastUserId</members>
+        <members>Territory2.Name</members>
+        <members>Territory2.OpportunityAccessLevel</members>
+        <members>Territory2.ParentTerritory2Id</members>
+        <members>Territory2.Territory2ModelId</members>
+        <members>Territory2.Territory2TypeId</members>
+        <members>Territory2Model.ActivatedDate</members>
+        <members>Territory2Model.DeactivatedDate</members>
+        <members>Territory2Model.Description</members>
+        <members>Territory2Model.DeveloperName</members>
+        <members>Territory2Model.IsCloneSource</members>
+        <members>Territory2Model.LastOppTerrAssignEndDate</members>
+        <members>Territory2Model.LastRunRulesEndDate</members>
+        <members>Territory2Model.Name</members>
+        <members>Territory2Model.State</members>
         <members>Test1obj1__c.Field1__c</members>
         <members>Test1obj1__c.Field2__c</members>
         <members>TestACObj1__c.TestFeidl3__c</members>
@@ -1671,12 +2943,151 @@
         <members>TitansARMSprint1__c.TitansARMSDate__c</members>
         <members>UOBJ1__c.Field1__c</members>
         <members>Unique_Giriraj_Object__c.text_field__c</members>
+        <members>User.AboutMe</members>
+        <members>User.Address</members>
+        <members>User.Alias</members>
+        <members>User.CallCenterId</members>
+        <members>User.CommunityNickname</members>
+        <members>User.CompanyName</members>
+        <members>User.ContactId</members>
+        <members>User.DefaultGroupNotificationFrequency</members>
+        <members>User.DelegatedApproverId</members>
+        <members>User.Department</members>
+        <members>User.DigestFrequency</members>
+        <members>User.Division</members>
+        <members>User.Email</members>
+        <members>User.EmailEncodingKey</members>
+        <members>User.EmployeeNumber</members>
+        <members>User.Extension</members>
+        <members>User.Fax</members>
+        <members>User.FederationIdentifier</members>
+        <members>User.ForecastEnabled</members>
+        <members>User.IndividualId</members>
+        <members>User.IsActive</members>
+        <members>User.IsSystemControlled</members>
+        <members>User.JigsawImportLimitOverride</members>
+        <members>User.LanguageLocaleKey</members>
+        <members>User.LocaleSidKey</members>
+        <members>User.ManagerId</members>
+        <members>User.MobilePhone</members>
+        <members>User.Name</members>
+        <members>User.Phone</members>
+        <members>User.PortalRole</members>
+        <members>User.ProfileId</members>
+        <members>User.ReceivesAdminInfoEmails</members>
+        <members>User.ReceivesInfoEmails</members>
+        <members>User.SenderEmail</members>
+        <members>User.SenderName</members>
+        <members>User.Signature</members>
+        <members>User.StayInTouchNote</members>
+        <members>User.StayInTouchSignature</members>
+        <members>User.StayInTouchSubject</members>
+        <members>User.TimeZoneSidKey</members>
+        <members>User.Title</members>
+        <members>User.UserRoleId</members>
+        <members>User.UserSubtype</members>
+        <members>User.Username</members>
+        <members>User.WorkspaceId</members>
+        <members>UserProvisioningRequest.AppName</members>
+        <members>UserProvisioningRequest.ApprovalStatus</members>
+        <members>UserProvisioningRequest.ConnectedAppId</members>
+        <members>UserProvisioningRequest.ManagerId</members>
+        <members>UserProvisioningRequest.Operation</members>
+        <members>UserProvisioningRequest.OwnerId</members>
+        <members>UserProvisioningRequest.ParentId</members>
+        <members>UserProvisioningRequest.RetryCount</members>
+        <members>UserProvisioningRequest.SalesforceUserId</members>
+        <members>UserProvisioningRequest.State</members>
+        <members>UserProvisioningRequest.UserProvAccountId</members>
+        <members>UserServicePresence.AtCapacityDuration</members>
+        <members>UserServicePresence.AtCapacityStartTime</members>
+        <members>UserServicePresence.AverageCapacity</members>
+        <members>UserServicePresence.AverageCapacityStartTime</members>
+        <members>UserServicePresence.Capacity</members>
+        <members>UserServicePresence.ClusterId</members>
+        <members>UserServicePresence.ConfiguredCapacity</members>
+        <members>UserServicePresence.ConfiguredInterruptCapacity</members>
+        <members>UserServicePresence.IdleDuration</members>
+        <members>UserServicePresence.IdleStartTime</members>
+        <members>UserServicePresence.InterruptibleCapacity</members>
+        <members>UserServicePresence.IsAway</members>
+        <members>UserServicePresence.IsCurrentState</members>
+        <members>UserServicePresence.LASessionId</members>
+        <members>UserServicePresence.OwnerId</members>
+        <members>UserServicePresence.PresenceUserConfig</members>
+        <members>UserServicePresence.PreviousCapacity</members>
+        <members>UserServicePresence.PreviousInterruptibleCapacity</members>
+        <members>UserServicePresence.ServicePresenceStatusId</members>
+        <members>UserServicePresence.StatusEndDate</members>
+        <members>UserServicePresence.StatusSequence</members>
+        <members>UserServicePresence.StatusStartDate</members>
+        <members>UserServicePresence.UserId</members>
+        <members>UserTerritory2Association.RoleInTerritory2</members>
         <members>V098__c.f1__c</members>
         <members>V1__c.field1__c</members>
         <members>V1__c.field2__c</members>
         <members>Vob3__c.VField1__c</members>
         <members>Vob90__c.f1__c</members>
         <members>Vobj1__c.Vfeidl1__c</members>
+        <members>WorkOrder.AccountId</members>
+        <members>WorkOrder.Address</members>
+        <members>WorkOrder.AssetId</members>
+        <members>WorkOrder.BusinessHoursId</members>
+        <members>WorkOrder.CaseId</members>
+        <members>WorkOrder.ContactId</members>
+        <members>WorkOrder.Description</members>
+        <members>WorkOrder.Discount</members>
+        <members>WorkOrder.Duration</members>
+        <members>WorkOrder.DurationType</members>
+        <members>WorkOrder.EndDate</members>
+        <members>WorkOrder.EntitlementId</members>
+        <members>WorkOrder.GrandTotal</members>
+        <members>WorkOrder.IsClosed</members>
+        <members>WorkOrder.IsStopped</members>
+        <members>WorkOrder.LineItemCount</members>
+        <members>WorkOrder.MilestoneStatus</members>
+        <members>WorkOrder.MilestoneStatusIcon</members>
+        <members>WorkOrder.OwnerId</members>
+        <members>WorkOrder.ParentWorkOrderId</members>
+        <members>WorkOrder.Pricebook2Id</members>
+        <members>WorkOrder.Priority</members>
+        <members>WorkOrder.RootWorkOrderId</members>
+        <members>WorkOrder.ServiceAppointmentCount</members>
+        <members>WorkOrder.ServiceContractId</members>
+        <members>WorkOrder.SlaExitDate</members>
+        <members>WorkOrder.SlaStartDate</members>
+        <members>WorkOrder.StartDate</members>
+        <members>WorkOrder.Status</members>
+        <members>WorkOrder.StatusCategory</members>
+        <members>WorkOrder.StopStartDate</members>
+        <members>WorkOrder.Subject</members>
+        <members>WorkOrder.Subtotal</members>
+        <members>WorkOrder.Tax</members>
+        <members>WorkOrder.TotalPrice</members>
+        <members>WorkOrderLineItem.Address</members>
+        <members>WorkOrderLineItem.AssetId</members>
+        <members>WorkOrderLineItem.Description</members>
+        <members>WorkOrderLineItem.Discount</members>
+        <members>WorkOrderLineItem.Duration</members>
+        <members>WorkOrderLineItem.DurationType</members>
+        <members>WorkOrderLineItem.EndDate</members>
+        <members>WorkOrderLineItem.IsClosed</members>
+        <members>WorkOrderLineItem.ListPrice</members>
+        <members>WorkOrderLineItem.OrderId</members>
+        <members>WorkOrderLineItem.ParentWorkOrderLineItemId</members>
+        <members>WorkOrderLineItem.PricebookEntryId</members>
+        <members>WorkOrderLineItem.Priority</members>
+        <members>WorkOrderLineItem.Quantity</members>
+        <members>WorkOrderLineItem.RootWorkOrderLineItemId</members>
+        <members>WorkOrderLineItem.ServiceAppointmentCount</members>
+        <members>WorkOrderLineItem.StartDate</members>
+        <members>WorkOrderLineItem.Status</members>
+        <members>WorkOrderLineItem.StatusCategory</members>
+        <members>WorkOrderLineItem.Subject</members>
+        <members>WorkOrderLineItem.Subtotal</members>
+        <members>WorkOrderLineItem.TotalPrice</members>
+        <members>WorkOrderLineItem.UnitPrice</members>
+        <members>WorkOrderLineItem.WorkOrderId</members>
         <members>X38737_Custom_Object_2__c.X42782_global_pick_list_field_2__c</members>
         <members>X38737_Custom_Object__c.CustomField38737__c</members>
         <members>X38737_Custom_Object__c.X38737_Custom_Field_2__c</members>
@@ -2143,32 +3554,79 @@
         <members>Accobj4__c</members>
         <members>Account</members>
         <members>AccountAPP1__c</members>
+        <members>AccountBrand</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRelation</members>
+        <members>AccountContactRole</members>
+        <members>AccountRelationship</members>
+        <members>AccountTeamMember</members>
         <members>Account_Address__c</members>
         <members>AcntrObj1__c</members>
+        <members>ActiveScratchOrg</members>
+        <members>Activity</members>
+        <members>AgentWork</members>
         <members>Aobj2__c</members>
+        <members>ApiAnomalyEventStore</members>
         <members>Apr13DXobj1__c</members>
         <members>Apr13Obj1__c</members>
         <members>Apr14_Test1__c</members>
         <members>Apr14_Test2__c</members>
         <members>Ar1__c</members>
+        <members>Asset</members>
+        <members>AssetRelationship</members>
+        <members>AssistantProgress</members>
         <members>Aug12Obj23__c</members>
         <members>Aug12obj1__c</members>
         <members>Aug22test__mdt</members>
         <members>Aug29_Obj1__c</members>
         <members>Aug2ndObj1__c</members>
         <members>Aug7__c</members>
+        <members>AuthorizationForm</members>
+        <members>AuthorizationFormConsent</members>
+        <members>AuthorizationFormDataUse</members>
+        <members>AuthorizationFormText</members>
         <members>BigHack__b</members>
         <members>Bj1__c</members>
+        <members>BusinessBrand</members>
         <members>CAObj1__c</members>
         <members>CAcobj1__c</members>
         <members>CSObj1__c</members>
         <members>CTobj__mdt</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>CaseMilestone</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
+        <members>ChannelProgramMember</members>
+        <members>ChatterActivity</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
+        <members>CommSubscription</members>
+        <members>CommSubscriptionChannelType</members>
+        <members>ConsumptionRate</members>
+        <members>ConsumptionSchedule</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c</members>
+        <members>ContactPointTypeConsent</members>
+        <members>ContactRequest</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>ContractLineItem</members>
+        <members>CredentialStuffingEventStore</members>
+        <members>Customer</members>
         <members>DLConfigTestObj__c</members>
         <members>DObj2__c</members>
         <members>DXObj2__c</members>
+        <members>DandBCompany</members>
         <members>DataLoader__c</members>
+        <members>DataUseLegalBasis</members>
+        <members>DataUsePurpose</members>
         <members>Dbj1__c</members>
+        <members>DelegatedAccount</members>
         <members>Demo4Obj7__c</members>
         <members>DemoObj007__c</members>
         <members>DemoObject__c</members>
@@ -2176,16 +3634,45 @@
         <members>Desobj2__c</members>
         <members>DlConfigObj151__c</members>
         <members>Dobj3__c</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
         <members>EC_AccObj1__c</members>
         <members>EObj1__c</members>
+        <members>EmailMessage</members>
+        <members>EngagementChannelType</members>
+        <members>Entitlement</members>
+        <members>EntitlementContact</members>
+        <members>EntityMilestone</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>ExpressionFilter</members>
+        <members>ExpressionFilterCriteria</members>
+        <members>ExternalAccountHierarchy</members>
+        <members>ExternalEventMapping</members>
         <members>Feb21Obj1__c</members>
         <members>Feb22ndObj1__c</members>
         <members>Feb26Obj123__c</members>
+        <members>FeedItem</members>
+        <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationLog</members>
+        <members>FlowOrchestrationStageInstance</members>
+        <members>FlowOrchestrationStepInstance</members>
+        <members>FlowOrchestrationWorkItem</members>
+        <members>ForecastingAdjustment</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>ForecastingCustomData</members>
+        <members>ForecastingOwnerAdjustment</members>
+        <members>ForecastingQuota</members>
+        <members>ForecastingTypeToCategory</members>
         <members>GIRI_PROFILE_CO__c</members>
         <members>GiriKaCustomObj__c</members>
         <members>Giri_Custom_Setting_Protected__c</members>
         <members>Giri_Custom_Setting__c</members>
+        <members>GuestUserAnomalyEventStore</members>
         <members>HarishObject1__c</members>
+        <members>Idea</members>
+        <members>Image</members>
+        <members>Individual</members>
         <members>Jan25obj1__c</members>
         <members>Jun01Obj1__c</members>
         <members>Juno2Obj2__c</members>
@@ -2197,8 +3684,18 @@
         <members>LB500obj1__c</members>
         <members>LB500obj2__c</members>
         <members>LLC_BI_Loan__c</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>LearningAssignment</members>
+        <members>LearningAssignmentProgress</members>
+        <members>LearningItem</members>
+        <members>LearningLinkProgress</members>
         <members>Lobj45__c</members>
         <members>M11obj1__c</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>MacroUsage</members>
         <members>Mar1811__c</members>
         <members>Mar19SaiObj1__c</members>
         <members>Mar20Obj2__c</members>
@@ -2215,6 +3712,9 @@
         <members>NA23obj3__c</members>
         <members>NN1__c</members>
         <members>NS25Obj1__c</members>
+        <members>NamespaceRegistry</members>
+        <members>NetworkMember</members>
+        <members>NetworkMemberChunk</members>
         <members>NewCustObj1__c</members>
         <members>NewObj1__c</members>
         <members>NewObj2__c</members>
@@ -2235,16 +3735,41 @@
         <members>Oct14Test1__c</members>
         <members>Oct23obj1__c</members>
         <members>Oobj1__c</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>OpportunityRelatedDeleteLog</members>
         <members>Opportunity_historyreport__c</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>OrgDeleteRequest</members>
+        <members>OrgMetricScanResult</members>
+        <members>OrgMetricScanSummary</members>
         <members>PG_Metric__c</members>
         <members>PIcklistObject1__c</members>
         <members>PIcklistObject2__c</members>
         <members>PackObj1__c</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
+        <members>PartnerRole</members>
+        <members>PartyConsent</members>
+        <members>PendingServiceRouting</members>
         <members>PradeepObj1__c</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>ProductConsumptionSchedule</members>
+        <members>PromptAction</members>
+        <members>PromptError</members>
         <members>QAobj500__c</members>
         <members>QAobj501__c</members>
         <members>QAobj9__c</members>
         <members>QObj2__c</members>
+        <members>QuickText</members>
+        <members>QuickTextUsage</members>
         <members>RC1__c</members>
         <members>RLObject1__c</members>
         <members>RLObject2__c</members>
@@ -2252,6 +3777,10 @@
         <members>RTObj2__c</members>
         <members>Rahul22__c</members>
         <members>Rahul_1__c</members>
+        <members>Recommendation</members>
+        <members>RecordAction</members>
+        <members>RecordMergeHistory</members>
+        <members>ReportAnomalyEventStore</members>
         <members>S1__c</members>
         <members>SB100__c</members>
         <members>SBM1__c</members>
@@ -2308,6 +3837,11 @@
         <members>SaoObj900__c</members>
         <members>Sb1__c</members>
         <members>Sbapr23object1__c</members>
+        <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
+        <members>ScorecardMetric</members>
+        <members>ScratchOrgInfo</members>
+        <members>Seller</members>
         <members>Sep15Obj2__c</members>
         <members>Sep23rdObj1__c</members>
         <members>Sep2ndObj1__c</members>
@@ -2316,12 +3850,23 @@
         <members>Sep8thObj1__c</members>
         <members>SepObj2__c</members>
         <members>Sep_15_ob1__c</members>
+        <members>ServiceContract</members>
+        <members>ServiceResource</members>
+        <members>SessionHijackingEventStore</members>
+        <members>Site</members>
         <members>Sob1__c</members>
         <members>Sobj1new__c</members>
         <members>Sobj98__c</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
         <members>T12345__c</members>
         <members>T1234__c</members>
         <members>TFSObject2__c</members>
+        <members>TableauHostMapping</members>
+        <members>Task</members>
+        <members>Territory2</members>
+        <members>Territory2Model</members>
         <members>Test12__mdt</members>
         <members>Test1obj1__c</members>
         <members>Test54__c</members>
@@ -2335,13 +3880,23 @@
         <members>TestObject__c</members>
         <members>TestReleaseCutomOBJ__c</members>
         <members>TitansARMSprint1__c</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>UOBJ1__c</members>
         <members>Unique_Giriraj_Object__c</members>
+        <members>User</members>
+        <members>UserExternalCredential</members>
+        <members>UserLocalWebServerIdentity</members>
+        <members>UserProvisioningRequest</members>
+        <members>UserServicePresence</members>
+        <members>UserTerritory2Association</members>
         <members>V098__c</members>
         <members>V1__c</members>
         <members>Vob3__c</members>
         <members>Vob90__c</members>
         <members>Vobj1__c</members>
+        <members>WorkOrder</members>
+        <members>WorkOrderLineItem</members>
         <members>X38737_Custom_Object_2__c</members>
         <members>X38737_Custom_Object__c</members>
         <members>X42782obj1__c</members>
@@ -2434,10 +3989,12 @@
         <members>AYObj1__c-en_US</members>
         <members>A_b__c-en_US</members>
         <members>Accobj4__c-en_US</members>
+        <members>Account-en_US</members>
         <members>AccountAPP1__c-en_US</members>
         <members>Account_Address__c-en_US</members>
         <members>AcntrObj1__c-de</members>
         <members>AcntrObj1__c-en_US</members>
+        <members>AgentWork-en_US</members>
         <members>Aobj2__c-en_US</members>
         <members>Apr13DXobj1__c-en_US</members>
         <members>Apr13Obj1__c-en_US</members>
@@ -2709,6 +4266,35 @@
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>API55TEST</members>
+        <members>Aloha</members>
+        <members>Catch_up</members>
+        <members>Giri1</members>
+        <members>GiriHelpCenter</members>
+        <members>GiriLWR</members>
+        <members>Giri_2</members>
+        <members>Helpcenter</members>
+        <members>KrithiLWR</members>
+        <members>LeadsPage</members>
+        <members>New1</members>
+        <members>New_Giri_Bundle</members>
+        <members>PartnerCentral</members>
+        <members>SaiBundle1</members>
+        <members>SaiBundle2</members>
+        <members>SaiTest1</members>
+        <members>SaiTest12</members>
+        <members>Salesforce_Tabs_Visualforce</members>
+        <members>Test1233</members>
+        <members>TestCommunity</members>
+        <members>TestCommunity11</members>
+        <members>TestSite1</members>
+        <members>bundle_testing</members>
+        <members>test1</members>
+        <members>test1yrt</members>
+        <members>test4</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>ACR2__c</members>
         <members>ACR3__c</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c</members>
@@ -2786,6 +4372,11 @@
     <types>
         <members>taxRateXmlToJson</members>
         <name>DataWeaveResource</name>
+    </types>
+    <types>
+        <members>testgroup</members>
+        <members>testgroup1</members>
+        <name>DelegateGroup</name>
     </types>
     <types>
         <members>experiencecontainer/efw.experience__navigationMenu/menu</members>
@@ -3120,6 +4711,19 @@
         <name>DigitalExperienceBundle</name>
     </types>
     <types>
+        <members>Giri11</members>
+        <members>GiriLWR1</members>
+        <members>Giri_21</members>
+        <members>KrithiLWR1</members>
+        <members>LeadsPage1</members>
+        <members>New_Giri_Bundle1</members>
+        <members>SaiBundle11</members>
+        <members>SaiBundle21</members>
+        <members>SaiTest122</members>
+        <members>bundle_testing1</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
+    <types>
         <members>AR</members>
         <members>AR/testdoc</members>
         <members>DocumentsFoldertest1</members>
@@ -3176,6 +4780,10 @@
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>Test</members>
+        <name>EmailServicesFunction</name>
     </types>
     <types>
         <members>EMt1</members>
@@ -3244,14 +4852,50 @@
         <name>EmbeddedServiceConfig</name>
     </types>
     <types>
+        <members>LiveChat</members>
+        <members>Test_Deploy</members>
+        <name>EmbeddedServiceFlowConfig</name>
+    </types>
+    <types>
         <members>Test1</members>
         <members>test2</members>
         <name>EmbeddedServiceMenuSettings</name>
     </types>
     <types>
+        <members>test1</members>
+        <name>EntitlementProcess</name>
+    </types>
+    <types>
         <members>temp1</members>
         <members>temp2</members>
         <name>EntitlementTemplate</name>
+    </types>
+    <types>
+        <members>Case.ESCCaseEscalationRule</members>
+        <members>Case.ESCRule4</members>
+        <members>Case.Standard</members>
+        <members>Case.esc</members>
+        <members>Case.ss</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>API55TEST1</members>
+        <members>Catch_up1</members>
+        <members>GiriHelpCenter1</members>
+        <members>Helpcenter1</members>
+        <members>New11</members>
+        <members>PartnerCentral1</members>
+        <members>Test12331</members>
+        <members>TestCommunity1</members>
+        <members>TestCommunity12</members>
+        <members>test12332</members>
+        <members>test1yrt1</members>
+        <members>test41</members>
+        <name>ExperienceBundle</name>
     </types>
     <types>
         <members>AWS_CRED</members>
@@ -3272,6 +4916,8 @@
     </types>
     <types>
         <members>LLC_BI_Loan__c.Field_set_1</members>
+        <members>User.Giri_field</members>
+        <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
     <types>
@@ -3359,6 +5005,54 @@
         <name>FlowTest</name>
     </types>
     <types>
+        <members>FF_Oppq0hlIT000000oLkPYAU209775720085959</members>
+        <name>ForecastingFilter</name>
+    </types>
+    <types>
+        <members>FFC_Oppq0r0IT000000blJJYAY912672881035815</members>
+        <name>ForecastingFilterCondition</name>
+    </types>
+    <types>
+        <members>FSD_Opportunity120374413523777</members>
+        <name>ForecastingSourceDefinition</name>
+    </types>
+    <types>
+        <members>LineItemQuantityProductDate</members>
+        <members>LineItemQuantityScheduleDate</members>
+        <members>LineItemRevenueProductDate</members>
+        <members>LineItemRevenueScheduleDate</members>
+        <members>OpportunityLineItemQuantity</members>
+        <members>OpportunityLineItemRevenue</members>
+        <members>OpportunityQuantity</members>
+        <members>OpportunityQuantityProductDate</members>
+        <members>OpportunityQuantityScheduleDate</members>
+        <members>OpportunityRevenue</members>
+        <members>OpportunityRevenueProductDate</members>
+        <members>OpportunityRevenueScheduleDate</members>
+        <members>Oppq</members>
+        <members>test2</members>
+        <members>test21</members>
+        <members>test22</members>
+        <members>test221</members>
+        <members>test222</members>
+        <members>test223</members>
+        <members>test224</members>
+        <members>test225</members>
+        <members>test226</members>
+        <members>test227</members>
+        <members>test228</members>
+        <members>test23</members>
+        <members>test24</members>
+        <members>test25</members>
+        <members>test26</members>
+        <members>test27</members>
+        <name>ForecastingType</name>
+    </types>
+    <types>
+        <members>FTS_Oppq7syIT000000oLkPYAU145414965883058</members>
+        <name>ForecastingTypeSource</name>
+    </types>
+    <types>
         <members>GB</members>
         <members>Test1</members>
         <members>sham_global_picklist</members>
@@ -3366,12 +5060,49 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>GB-en_US</members>
+        <members>Test1-en_US</members>
+        <members>sham_global_picklist-en_US</members>
+        <members>trst-en_US</members>
+        <name>GlobalValueSetTranslation</name>
+    </types>
+    <types>
+        <members>group1</members>
+        <members>group12</members>
+        <name>Group</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>X43660d99_90af_4c09_a9cf_b773a266f23b</members>
+        <members>s</members>
+        <members>test2</members>
+        <name>IPAddressRange</name>
+    </types>
+    <types>
+        <members>IframeWhiteListUrlSettings</members>
+        <name>IframeWhiteListUrlSettings</name>
+    </types>
+    <types>
         <members>BigHack__b.BHIndex</members>
         <name>Index</name>
+    </types>
+    <types>
+        <members>SDOC</members>
+        <members>sf_com_apps</members>
+        <members>webider_ltcfree</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>API55TEST.Banned</members>
+        <members>Helpcenter.Banned</members>
+        <members>New1.Banned</members>
+        <members>Test1233.Banned</members>
+        <members>TestCommunity.Banned</members>
+        <members>TestCommunity1.Banned</members>
+        <name>KeywordList</name>
     </types>
     <types>
         <members>A1__c-A1 Layout</members>
@@ -3773,6 +5504,10 @@
         <name>LightningMessageChannel</name>
     </types>
     <types>
+        <members>LightningOnboardingConfig</members>
+        <name>LightningOnboardingConfig</name>
+    </types>
+    <types>
         <members>ACDemoOBj1__c.test2_ACDemoOBj1</members>
         <members>ACR2__c.All</members>
         <members>ACR3__c.All</members>
@@ -3786,13 +5521,112 @@
         <members>Account.kcs_dev__AllAccounts</members>
         <members>Account.kcs_dev__MyAccounts</members>
         <members>Account.kcs_dev__NewThisWeek</members>
+        <members>AccountBrand.All_Account_Brands</members>
+        <members>AccountRelationship.All_Account_Relationships</members>
+        <members>AccountRelationship.My_Account_Relationships</members>
+        <members>AccountRelationship.test1_AccountRelationship</members>
+        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
+        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>AuthorizationForm.All_AuthorizationForms</members>
+        <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
+        <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
+        <members>AuthorizationFormText.All_AuthorizationFormText</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>ChannelProgram.All_Channel_Programs</members>
+        <members>ChannelProgram.My_Channel_Programs</members>
+        <members>ChannelProgramLevel.All_Channel_Program_Levels</members>
+        <members>ChannelProgramLevel.My_Channel_Program_Levels</members>
+        <members>CollaborationGroup.All_ChatterGroups</members>
+        <members>CommSubscription.All_CommSubscriptions</members>
+        <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
+        <members>ConsumptionSchedule.All_ConsumptionSchedules</members>
+        <members>ConsumptionSchedule.My_ConsumptionSchedules</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contact.kcs_dev__AllContacts</members>
+        <members>Contact.kcs_dev__BirthdaysThisMonth</members>
+        <members>Contact.kcs_dev__NewThisWeek</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c.All</members>
+        <members>ContactPointTypeConsent.All_ContactPointTypeConsents</members>
+        <members>ContactRequest.My_ContactRequests</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
         <members>DLConfigTestObj__c.All</members>
         <members>DataLoader__c.All</members>
+        <members>DataUseLegalBasis.All_DataUseLegalBases</members>
+        <members>DataUsePurpose.All_DataUsePurposes</members>
+        <members>DelegatedAccount.All_External_Managed_Accounts</members>
+        <members>DelegatedAccount.My_External_Managed_Accounts</members>
         <members>DlConfigObj151__c.All</members>
+        <members>EngagementChannelType.All_EngagementChannelTypes</members>
+        <members>Entitlement.All_Entitlements</members>
+        <members>Event.MyRecentEvents</members>
+        <members>Event.MyTeamsRecentEvents</members>
+        <members>Event.MyTeamsUpcomingEvents</members>
+        <members>Event.MyUpcomingEvents</members>
+        <members>Event.TodaysAgenda</members>
+        <members>ExternalAccountHierarchy.All_External_Account_Hierarchies</members>
+        <members>ExternalAccountHierarchy.External_Account_Hierarchies_Roots</members>
+        <members>ExternalAccountHierarchy.My_External_Account_Hierarchies</members>
+        <members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
+        <members>FlowOrchestrationWorkItem.ALL_Open_Work_Items</members>
+        <members>FlowOrchestrationWorkItem.All_Work_Items</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
+        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>ObjAc1__c.All</members>
         <members>Oct23obj1__c.All</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.CustomListView</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Opportunity.pilodxlistview</members>
+        <members>Opportunity.pilotdxlistview1</members>
+        <members>Opportunity.pilotnondxlistview1</members>
+        <members>Opportunity.qa4nondxlistview1</members>
         <members>Opportunity_historyreport__c.All</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>PartnerFundAllocation.All_Partner_Fund_Allocations</members>
+        <members>PartnerFundAllocation.My_Partner_Fund_Allocations</members>
+        <members>PartnerFundClaim.All_Partner_Fund_Claims</members>
+        <members>PartnerFundClaim.My_Partner_Fund_Claims</members>
+        <members>PartnerFundRequest.All_Partner_Fund_Requests</members>
+        <members>PartnerFundRequest.My_Partner_Fund_Requests</members>
+        <members>PartnerMarketingBudget.All_Partner_Marketing_Budgets</members>
+        <members>PartnerMarketingBudget.My_Partner_Marketing_Budgets</members>
+        <members>PartyConsent.All_PartyConsents</members>
+        <members>Pricebook2.All_Pricebooks</members>
+        <members>Product2.AllProducts</members>
         <members>QObj2__c.All</members>
         <members>SDOC__SDJob__c.SDOC__All</members>
         <members>SDOC__SDTemplate__c.SDOC__All</members>
@@ -3804,8 +5638,27 @@
         <members>STObj2__c.All</members>
         <members>STobj3__c.All</members>
         <members>Sai_Obj500__c.All</members>
+        <members>Scorecard.AllScorecards</members>
+        <members>Scorecard.MyScorecards</members>
+        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
+        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
+        <members>ServiceContract.All_ServiceContracts</members>
         <members>Sob1__c.All</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>Task.CompletedTasks</members>
+        <members>Task.DelegatedTasks</members>
+        <members>Task.OpenTasks</members>
+        <members>Task.OverdueTasks</members>
+        <members>Task.RecurringTasks</members>
+        <members>Task.TodaysTasks</members>
+        <members>Task.UnscheduledTasks</members>
         <members>TitansARMSprint1__c.All</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>WorkOrder.All_WorkOrders</members>
+        <members>WorkOrder.My_WorkOrders</members>
         <members>ZObj1__c.All</members>
         <members>bhanuObj__c.All</members>
         <members>college__c.All</members>
@@ -3826,18 +5679,103 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>cms_document</members>
+        <members>cms_image</members>
+        <members>news</members>
+        <name>ManagedContentType</name>
+    </types>
+    <types>
+        <members>API55TEST</members>
+        <members>Aloha</members>
+        <members>Catch up</members>
+        <members>Giri-2</members>
+        <members>Giri1</members>
+        <members>GiriHelpCenter</members>
+        <members>GiriLWR</members>
+        <members>Helpcenter</members>
+        <members>KrithiLWR</members>
+        <members>LeadsPage</members>
+        <members>New-Giri-Bundle</members>
+        <members>New1</members>
+        <members>PartnerCentral</members>
+        <members>SaiBundle1</members>
+        <members>SaiBundle2</members>
+        <members>SaiTest1</members>
+        <members>SaiTest12</members>
+        <members>Salesforce Tabs + Visualforce</members>
+        <members>Test1233</members>
+        <members>TestCommunity</members>
+        <members>TestCommunity1</members>
+        <members>bundle-testing</members>
+        <members>test1</members>
+        <members>test1yrt</members>
+        <members>test4</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
         <members>Accobj4__c.Newrule</members>
         <members>Accobj4__c.f</members>
+        <members>Account.Newrul1</members>
+        <members>Account.Sr1</members>
+        <members>Account.TestRule1</members>
+        <members>Account.s1mat</members>
         <name>MatchingRule</name>
     </types>
     <types>
         <members>Accobj4__c</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Individual</members>
+        <members>Lead</members>
         <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>testg</members>
+        <members>testgroup</members>
+        <name>MilestoneType</name>
     </types>
     <types>
         <members>test2</members>
         <members>tyty</members>
         <name>MobileApplicationDetail</name>
+    </types>
+    <types>
+        <members>API55TEST.Block_banned_keywords</members>
+        <members>API55TEST.Flag_banned</members>
+        <members>API55TEST.Freeze_for_frequent_posting</members>
+        <members>API55TEST.Replace_banned</members>
+        <members>API55TEST.Review_the_first_post</members>
+        <members>Helpcenter.Block_banned_keywords</members>
+        <members>Helpcenter.Flag_banned</members>
+        <members>Helpcenter.Freeze_for_frequent_posting</members>
+        <members>Helpcenter.Replace_banned</members>
+        <members>Helpcenter.Review_the_first_post</members>
+        <members>New1.Block_banned_keywords</members>
+        <members>New1.Flag_banned</members>
+        <members>New1.Freeze_for_frequent_posting</members>
+        <members>New1.Replace_banned</members>
+        <members>New1.Review_the_first_post</members>
+        <members>Test1233.Block_banned_keywords</members>
+        <members>Test1233.Flag_banned</members>
+        <members>Test1233.Freeze_for_frequent_posting</members>
+        <members>Test1233.Replace_banned</members>
+        <members>Test1233.Review_the_first_post</members>
+        <members>TestCommunity.Block_banned_keywords</members>
+        <members>TestCommunity.Flag_banned</members>
+        <members>TestCommunity.Freeze_for_frequent_posting</members>
+        <members>TestCommunity.Replace_banned</members>
+        <members>TestCommunity.Review_the_first_post</members>
+        <members>TestCommunity1.Block_banned_keywords</members>
+        <members>TestCommunity1.Flag_banned</members>
+        <members>TestCommunity1.Freeze_for_frequent_posting</members>
+        <members>TestCommunity1.Replace_banned</members>
+        <members>TestCommunity1.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>h</members>
+        <members>re</members>
+        <name>MutingPermissionSet</name>
     </types>
     <types>
         <members>AWS_CRED_NC</members>
@@ -3882,6 +5820,66 @@
         <members>TestNM1</members>
         <members>testname</members>
         <name>NavigationMenu</name>
+    </types>
+    <types>
+        <members>API55TEST</members>
+        <members>Aloha</members>
+        <members>Catch up</members>
+        <members>Giri-2</members>
+        <members>Giri1</members>
+        <members>GiriHelpCenter</members>
+        <members>GiriLWR</members>
+        <members>Helpcenter</members>
+        <members>KrithiLWR</members>
+        <members>LeadsPage</members>
+        <members>New-Giri-Bundle</members>
+        <members>New1</members>
+        <members>PartnerCentral</members>
+        <members>SaiBundle1</members>
+        <members>SaiBundle2</members>
+        <members>SaiTest1</members>
+        <members>SaiTest12</members>
+        <members>Salesforce Tabs %2B Visualforce</members>
+        <members>Test1233</members>
+        <members>TestCommunity</members>
+        <members>TestCommunity1</members>
+        <members>bundle-testing</members>
+        <members>test1</members>
+        <members>test1yrt</members>
+        <members>test4</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbAPI55TEST</members>
+        <members>cbAloha</members>
+        <members>cbCatch_up</members>
+        <members>cbGiri1</members>
+        <members>cbGiriHelpCenter</members>
+        <members>cbGiriLWR</members>
+        <members>cbGiri_2</members>
+        <members>cbHelpcenter</members>
+        <members>cbKrithiLWR</members>
+        <members>cbLeadsPage</members>
+        <members>cbNew1</members>
+        <members>cbNew_Giri_Bundle</members>
+        <members>cbPartnerCentral</members>
+        <members>cbSaiBundle1</members>
+        <members>cbSaiBundle2</members>
+        <members>cbSaiTest1</members>
+        <members>cbSaiTest12</members>
+        <members>cbSalesforce_Tabs_Visualforce</members>
+        <members>cbTest1233</members>
+        <members>cbTestCommunity</members>
+        <members>cbTestCommunity1</members>
+        <members>cbbundle_testing</members>
+        <members>cbtest1</members>
+        <members>cbtest1yrt</members>
+        <members>cbtest4</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
+        <members>NotificationTypeConfig</members>
+        <name>NotificationTypeConfig</name>
     </types>
     <types>
         <members>OAuth1</members>
@@ -3937,7 +5935,115 @@
         <name>PlatformEventChannelMember</name>
     </types>
     <types>
+        <members>AccountAPP1__c.fefd</members>
+        <members>X38737_Custom_Object__c.test1</members>
+        <members>X38737_Custom_Object__c.test12</members>
+        <name>PostTemplate</name>
+    </types>
+    <types>
+        <members>default_presence_config</members>
+        <name>PresenceUserConfig</name>
+    </types>
+    <types>
+        <members>05jan01Profile</members>
+        <members>API55TEST Profile</members>
+        <members>ARProfile1</members>
+        <members>ARProfile10</members>
+        <members>ARProfile2</members>
+        <members>ATESTProfile1</members>
         <members>Admin</members>
+        <members>AdminClone</members>
+        <members>AdminSsAR1</members>
+        <members>Advisor</members>
+        <members>Aloha Profile</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Authenticated Website</members>
+        <members>CFPProfile</members>
+        <members>Catch up Profile</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>CloneProfile1</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>CustomProfile1</members>
+        <members>CustomProfile10750</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Giri-2 Profile</members>
+        <members>Giri1 Profile</members>
+        <members>GiriHelpCenter Profile</members>
+        <members>GiriLWR Profile</members>
+        <members>Giriraj Tomar Profile</members>
+        <members>Gold Partner User</members>
+        <members>Guest</members>
+        <members>Guest License User</members>
+        <members>HRT Customer Community Plus User</members>
+        <members>Helpcenter Profile</members>
+        <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
+        <members>KrithiLWR Profile</members>
+        <members>LeadsPage Profile</members>
+        <members>MarketingProfile</members>
+        <members>New-Giri-Bundle Profile</members>
+        <members>New1 Profile</members>
+        <members>Partner App Subscription User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>PartnerCentral Profile</members>
+        <members>Personal Banker</members>
+        <members>PlatformPortal</members>
+        <members>ProfileTest1</members>
+        <members>ProfileTest123</members>
+        <members>Profileest</members>
+        <members>QAProfile1</members>
+        <members>Read Only</members>
+        <members>Relationship Manager</members>
+        <members>SaiBundle1 Profile</members>
+        <members>SaiBundle2 Profile</members>
+        <members>SaiJun19thprofile</members>
+        <members>SaiTest1 Profile</members>
+        <members>SaiTest12 Profile</members>
+        <members>Saiprofile1</members>
+        <members>Saiprofile2</members>
+        <members>Salesforce Tabs %2B Visualforce Profile</members>
+        <members>Silver Partner User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>System AdministratorClone</members>
+        <members>Test1</members>
+        <members>Test1233 Profile</members>
+        <members>Test1557</members>
+        <members>Test1Profile</members>
+        <members>TestCommunity Profile</members>
+        <members>TestCommunity1 Profile</members>
+        <members>TestCreateProfile</members>
+        <members>TestSite1 Profile</members>
+        <members>Work%2Ecom Only User</members>
+        <members>bundle-testing Profile</members>
+        <members>clone profile</members>
+        <members>doctest1</members>
+        <members>feb8th</members>
+        <members>integrationuserclonedtest</members>
+        <members>profilecheck1</members>
+        <members>shamprofile</members>
+        <members>sp1</members>
+        <members>test1 Profile</members>
+        <members>test1yrt Profile</members>
+        <members>test4 Profile</members>
         <name>Profile</name>
     </types>
     <types>
@@ -3966,6 +6072,11 @@
         <members>jjk</members>
         <members>jkjk</members>
         <name>Prompt</name>
+    </types>
+    <types>
+        <members>test1</members>
+        <members>test2</members>
+        <name>Queue</name>
     </types>
     <types>
         <members>A1__c.Logacall222</members>
@@ -4037,6 +6148,7 @@
         <members>EC_AccObj1__c.ECrecordTypeTest3</members>
         <members>EC_AccObj1__c.Test1</members>
         <members>GiriKaCustomObj__c.PicklistRelatedRecordType</members>
+        <members>Idea.InternalIdeasIdeaRecordType</members>
         <members>LLC_BI_Loan__c.RecordType_1</members>
         <members>LLC_BI_Loan__c.RecordType_2</members>
         <members>LLC_BI_Loan__c.RecordType_3</members>
@@ -4367,20 +6479,175 @@
         <name>RestrictionRule</name>
     </types>
     <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <members>ChannelSalesTeam</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+        <members>DirectorChannelSales</members>
+        <members>DirectorDirectSales</members>
+        <members>EasternSalesTeam</members>
+        <members>InstallationRepairServices</members>
+        <members>MarketingTeam</members>
+        <members>ProfileRole</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPHumanResources</members>
+        <members>SVPSalesMarketing</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
+        <members>VPNorthAmericanSales</members>
+        <members>WesternSalesTeam</members>
+        <name>Role</name>
+    </types>
+    <types>
         <members>sso_2222</members>
         <name>SamlSsoConfig</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>AccountIntelligence</members>
+        <members>Actions</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>Ai4m</members>
+        <members>Analytics</members>
+        <members>Apex</members>
+        <members>AppAnalytics</members>
+        <members>AppExperience</members>
+        <members>Blockchain</members>
+        <members>Bot</members>
+        <members>BusinessHours</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Chatter</members>
+        <members>ChatterAnswers</members>
+        <members>ChatterEmailsMD</members>
+        <members>CodeBuilder</members>
+        <members>Commerce</members>
+        <members>Communities</members>
+        <members>Company</members>
+        <members>ConnectedApp</members>
+        <members>Content</members>
+        <members>Contract</members>
+        <members>ConversationalIntelligence</members>
+        <members>Currency</members>
+        <members>CustomAddressField</members>
+        <members>CustomerDataPlatform</members>
+        <members>CustomizablePropensityScoring</members>
+        <members>DataDotCom</members>
+        <members>Deployment</members>
+        <members>DevHub</members>
+        <members>Discovery</members>
+        <members>DocumentChecklist</members>
+        <members>DynamicForms</members>
+        <members>EAC</members>
+        <members>EinsteinDealInsights</members>
+        <members>EinsteinDocumentCapture</members>
+        <members>EmailAdministration</members>
+        <members>EmailIntegration</members>
+        <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
+        <members>EmployeeUser</members>
+        <members>EncryptionKey</members>
+        <members>EnhancedNotes</members>
+        <members>Entitlement</members>
+        <members>Essentials</members>
+        <members>Event</members>
+        <members>ExperienceBundle</members>
+        <members>ExternalClientApp</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>FilesConnect</members>
+        <members>Flow</members>
+        <members>Forecasting</members>
+        <members>ForecastingObjectList</members>
+        <members>Formula</members>
+        <members>GoogleApps</members>
+        <members>Ideas</members>
+        <members>IdentityProvider</members>
+        <members>IncidentMgmt</members>
+        <members>Industries</members>
+        <members>IndustriesEinsteinFeature</members>
+        <members>InvocableAction</members>
+        <members>IoT</members>
+        <members>Knowledge</members>
+        <members>KnowledgeGeneration</members>
+        <members>Language</members>
+        <members>LeadConfig</members>
+        <members>LightningExperience</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>MailMerge</members>
+        <members>Meetings</members>
+        <members>Mobile</members>
+        <members>MyDomain</members>
+        <members>Name</members>
+        <members>Notifications</members>
+        <members>OauthOidc</members>
+        <members>ObjectLinking</members>
+        <members>OmniChannel</members>
+        <members>OmniChannelPricing</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Org</members>
+        <members>Pardot</members>
+        <members>PardotEinstein</members>
+        <members>PartyDataModel</members>
+        <members>PathAssistant</members>
+        <members>PaymentsManagementEnabled</members>
+        <members>Picklist</members>
+        <members>PlatformEncryption</members>
+        <members>PlatformEvent</members>
+        <members>Portals</members>
+        <members>PredictionBuilder</members>
+        <members>Privacy</members>
+        <members>Product</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>RealTimeEvent</members>
+        <members>RecommendationBuilder</members>
+        <members>RecordPage</members>
+        <members>RetailExecution</members>
+        <members>Sandbox</members>
+        <members>SceGlobalModelOptOut</members>
+        <members>Schema</members>
+        <members>Search</members>
+        <members>Security</members>
+        <members>ServiceCloudVoice</members>
+        <members>ServiceSetupAssistant</members>
+        <members>Sharing</members>
+        <members>Site</members>
+        <members>SourceTracking</members>
+        <members>Survey</members>
+        <members>SystemNotification</members>
+        <members>Territory2</members>
+        <members>Trailhead</members>
+        <members>TrialOrg</members>
+        <members>UserEngagement</members>
+        <members>UserInterface</members>
+        <members>UserManagement</members>
+        <members>Voice</members>
+        <members>WebToX</members>
+        <members>WorkDotCom</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Account.S11333</members>
+        <members>Account.SaiAcc</members>
         <members>SaiObj10__c.SCOB</members>
         <members>SaiObj10__c.SaiNewc2</members>
         <name>SharingCriteriaRule</name>
     </types>
     <types>
+        <members>Account.GUestetest1_1</members>
         <members>SaiObj10__c.SaiNewGs2</members>
         <members>SaiObj10__c.SaiTestGS</members>
         <name>SharingGuestRule</name>
     </types>
     <types>
+        <members>Account.csdsad</members>
+        <members>Account.s2</members>
+        <members>Lead.rule1</members>
         <members>SaiObj10__c.SaiNewOwn2</members>
         <members>SaiOobj1__c.Rule1</members>
         <name>SharingOwnerRule</name>
@@ -4400,32 +6667,79 @@
         <members>A6__c</members>
         <members>ADDObj1__c</members>
         <members>A_b__c</members>
+        <members>Account</members>
         <members>AccountAPP1__c</members>
+        <members>AccountBrand</members>
+        <members>AccountRelationship</members>
+        <members>ActiveScratchOrg</members>
+        <members>ActivityRecurrence2</members>
+        <members>ActivityRecurrence2Exception</members>
+        <members>AgentWork</members>
         <members>Apr13DXobj1__c</members>
         <members>Apr13Obj1__c</members>
         <members>Apr14_Test1__c</members>
         <members>Apr14_Test2__c</members>
         <members>Ar1__c</members>
+        <members>Asset</members>
+        <members>AssistantInteraction</members>
+        <members>AssistantProgress</members>
+        <members>AssistantRecommendation</members>
         <members>Aug12Obj23__c</members>
         <members>Aug12obj1__c</members>
         <members>Aug29_Obj1__c</members>
         <members>Aug2ndObj1__c</members>
         <members>Aug7__c</members>
+        <members>AuthorizationForm</members>
+        <members>AuthorizationFormConsent</members>
+        <members>AuthorizationFormDataUse</members>
         <members>Bj1__c</members>
+        <members>BusinessBrand</members>
+        <members>CalendarModel</members>
+        <members>CalendarView</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>ChannelProgram</members>
+        <members>CleanLeadBackup</members>
+        <members>CommSubscription</members>
+        <members>CommSubscriptionChannelType</members>
+        <members>ComponentResponseCache</members>
+        <members>ConsumptionSchedule</members>
+        <members>Contact</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c</members>
+        <members>ContactPointTypeConsent</members>
+        <members>ContactRequest</members>
+        <members>ConvCoachingRecommendation</members>
+        <members>Customer</members>
         <members>DLConfigTestObj__c</members>
         <members>DXObj2__c</members>
         <members>DataLoader__c</members>
+        <members>DataUseLegalBasis</members>
+        <members>DataUsePurpose</members>
+        <members>DelegatedAccount</members>
         <members>DemoObj007__c</members>
         <members>DemoObject__c</members>
         <members>DepTestObj1__c</members>
         <members>Desobj2__c</members>
+        <members>EngagementChannelType</members>
+        <members>ExchangeUserMapping</members>
+        <members>ExternalAccountHierarchy</members>
+        <members>ExternalEventMapping</members>
         <members>Feb21Obj1__c</members>
         <members>Feb22ndObj1__c</members>
         <members>Feb26Obj123__c</members>
+        <members>FlowInterview</members>
+        <members>FlowInterviewLog</members>
+        <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationStageInstance</members>
+        <members>FlowOrchestrationStepInstance</members>
+        <members>FlowOrchestrationWorkItem</members>
+        <members>FlowRecord</members>
+        <members>FlowTestResult</members>
         <members>GIRI_PROFILE_CO__c</members>
         <members>GiriKaCustomObj__c</members>
         <members>HarishObject1__c</members>
+        <members>Image</members>
+        <members>Individual</members>
         <members>Jan25obj1__c</members>
         <members>Jun01Obj1__c</members>
         <members>Juno2Obj2__c</members>
@@ -4434,7 +6748,12 @@
         <members>LB500obj1__c</members>
         <members>LB500obj2__c</members>
         <members>LLC_BI_Loan__c</members>
+        <members>Lead</members>
+        <members>LearningItem</members>
+        <members>ListEmail</members>
         <members>M11obj1__c</members>
+        <members>Macro</members>
+        <members>MacroUsage</members>
         <members>Mar1811__c</members>
         <members>Mar19SaiObj1__c</members>
         <members>May20__c</members>
@@ -4442,26 +6761,44 @@
         <members>MyCustomObject__c</members>
         <members>NA17Obj1__c</members>
         <members>NN1__c</members>
+        <members>NetworkMemberChunk</members>
         <members>NewCustObj1__c</members>
         <members>NewObj1__c</members>
         <members>NewObj2__c</members>
         <members>NewObj600__c</members>
         <members>NewObje800__c</members>
         <members>Nobj1__c</members>
+        <members>NotifDeliveryUserPref</members>
         <members>Obj789__c</members>
         <members>Obj89__c</members>
         <members>Oct14Test1__c</members>
+        <members>Opportunity</members>
         <members>Opportunity_historyreport__c</members>
+        <members>Order</members>
+        <members>OrgDeleteRequest</members>
         <members>PG_Metric__c</members>
         <members>PIcklistObject1__c</members>
         <members>PIcklistObject2__c</members>
         <members>PackObj1__c</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
+        <members>PartyConsent</members>
+        <members>PendingServiceRouting</members>
         <members>PradeepObj1__c</members>
+        <members>Product2</members>
+        <members>PromptAction</members>
+        <members>PromptError</members>
         <members>QAobj500__c</members>
         <members>QAobj501__c</members>
+        <members>QuickText</members>
+        <members>QuickTextUsage</members>
         <members>RC1__c</members>
         <members>Rahul22__c</members>
         <members>Rahul_1__c</members>
+        <members>RecordMergeHistory</members>
+        <members>ReportResultBlob</members>
         <members>SB100__c</members>
         <members>SBM1__c</members>
         <members>SBM2__c</members>
@@ -4504,6 +6841,9 @@
         <members>SaoObj900__c</members>
         <members>Sb1__c</members>
         <members>Sbapr23object1__c</members>
+        <members>Scorecard</members>
+        <members>ScratchOrgInfo</members>
+        <members>Seller</members>
         <members>Sep15Obj2__c</members>
         <members>Sep23rdObj1__c</members>
         <members>Sep2ndObj1__c</members>
@@ -4511,13 +6851,26 @@
         <members>Sep7thObj1__c</members>
         <members>Sep8thObj1__c</members>
         <members>Sep_15_ob1__c</members>
+        <members>ServiceContract</members>
+        <members>ServiceResource</members>
         <members>Sobj1new__c</members>
         <members>Sobj98__c</members>
+        <members>StreamingChannel</members>
+        <members>TableauHostMapping</members>
         <members>Test55__c</members>
         <members>Test57__c</members>
         <members>TestAutomation__c</members>
         <members>TitansARMSprint1__c</members>
+        <members>TodayGoal</members>
         <members>Unique_Giriraj_Object__c</members>
+        <members>User</members>
+        <members>UserAppMenuCustomization</members>
+        <members>UserEmailPreferredPerson</members>
+        <members>UserExternalCredential</members>
+        <members>UserLocalWebServerIdentity</members>
+        <members>UserProvisioningRequest</members>
+        <members>UserServicePresence</members>
+        <members>WorkOrder</members>
         <members>X38737_Custom_Object_2__c</members>
         <members>X42782obj1__c</members>
         <members>X42782obj2__c</members>
@@ -4560,6 +6913,80 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>test2</members>
+        <members>twst</members>
+        <name>SharingSet</name>
+    </types>
+    <types>
+        <members>Aloha1</members>
+        <members>Catch_up1</members>
+        <members>GiriHelpCenter1</members>
+        <members>Helpcenter1</members>
+        <members>New11</members>
+        <members>PartnerCentral1</members>
+        <members>SaiTest121</members>
+        <members>Salesforce_Tabs_Visualforce1</members>
+        <members>TestCommunity1</members>
+        <members>test12332</members>
+        <members>test1yrt1</members>
+        <members>test41</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>AccountContactMultiRoles</members>
+        <members>AccountContactRole</members>
+        <members>AccountOwnership</members>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>AssetStatus</members>
+        <members>CampaignMemberStatus</members>
+        <members>CampaignStatus</members>
+        <members>CampaignType</members>
+        <members>CaseContactRole</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <members>ContactRole</members>
+        <members>ContractContactRole</members>
+        <members>ContractStatus</members>
+        <members>EntitlementType</members>
+        <members>EventSubject</members>
+        <members>EventType</members>
+        <members>FiscalYearPeriodName</members>
+        <members>FiscalYearPeriodPrefix</members>
+        <members>FiscalYearQuarterName</members>
+        <members>FiscalYearQuarterPrefix</members>
+        <members>IdeaMultiCategory</members>
+        <members>IdeaStatus</members>
+        <members>Industry</members>
+        <members>LeadSource</members>
+        <members>LeadStatus</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityStage</members>
+        <members>OpportunityType</members>
+        <members>OrderStatus</members>
+        <members>OrderType</members>
+        <members>PartnerRole</members>
+        <members>Product2Family</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
+        <members>RoleInTerritory2</members>
+        <members>SalesTeamRole</members>
+        <members>Salutation</members>
+        <members>ServiceContractApprovalStatus</members>
+        <members>SolutionStatus</members>
+        <members>TaskPriority</members>
+        <members>TaskStatus</members>
+        <members>TaskSubject</members>
+        <members>TaskType</members>
+        <members>WorkOrderLineItemStatus</members>
+        <members>WorkOrderPriority</members>
+        <members>WorkOrderStatus</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
         <members>SDOC__SDoc</members>
         <members>SDOC__Shared</members>
         <members>SDOC__ckEditor</members>
@@ -4588,6 +7015,323 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>_Default</members>
+        <name>SynonymDictionary</name>
+    </types>
+    <types>
+        <members>test2</members>
+        <members>test22</members>
+        <name>Territory2Model</name>
+    </types>
+    <types>
+        <members>test2.rule1</members>
+        <members>test2.rule2</members>
+        <members>test22.rul2</members>
+        <name>Territory2Rule</name>
+    </types>
+    <types>
+        <members>Teritory2</members>
+        <members>Teritory3</members>
+        <name>Territory2Type</name>
+    </types>
+    <types>
+        <members>A1__c</members>
+        <members>A3__c</members>
+        <members>A4s__c</members>
+        <members>A5__c</members>
+        <members>A6__c</members>
+        <members>ACCObjTest1__c</members>
+        <members>ACCObjt1__c</members>
+        <members>ACDemoOBj1__c</members>
+        <members>ACObj12__c</members>
+        <members>ACObject25__c</members>
+        <members>ACR2__c</members>
+        <members>ACR3__c</members>
+        <members>ACR4__c</members>
+        <members>ACR6__c</members>
+        <members>ACRObj1__c</members>
+        <members>ACTNROBJ11__c</members>
+        <members>ACTNRObj1__c</members>
+        <members>ACTNRObj2__c</members>
+        <members>ADDObj1__c</members>
+        <members>AR_Obj1__c</members>
+        <members>AR_Obj200__c</members>
+        <members>AR_SFObj1__c</members>
+        <members>AYObj1__c</members>
+        <members>A_b__c</members>
+        <members>Accobj4__c</members>
+        <members>Account</members>
+        <members>AccountAPP1__c</members>
+        <members>Account_Address__c</members>
+        <members>AcntrObj1__c</members>
+        <members>Aobj2__c</members>
+        <members>Apr13DXobj1__c</members>
+        <members>Apr13Obj1__c</members>
+        <members>Apr14_Test1__c</members>
+        <members>Apr14_Test2__c</members>
+        <members>Ar1__c</members>
+        <members>Asset</members>
+        <members>Aug12Obj23__c</members>
+        <members>Aug12obj1__c</members>
+        <members>Aug29_Obj1__c</members>
+        <members>Aug2ndObj1__c</members>
+        <members>Aug7__c</members>
+        <members>Bj1__c</members>
+        <members>CAObj1__c</members>
+        <members>CAcobj1__c</members>
+        <members>CSObj1__c</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
+        <members>Contact</members>
+        <members>ContactPointPhone_Contact_Point_Phone_La__c</members>
+        <members>ContentDocument</members>
+        <members>Contract</members>
+        <members>DLConfigTestObj__c</members>
+        <members>DObj2__c</members>
+        <members>DXObj2__c</members>
+        <members>DataLoader__c</members>
+        <members>Dbj1__c</members>
+        <members>Demo4Obj7__c</members>
+        <members>DemoObj007__c</members>
+        <members>DemoObject__c</members>
+        <members>DepTestObj1__c</members>
+        <members>Desobj2__c</members>
+        <members>DlConfigObj151__c</members>
+        <members>Dobj3__c</members>
+        <members>EC_AccObj1__c</members>
+        <members>EObj1__c</members>
+        <members>Event</members>
+        <members>Feb21Obj1__c</members>
+        <members>Feb22ndObj1__c</members>
+        <members>Feb26Obj123__c</members>
+        <members>GIRI_PROFILE_CO__c</members>
+        <members>GiriKaCustomObj__c</members>
+        <members>HarishObject1__c</members>
+        <members>Jan25obj1__c</members>
+        <members>Jun01Obj1__c</members>
+        <members>Juno2Obj2__c</members>
+        <members>K345__c</members>
+        <members>KBj1__c</members>
+        <members>KCobj1__c</members>
+        <members>KN1__c</members>
+        <members>KOb19__c</members>
+        <members>LB500obj1__c</members>
+        <members>LB500obj2__c</members>
+        <members>LLC_BI_Loan__c</members>
+        <members>Lead</members>
+        <members>Lobj45__c</members>
+        <members>M11obj1__c</members>
+        <members>Mar1811__c</members>
+        <members>Mar19SaiObj1__c</members>
+        <members>Mar20Obj2__c</members>
+        <members>Mar20Obj3__c</members>
+        <members>May16Obj1__c</members>
+        <members>May20__c</members>
+        <members>May26Obj1__c</members>
+        <members>MergeObject1__c</members>
+        <members>MyCustomObject__c</members>
+        <members>NA17Obj1__c</members>
+        <members>NA23Obj1__c</members>
+        <members>NA23Obj2__c</members>
+        <members>NA23obj3__c</members>
+        <members>NN1__c</members>
+        <members>NS25Obj1__c</members>
+        <members>NewCustObj1__c</members>
+        <members>NewObj1__c</members>
+        <members>NewObj2__c</members>
+        <members>NewObj600__c</members>
+        <members>NewObje800__c</members>
+        <members>Nobj1__c</members>
+        <members>Nov22Obj1__c</members>
+        <members>Nov22Obj2__c</members>
+        <members>O2Obj1__c</members>
+        <members>OBJ600__c</members>
+        <members>Ob800__c</members>
+        <members>ObTestSai1__c</members>
+        <members>ObTestSai2__c</members>
+        <members>Obj789__c</members>
+        <members>Obj89__c</members>
+        <members>Obj900__c</members>
+        <members>ObjAc1__c</members>
+        <members>Oct14Test1__c</members>
+        <members>Oct23obj1__c</members>
+        <members>Oobj1__c</members>
+        <members>Opportunity</members>
+        <members>Opportunity_historyreport__c</members>
+        <members>Order</members>
+        <members>PG_Metric__c</members>
+        <members>PIcklistObject1__c</members>
+        <members>PIcklistObject2__c</members>
+        <members>PackObj1__c</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
+        <members>PradeepObj1__c</members>
+        <members>QAobj500__c</members>
+        <members>QAobj501__c</members>
+        <members>QAobj9__c</members>
+        <members>QObj2__c</members>
+        <members>RC1__c</members>
+        <members>RLObject1__c</members>
+        <members>RLObject2__c</members>
+        <members>ROb1__c</members>
+        <members>RTObj2__c</members>
+        <members>Rahul22__c</members>
+        <members>Rahul_1__c</members>
+        <members>S1__c</members>
+        <members>SB100__c</members>
+        <members>SBM1__c</members>
+        <members>SBM2__c</members>
+        <members>SBTWOObj1__c</members>
+        <members>SDOC__Envelope__c</members>
+        <members>SDOC__SDJob__c</members>
+        <members>SDOC__SDRelationship__c</members>
+        <members>SDOC__SDTemplate__c</members>
+        <members>SDOC__SDoc__c</members>
+        <members>SEObject1__c</members>
+        <members>SK1__c</members>
+        <members>SKM26Obj1__c</members>
+        <members>SKVAug16Obj1__c</members>
+        <members>SKVObj2__c</members>
+        <members>SKVObject1__c</members>
+        <members>SKnew1__c</members>
+        <members>SMobj1__c</members>
+        <members>SObj1__c</members>
+        <members>SSObj1__c</members>
+        <members>STObj1__c</members>
+        <members>STObj2__c</members>
+        <members>STest__c</members>
+        <members>STestobj34__c</members>
+        <members>STestobj__c</members>
+        <members>STobj3__c</members>
+        <members>SaiAug1Obj1__c</members>
+        <members>SaiAug26__c</members>
+        <members>SaiDX124__c</members>
+        <members>SaiJan25Obj1__c</members>
+        <members>SaiJulyObject__c</members>
+        <members>SaiKObj1__c</members>
+        <members>SaiKObj2__c</members>
+        <members>SaiMar30Obj1__c</members>
+        <members>SaiMar30Obj2__c</members>
+        <members>SaiMasterDetailObject1__c</members>
+        <members>SaiObj10__c</members>
+        <members>SaiObj150__c</members>
+        <members>SaiObj600__c</members>
+        <members>SaiObj700__c</members>
+        <members>SaiObj89__c</members>
+        <members>SaiObjNew1__c</members>
+        <members>SaiObject007__c</members>
+        <members>SaiOobj1__c</members>
+        <members>SaiTFSObj1__c</members>
+        <members>Sai_Obj500__c</members>
+        <members>Saiobj500__c</members>
+        <members>SampathObj1__c</members>
+        <members>SampathObj2__c</members>
+        <members>Sample_OBJ__c</members>
+        <members>SaoObj900__c</members>
+        <members>Sb1__c</members>
+        <members>Sbapr23object1__c</members>
+        <members>Sep15Obj2__c</members>
+        <members>Sep23rdObj1__c</members>
+        <members>Sep2ndObj1__c</members>
+        <members>Sep2ndObj2__c</members>
+        <members>Sep7thObj1__c</members>
+        <members>Sep8thObj1__c</members>
+        <members>SepObj2__c</members>
+        <members>Sep_15_ob1__c</members>
+        <members>ServiceResource</members>
+        <members>Sob1__c</members>
+        <members>Sobj1new__c</members>
+        <members>Sobj98__c</members>
+        <members>Solution</members>
+        <members>T12345__c</members>
+        <members>T1234__c</members>
+        <members>TFSObject2__c</members>
+        <members>Task</members>
+        <members>Test1obj1__c</members>
+        <members>Test54__c</members>
+        <members>Test55__c</members>
+        <members>Test57__c</members>
+        <members>TestACObj1__c</members>
+        <members>TestAcob1__c</members>
+        <members>TestAutomation__c</members>
+        <members>TestObj1__c</members>
+        <members>TestObj__c</members>
+        <members>TestObject__c</members>
+        <members>TestReleaseCutomOBJ__c</members>
+        <members>TitansARMSprint1__c</members>
+        <members>UOBJ1__c</members>
+        <members>Unique_Giriraj_Object__c</members>
+        <members>V098__c</members>
+        <members>V1__c</members>
+        <members>Vob3__c</members>
+        <members>Vob90__c</members>
+        <members>Vobj1__c</members>
+        <members>WorkOrder</members>
+        <members>WorkOrderLineItem</members>
+        <members>X38737_Custom_Object_2__c</members>
+        <members>X38737_Custom_Object__c</members>
+        <members>X42782obj1__c</members>
+        <members>X42782obj2__c</members>
+        <members>ZLObj100__c</members>
+        <members>ZObj1__c</members>
+        <members>Zob1__c</members>
+        <members>apr13obj3__c</members>
+        <members>artest2__c</members>
+        <members>bhanuObj__c</members>
+        <members>college__c</members>
+        <members>configobj2__c</members>
+        <members>console__c</members>
+        <members>customer__c</members>
+        <members>feb8thObj1__c</members>
+        <members>jan04sai__c</members>
+        <members>july27thobj1__c</members>
+        <members>k123__c</members>
+        <members>kk__c</members>
+        <members>lboj879__c</members>
+        <members>lobj1__c</members>
+        <members>lobj2__c</members>
+        <members>mar19Obj1__c</members>
+        <members>mar19obje3__c</members>
+        <members>migration_shamtemp__c</members>
+        <members>mob1__c</members>
+        <members>mob2__c</members>
+        <members>obj1__c</members>
+        <members>obj2__c</members>
+        <members>obj800__c</members>
+        <members>obj9002__c</members>
+        <members>qaobj91__c</members>
+        <members>qatestobj1__c</members>
+        <members>qatestobj__c</members>
+        <members>qb1__c</members>
+        <members>qb2__c</members>
+        <members>rcobj1__c</members>
+        <members>rrrobj1__c</members>
+        <members>rrrobj__c</members>
+        <members>sc1obj1__c</members>
+        <members>sep27test__c</members>
+        <members>sep29obj11__c</members>
+        <members>shAMoBJ_new_Oct28__c</members>
+        <members>sham_migrate_template__c</members>
+        <members>shamfirstobject__c</members>
+        <members>shamobject2__c</members>
+        <members>shamshun_tabobject__c</members>
+        <members>skvobj1__c</members>
+        <members>skvobj3__c</members>
+        <members>sp1__c</members>
+        <members>support__c</members>
+        <members>t7_obj__c</members>
+        <members>test1Object__c</members>
+        <members>test1__c</members>
+        <members>testshared__c</members>
+        <members>ticket__c</members>
+        <members>zb1__c</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
         <members>yum</members>
         <members>yumn</members>
         <name>TransactionSecurityPolicy</name>
@@ -4600,11 +7344,37 @@
         <name>Translations</name>
     </types>
     <types>
+        <members>API55TEST.Customer_Members</members>
+        <members>API55TEST.Members_without_contribution</members>
+        <members>API55TEST.Partner_and_Customer_members</members>
+        <members>Helpcenter.Customer_Members</members>
+        <members>Helpcenter.Members_without_contribution</members>
+        <members>Helpcenter.Partner_and_Customer_members</members>
+        <members>New1.Customer_Members</members>
+        <members>New1.Members_without_contribution</members>
+        <members>New1.Partner_and_Customer_members</members>
+        <members>Test1233.Customer_Members</members>
+        <members>Test1233.Members_without_contribution</members>
+        <members>Test1233.Partner_and_Customer_members</members>
+        <members>TestCommunity.Customer_Members</members>
+        <members>TestCommunity.Members_without_contribution</members>
+        <members>TestCommunity.Partner_and_Customer_members</members>
+        <members>TestCommunity1.Customer_Members</members>
+        <members>TestCommunity1.Members_without_contribution</members>
+        <members>TestCommunity1.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
+    </types>
+    <types>
         <members>AR_Obj1__c.ARSValidationRule3</members>
         <members>AR_Obj1__c.ARpValidationRule4</members>
         <members>Account.V1</members>
         <members>EC_AccObj1__c.ECVRule1</members>
+        <members>Lead.LeadValidationRule1</members>
+        <members>Lead.LeadValidationRule2</members>
+        <members>Lead.VL3</members>
         <members>MergeObject1__c.MergeValRuleObjtest1</members>
+        <members>Opportunity.Twst1</members>
+        <members>Opportunity.test2</members>
         <members>SDOC__SDRelationship__c.SDOC__GD_Link</members>
         <members>SaiAug1Obj1__c.Userval1</members>
         <members>TFSObject2__c.TFSVal2</members>
@@ -4621,6 +7391,14 @@
         <members>Account.kcs_dev__GoogleSearch</members>
         <members>Account.kcs_dev__HooversProfile</members>
         <members>Account.kcs_dev__YahooMaps</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Contact.kcs_dev__GoogleMaps</members>
+        <members>Contact.kcs_dev__GoogleSearch</members>
+        <members>Contact.kcs_dev__SendGmail</members>
+        <members>Contact.kcs_dev__YahooMaps</members>
+        <members>Contact.kcs_dev__YahooWeather</members>
+        <members>Opportunity.DeliveryStatus</members>
         <members>SDOC__SDJob__c.SDOC__Delete_Logs</members>
         <members>SDOC__SDRelationship__c.SDOC__Upload_to_Google_Docs</members>
         <members>SDOC__SDRelationship__c.SDOC__Upload_to_S3</members>
@@ -4630,17 +7408,41 @@
     </types>
     <types>
         <members>ACCObjt1__c.em</members>
+        <members>Account.em1</members>
+        <members>Account.em2</members>
+        <members>Account.testcheck</members>
+        <members>Opportunity.tasktest1</members>
+        <members>Opportunity.test1</members>
+        <members>Opportunity.test123</members>
         <name>WorkflowAlert</name>
     </types>
     <types>
         <members>ACCObjt1__c.fieldupdate</members>
+        <members>Account.F2</members>
+        <members>Account.File1</members>
+        <members>Account.test2</members>
+        <members>Opportunity.FU1</members>
+        <members>Opportunity.Fu2</members>
         <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Account.testgroup</members>
+        <members>Account.ty</members>
+        <members>Case.case</members>
+        <name>WorkflowOutboundMessage</name>
     </types>
     <types>
         <members>A1__c.SaiOne%3AWork%24flow%26Rule%2FTest_1%2FTest%282%29-Today%3DJue%4001</members>
         <members>ACCObjt1__c.QuoteLineItem</members>
+        <members>Account.test</members>
+        <members>Case.test678</members>
         <members>May26Obj1__c.Sai %3A Workflow%26Rule%2FTest%281%29</members>
+        <members>Opportunity.saitest</members>
         <members>SKnew1__c.Wr1</members>
         <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Account.test</members>
+        <name>WorkflowTask</name>
     </types>
 </Package>

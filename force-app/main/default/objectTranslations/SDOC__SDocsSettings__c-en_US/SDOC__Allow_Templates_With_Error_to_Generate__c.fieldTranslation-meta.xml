@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Allow Templates With Error to Generate --></label>
+    <name>SDOC__Allow_Templates_With_Error_to_Generate__c</name>
+</CustomFieldTranslation>

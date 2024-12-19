@@ -1,0 +1,306 @@
+<apex:page docType="html-5.0"
+  controller="SDOC.ViewDocumentController"
+  showHeader="false"
+  sidebar="false"
+  standardStylesheets="false"
+  applyBodyTag="false"
+  action="{!processVerification}"
+  cache="false">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>View Document</title>
+    <apex:stylesheet value="{!URLFOR($Resource.SDOC__Shared, '/css/bootstrap.min.css')}" />
+    <style>
+
+      .loading-div {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 10%;
+      }
+
+      .white-block {
+        background-color: #FFFFFF;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ced6e0;
+      }
+
+      .download-button {
+        padding-left: 36px;
+        padding-right: 36px;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-left:20px;
+        display:inline;
+      }
+
+      #pdf-header {
+        top:0px;
+        position: sticky;
+      }
+
+      #pdf-container {
+        margin: auto;
+        display: block;
+        padding: 50px;
+        overflow-y: scroll;
+      }
+
+      canvas {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 800px;
+        border-color: #ced6e0;
+        border-width: 1px;
+        border-style: solid;
+      }
+
+      body {
+        background-color: #F4F9FA;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin-bottom: 2px;
+      }
+
+    </style>
+
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared,'/js/jquery-1.8.3.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared, '/js/jQueryUI/jquery-ui-1.12.1/jquery-ui.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared, '/js/bootstrap.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared,'/js/pdf.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared,'/js/pdf.worker.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.SDOC__Shared,'/js/SDUtil.js')}" />
+
+    <script>
+      j$ = jQuery.noConflict();
+
+      /** The starting string for PDF Bodies */
+      var pdfBodyStartingStr = 'data:application/pdf;base64,';
+
+      /** The name of the PDF being rendered. */
+      var pdfNames = [''];
+
+      /** The base64 representation of the PDF being rendered*/
+      var pdfBodies = [''];
+
+      /** The id(s) of the S-Doc(s) being displayed */
+      var sdocIds = [''];
+
+      /** The index (for array access) of the SDoc__c object that's connected to the PDF to be rendered */
+      var sdocIndex = 0;
+
+      /**
+       * Initializes javascript variables from provided URL parameters
+       */
+      function initVars() {
+        sdocIds = '{{!sdocIdList}}'; // get raw list
+        sdocIds = sdocIds.slice(2, -2).replaceAll(' ', ''); // remove beginning and ending {[ and ]} and spaces
+        sdocIds = sdocIds.split(','); // convert to array
+      }
+
+      /**
+       * This function displays a message that the current document is loading and
+       * renders a loading gif on the page in place of where a rendered PDF would go.
+       */
+      function showLoadingScreen() {
+        j$('.loading-div').show();
+        j$('#pdf-name').html('Loading Document(s)...');
+      }
+
+      /**
+       * A recursive remote action call to get the base64 representation of the next PDF''s' content.
+       * The next PDF is determined by the sdocIndex, which increments at the end of the asynchrnous work
+       * that happens to load each PDF before recalling.
+       * Once the full base64 string is acquired, it is passed along to pdf.js to begin rendering the PDF.
+       * @param {integer} chunk indicates the index of the current chunk of the PDF's base64 data to get.
+       */
+      function renderNextPDF(chunk) {
+        pdfBodies[sdocIndex] = pdfBodyStartingStr;
+        Visualforce.remoting.Manager.invokeAction(
+          '{!$RemoteAction.ViewDocumentController.getPDFBase64}',
+          sdocIds[sdocIndex],
+          chunk,
+          function(result, event) {
+            if(!!result && event.status) {
+              pdfNames[sdocIndex] = JSON.parse(result).name;
+              pdfBodies[sdocIndex] = pdfBodies[sdocIndex] + JSON.parse(result).content;
+              if (JSON.parse(result).finalChunk === true) {
+                loadPDF(pdfBodies[sdocIndex]);
+              } else {
+                renderNextPDF(chunk++);
+              }
+            } else {
+              alert('Error in retrieving PDF document: ' + event.message);
+            }
+          },
+          {escape: false}
+        );
+      }
+
+      /**
+       * Uses pdf.js to process and render a PDF onto a page given a base64 representation of a PDF
+       * @param {string} pdfBase64 the base64 representation of the PDF to be rendered
+       */
+      function loadPDF(pdfBase64) {
+        var pdfAsArray = convertDataURIToBinary(pdfBase64);
+        pdfjsLib.getDocument(pdfAsArray).promise.then(function(pdf) {
+          // Fetch the first page
+          var pageNumber = 1;
+          pdf.getPage(pageNumber).then(function(page) {
+            renderPage(page, pageNumber, pdf);
+          });
+        });
+      }
+
+      /**
+       * Converts a base64 string to a Uint8 array. This is the
+       * required data format for pdf.js to correctly render a PDF
+       * @param {string} dataURI the base64 representation of the current PDF
+       * @returns {array} the Uint8 array representation of the current PDF
+       */
+       function convertDataURIToBinary(dataURI) {
+        const base64Marker = ';base64,';
+        var base64Index = dataURI.indexOf(base64Marker) + base64Marker.length;
+        var base64 = dataURI.substring(base64Index);
+        var raw = window.atob(base64);
+        var rawLength = raw.length;
+        var array = new Uint8Array(new ArrayBuffer(rawLength));
+
+        for(var i = 0; i < rawLength; i++) {
+          array[i] = raw.charCodeAt(i);
+        }
+        return array;
+      }
+
+      /** A recursive function that processes and renders a single PDF page at a time from the current PDF.
+       * @param page the pdf.js representation of the current page to be rendered
+       * @param pageNum the page number of the current page to be rendered
+       * @param pdf the pdf.js represenation of the current PDF to be rendered
+       */
+      function renderPage(page, pageNum, pdf) {
+        //This gives us the page's dimensions at full scale
+        var viewport = page.getViewport(1.5);
+
+        //We'll create a canvas for each page to draw it on
+        var outputScale = window.devicePixelRatio || 1;
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        canvas.style.display = 'none';
+
+        //Draw it on the canvas
+        var renderContext = {
+          canvasContext: context,
+          viewport: viewport
+        }
+        page.render(renderContext).then(function() {
+          //Add it to the web page
+          j$('#pdf-container').append(canvas);
+          if (pageNum < pdf.numPages) {
+            pageNum++;
+            pdf.getPage(pageNum).then(function(nextPage) {
+              renderPage(nextPage, pageNum, pdf);
+            });
+          } else {
+            ++sdocIndex;
+            if (sdocIndex < sdocIds.length) {
+              renderNextPDF(0);
+            } else {
+              showAllPDFs();
+            }
+          }
+        });
+      }
+
+      /**
+       * Once all PDFs have been successfully loaded onto the page, the loading gif is removed,
+       * the "Viewing Document(s)" string is added in,, and the styling that allowed the PDF to remain hidden
+       * during the loading process is removed.
+       */
+       function showAllPDFs() {
+        j$('.loading-div').hide();
+        let pluralStr = sdocIds.length === 1 ? '' : 's';
+        j$('#pdf-name').html('Viewing ' + sdocIds.length + ' Document' + pluralStr);
+        j$('canvas').removeAttr('style');
+      }
+
+      function downloadPDFs() {
+        for (let sdocDownloadIndex = 0; sdocDownloadIndex < sdocIds.length; ++sdocDownloadIndex) {
+          downloadPDF(sdocDownloadIndex);
+        }
+      }
+
+      /**
+       * Opens a file browser for the user to save the document as a PDF
+       * @param {string} sdocIndex the index (for array access) of the SDoc__c object that's connected to the PDF to be rendered
+       */
+      function downloadPDF(sdocDownloadIndex) {
+        var pdfAsArray = convertDataURIToBinary(pdfBodies[sdocDownloadIndex]);
+        pdfjsLib.getDocument(pdfAsArray).promise.then(function(pdf) {
+          var file = dataURItoBlob(pdfBodies[sdocDownloadIndex]);
+          var a = document.createElement("a"),
+                  url = URL.createObjectURL(file);
+          a.href = url;
+          a.download = pdfNames[sdocDownloadIndex];
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(function() {
+              document.body.removeChild(a);
+              window.URL.revokeObjectURL(url);
+          }, 0);
+        });
+      }
+
+    </script>
+
+  </head>
+
+  <body>
+    <apex:outputPanel rendered="true">
+    <!-- Header -->
+      <div id="pdf-header" class="container-fluid white-block">
+        <div class="row py-4 pl-4 pr-4" style="border-top: 0; border-right:0; border-left: 0;">
+          <div id="pdf-header-content">
+            <h1 id="pdf-name" style="margin-top:auto; margin-bottom:auto; display:inline;"/>
+            <button id="pdf-download" class="btn btn-primary download-button" onclick="downloadPDFs()">Download All</button>
+            <img style="height:50px; width:auto; float:right; margin-right:20px; display:inline;"
+              src="{!URLFOR($Resource.SDoc,'s-docs_logo.png')}" unselectable="on"/>
+          </div>
+        </div>
+      </div>
+
+      <!--Loading Spinner-->
+      <div class="container-fluid">
+        <img src="{!URLFOR($Resource.SDoc,'lightning_spinner.gif')}" class="undraggable loading-div" unselectable="on" />
+      </div>
+
+      <!--Rendered PDF-->
+      <div id="pdf-container" class="container-fluid"/>
+    </apex:outputPanel>
+  </body>
+
+  <script>
+
+    j$(window).on('load', function() {
+      initVars();
+      showLoadingScreen();
+      renderNextPDF(0);
+    });
+
+  </script>
+
+</apex:page>
