@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- By checking, a child record will be created for each field value on every document created using this template. This will allow for reporting, but will require significantly more data storage. --></help>
-    <label><!-- Enable Detail Reports --></label>
-    <name>SDOC__Enable_Detail_Reports__c</name>
-</CustomFieldTranslation>

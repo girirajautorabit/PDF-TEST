@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Don&apos;t Wrap Word Doc In Table --></label>
-    <name>SDOC__Dont_Wrap_Word_Doc_In_Table__c</name>
-</CustomFieldTranslation>

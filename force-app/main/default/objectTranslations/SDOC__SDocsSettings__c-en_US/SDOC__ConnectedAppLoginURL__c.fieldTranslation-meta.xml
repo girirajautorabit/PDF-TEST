@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help>
-        <!-- Production: https://login.salesforce.com
-Sandbox: https://test.salesforce.com -->
-    </help>
-    <label><!-- ConnectedAppLoginURL --></label>
-    <name>SDOC__ConnectedAppLoginURL__c</name>
-</CustomFieldTranslation>

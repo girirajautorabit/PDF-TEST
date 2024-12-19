@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ECVRule1</fullName>
-    <active>false</active>
-    <description>Test122345611111111111</description>
-    <errorConditionFormula>ISBLANK(  ECOBjField1__c )</errorConditionFormula>
-    <errorMessage>Please enter a value</errorMessage>
-</ValidationRule>
