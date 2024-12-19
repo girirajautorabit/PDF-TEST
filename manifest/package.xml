@@ -726,6 +726,7 @@
     <types>
         <members>AnswersHome</members>
         <members>ApexPage</members>
+        <members>ApexPage2</members>
         <members>ApexPage5</members>
         <members>Apexpage1</members>
         <members>Apexpage6</members>
@@ -803,6 +804,7 @@
         <members>AccountDeletion</members>
         <members>AccountTrigger1</members>
         <members>ApexTrigger1</members>
+        <members>ApexTrigger2</members>
         <members>ContactTrigger1</members>
         <members>Leadtrigger1</members>
         <members>SDOC__SDJobs</members>
@@ -1012,57 +1014,22 @@
         <members>Accobj4__c.Field1__c</members>
         <members>Accobj4__c.Field2__c</members>
         <members>Account.AccountLookUpField__c</members>
-        <members>Account.AccountNumber</members>
-        <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
-        <members>Account.AnnualRevenue</members>
         <members>Account.AutorabitExtId__c</members>
-        <members>Account.BillingAddress</members>
-        <members>Account.ChannelProgramLevelName</members>
-        <members>Account.ChannelProgramName</members>
-        <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
-        <members>Account.DandbCompanyId</members>
         <members>Account.Date_of_End__c</members>
-        <members>Account.Description</members>
-        <members>Account.DunsNumber</members>
-        <members>Account.Fax</members>
         <members>Account.GB__c</members>
         <members>Account.GIRI_PS_F1__c</members>
         <members>Account.GIRI_PS_ON_ACCOUNT__c</members>
         <members>Account.Index__c</members>
-        <members>Account.Industry</members>
-        <members>Account.IsCustomerPortal</members>
-        <members>Account.IsExcludedFromRealign</members>
-        <members>Account.IsPartner</members>
         <members>Account.Is_an_email_sent__c</members>
-        <members>Account.Jigsaw</members>
         <members>Account.MyCoolCheckBox__c</members>
-        <members>Account.NaicsCode</members>
-        <members>Account.NaicsDesc</members>
-        <members>Account.Name</members>
-        <members>Account.NumberOfEmployees</members>
         <members>Account.NumberofLocations__c</members>
-        <members>Account.OwnerId</members>
-        <members>Account.Ownership</members>
-        <members>Account.ParentId</members>
-        <members>Account.Phone</members>
-        <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
-        <members>Account.ShippingAddress</members>
-        <members>Account.Sic</members>
-        <members>Account.SicDesc</members>
-        <members>Account.Site</members>
-        <members>Account.TickerSymbol</members>
-        <members>Account.Tier</members>
         <members>Account.TmobileEmailAddress__c</members>
-        <members>Account.Tradestyle</members>
-        <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
-        <members>Account.Website</members>
-        <members>Account.YearStarted</members>
         <members>Account.f1__c</members>
         <members>Account.pick1__c</members>
         <members>AccountAPP1__c.Appf1__c</members>
@@ -2141,7 +2108,6 @@
         <members>AYObj1__c</members>
         <members>A_b__c</members>
         <members>Accobj4__c</members>
-        <members>Account</members>
         <members>AccountAPP1__c</members>
         <members>Account_Address__c</members>
         <members>AcntrObj1__c</members>
@@ -3777,15 +3743,6 @@
         <members>ACR2__c.All</members>
         <members>ACR3__c.All</members>
         <members>AR_Obj1__c.All</members>
-        <members>Account.AllAccounts</members>
-        <members>Account.MyAccounts</members>
-        <members>Account.NewLastWeek</members>
-        <members>Account.NewThisWeek</members>
-        <members>Account.PlatinumandGoldSLACustomers</members>
-        <members>Account.X223Listview</members>
-        <members>Account.kcs_dev__AllAccounts</members>
-        <members>Account.kcs_dev__MyAccounts</members>
-        <members>Account.kcs_dev__NewThisWeek</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c.All</members>
         <members>DLConfigTestObj__c.All</members>
         <members>DataLoader__c.All</members>
@@ -3935,10 +3892,6 @@
         <members>CM_ChangeEvents_Account</members>
         <members>CM_ChangeEvents_Contact</members>
         <name>PlatformEventChannelMember</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
     </types>
     <types>
         <members>ARProfile10_profilePasswordPolicy1559371796234</members>
@@ -4602,7 +4555,6 @@
     <types>
         <members>AR_Obj1__c.ARSValidationRule3</members>
         <members>AR_Obj1__c.ARpValidationRule4</members>
-        <members>Account.V1</members>
         <members>EC_AccObj1__c.ECVRule1</members>
         <members>MergeObject1__c.MergeValRuleObjtest1</members>
         <members>SDOC__SDRelationship__c.SDOC__GD_Link</members>
@@ -4613,14 +4565,6 @@
     <types>
         <members>A1__c.Giri_Button</members>
         <members>A1__c.Test1</members>
-        <members>Account.Billing</members>
-        <members>Account.customlink1</members>
-        <members>Account.kcs_dev__AltavistaNews</members>
-        <members>Account.kcs_dev__GoogleMaps</members>
-        <members>Account.kcs_dev__GoogleNews</members>
-        <members>Account.kcs_dev__GoogleSearch</members>
-        <members>Account.kcs_dev__HooversProfile</members>
-        <members>Account.kcs_dev__YahooMaps</members>
         <members>SDOC__SDJob__c.SDOC__Delete_Logs</members>
         <members>SDOC__SDRelationship__c.SDOC__Upload_to_Google_Docs</members>
         <members>SDOC__SDRelationship__c.SDOC__Upload_to_S3</members>

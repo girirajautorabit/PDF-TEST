@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChatterExtension xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <compositionComponent xsi:nil="true"/>
+    <description>OAuth1</description>
+    <extensionName>Quotes</extensionName>
+    <icon xsi:nil="true"/>
+    <isProtected>false</isProtected>
+    <masterLabel>Quotes</masterLabel>
+    <renderComponent xsi:nil="true"/>
+    <type>Lightning</type>
+</ChatterExtension>

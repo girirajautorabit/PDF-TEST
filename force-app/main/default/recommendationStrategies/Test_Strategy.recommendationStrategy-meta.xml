@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>Account</contextRecordType>
+    <description>Next Test</description>
+    <label>Test Strategy</label>
+    <union>
+        <label>Output</label>
+        <name>Output</name>
+    </union>
+</RecommendationStrategy>

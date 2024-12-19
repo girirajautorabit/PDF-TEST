@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- plfield --></label>
+    <name>plfield__c</name>
+    <picklistValues>
+        <masterLabel>a</masterLabel>
+        <translation><!-- a --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>b</masterLabel>
+        <translation><!-- b --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>c</masterLabel>
+        <translation><!-- c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>d</masterLabel>
+        <translation><!-- d --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>newpl</masterLabel>
+        <translation><!-- newpl --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

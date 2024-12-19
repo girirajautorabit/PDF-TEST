@@ -1,0 +1,7 @@
+<apex:page controller="SDOC.QueueableUploadRetryController" action="{!retry}" standardStylesheets="true" sidebar="true" lightningStylesheets="true"> 
+    <apex:form >
+        <apex:outputText id="retry-text" value="{!retryText}" escape="false"/>
+
+        <apex:actionPoller action="{!checkJobStatus}" interval="5" rerender="retry-text"/>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "29Oct-2",
+  "contentBody" : {
+    "activeViewId" : "X29Oct_2",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-29oct-2",
+    "urlPrefix" : "29oct-2"
+  },
+  "urlName" : "29oct-2"
+}

@@ -1,0 +1,32 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "29Oct-2",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "29Oct-2",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "f25f6120-4e34-4b78-9df1-38d6b63c4ee4",
+          "type" : "component"
+        } ],
+        "id" : "8ff6d25f-9601-457f-b9d5-958663874e68",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "SDOC:generateDocumentFromObject",
+      "id" : "f94fc82d-da84-48b8-a657-172290800a09",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-29oct-2"
+  },
+  "urlName" : "29oct-2"
+}

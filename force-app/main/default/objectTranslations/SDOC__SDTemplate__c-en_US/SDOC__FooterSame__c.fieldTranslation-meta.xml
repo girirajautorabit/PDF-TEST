@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this box is checked, the only the first page footer information will be used, and will apply to all pages of the document. --></help>
+    <label><!-- Use First Page Footer for All Pages --></label>
+    <name>SDOC__FooterSame__c</name>
+</CustomFieldTranslation>
