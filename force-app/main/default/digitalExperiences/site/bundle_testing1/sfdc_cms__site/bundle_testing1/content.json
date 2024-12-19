@@ -1,8 +1,0 @@
-{
-  "type" : "sfdc_cms__site",
-  "title" : "bundle-testing",
-  "contentBody" : {
-    "authenticationType" : "AUTHENTICATED"
-  },
-  "urlName" : "bundle-testing"
-}

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Content to appear on all pages (except first) Footers --></help>
-    <label><!-- MS Second Page Footer Content --></label>
-    <name>SDOC__MS_SPFooter_Content__c</name>
-</CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Once checked, this template is visible for new document creation. Do NOT delete or modify template once activated, as they are needed to display previously created documents correctly. Instead, make changes in clone and then mark this one inactive. --></help>
-    <label><!-- Available For Use --></label>
-    <name>SDOC__Active__c</name>
-</CustomFieldTranslation>

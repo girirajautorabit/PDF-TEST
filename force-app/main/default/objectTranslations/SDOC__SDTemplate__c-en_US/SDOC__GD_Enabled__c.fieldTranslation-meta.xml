@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Enable Google Docs Upload. Check here if you want to allow users to upload this doc to Google docs. Your org must be properly configured for S-Docs to work with Google Docs (see documentation for setup steps) --></help>
-    <label><!-- Google Docs Enabled --></label>
-    <name>SDOC__GD_Enabled__c</name>
-</CustomFieldTranslation>

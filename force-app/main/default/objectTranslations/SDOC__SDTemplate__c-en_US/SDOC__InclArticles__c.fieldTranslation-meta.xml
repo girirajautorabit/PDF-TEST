@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Automatically Attach case articles to outbound email --></help>
-    <label><!-- Auto-attach Case Articles --></label>
-    <name>SDOC__InclArticles__c</name>
-</CustomFieldTranslation>

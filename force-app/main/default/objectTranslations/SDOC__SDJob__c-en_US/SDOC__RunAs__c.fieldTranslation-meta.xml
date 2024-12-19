@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- User who will generate/email the generated docs. Value should be the user&apos;s unique salesforce login name (in the form of an email address) - NOT the SFDC ID or user&apos;s email. Remote App must be configured per the set-up documentation to use this feature. --></help>
-    <label><!-- Run As User --></label>
-    <name>SDOC__RunAs__c</name>
-</CustomFieldTranslation>
