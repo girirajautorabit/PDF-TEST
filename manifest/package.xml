@@ -9,6 +9,10 @@
         <members>testroh</members>
         <members>u8</members>
         <members>u9</members>
+        <members>webider_ltcfree__FeatureAccessException</members>
+        <members>webider_ltcfree__FeatureConsoleAPI</members>
+        <members>webider_ltcfree__FeatureConsoleController</members>
+        <members>webider_ltcfree__FeatureConsoleControllerTest</members>
         <name>ApexClass</name>
     </types>
     <types>
