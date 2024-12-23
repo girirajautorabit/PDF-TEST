@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>61.0</version>
     <types>
+        <members>A00000ABdkKerh</members>
+        <members>A00000AitkVHyQwuqA</members>
+        <members>A00000BQWUzARDSW</members>
+        <members>A00000CMDiCAIVi</members>
+        <members>A00000DVjqpmUc</members>
+        <members>A00000GKtdzP</members>
         <members>jsonFix1</members>
         <members>july20new</members>
         <members>skvnew007</members>
