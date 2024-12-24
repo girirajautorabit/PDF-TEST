@@ -1,0 +1,11 @@
+
+<commitedfiles>
+    <commit author="sairabit" date="Mar 29, 2023 09:17:43 AM" revision="ebc8cc6" type="REVISION_TYPE">
+        <comment><![CDATA[Delete Field1__c.field-meta.xml]]></comment>
+        <deletedmetadata/>
+        <files>
+            <file action="D" path="Jan12Module/main/default/objects/Accobj4__c/fields/Field1__c.field-meta.xml"/>
+        </files>
+        <metadata/>
+    </commit>
+</commitedfiles>

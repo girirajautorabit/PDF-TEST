@@ -13,7 +13,6 @@
     <types>
         <members>A</members>
         <members>A0</members>
-        <members>A00</members>
         <members>A000</members>
         <members>A0000</members>
         <members>A00000</members>
@@ -405,133 +404,6 @@
         <members>SAClS2</members>
         <members>SAClass200</members>
         <members>SAClass201</members>
-        <members>SDOC__BaseRecordTemplatesPicklist</members>
-        <members>SDOC__BaseRecordTemplatesPicklistTest</members>
-        <members>SDOC__CustomSettingsTestUtil</members>
-        <members>SDOC__DOCXDeobfuscationBatch</members>
-        <members>SDOC__DocumentSDK</members>
-        <members>SDOC__DocumentSDKTest</members>
-        <members>SDOC__ESignSDK</members>
-        <members>SDOC__EmailActivity</members>
-        <members>SDOC__EmailActivityTest</members>
-        <members>SDOC__EmailBatch</members>
-        <members>SDOC__EmailBatchTest</members>
-        <members>SDOC__EmailTemplatesPicklist</members>
-        <members>SDOC__EmailTemplatesPicklistTest</members>
-        <members>SDOC__EncryptionUtil</members>
-        <members>SDOC__EncryptionUtilTest</members>
-        <members>SDOC__Envelope</members>
-        <members>SDOC__EnvelopeTest</members>
-        <members>SDOC__Exceptions</members>
-        <members>SDOC__ExceptionsTest</members>
-        <members>SDOC__FieldUtility</members>
-        <members>SDOC__FieldUtilityTest</members>
-        <members>SDOC__FileCreationInvocable</members>
-        <members>SDOC__FileCreationInvocableTest</members>
-        <members>SDOC__GDLinkDataMigrationBatch</members>
-        <members>SDOC__GenerateBatch</members>
-        <members>SDOC__GenerateBatchTest</members>
-        <members>SDOC__GenerateDocumentWrapperController</members>
-        <members>SDOC__GenerateDocumentWrapperControllerTest</members>
-        <members>SDOC__GeneratePDFController</members>
-        <members>SDOC__GeneratePDFInvocable</members>
-        <members>SDOC__GeneratePDFInvocableTest</members>
-        <members>SDOC__GeneratePDFTest</members>
-        <members>SDOC__InsensitiveSet</members>
-        <members>SDOC__InsensitiveSetTest</members>
-        <members>SDOC__Logger</members>
-        <members>SDOC__LoggerTest</members>
-        <members>SDOC__LwcUtil</members>
-        <members>SDOC__LwcUtilTest</members>
-        <members>SDOC__ModelAbstract</members>
-        <members>SDOC__PackagingOrgTestUtil</members>
-        <members>SDOC__PostInstall</members>
-        <members>SDOC__PostInstallTest</members>
-        <members>SDOC__QueueableUploadRetryController</members>
-        <members>SDOC__QueueableUploader</members>
-        <members>SDOC__SContact</members>
-        <members>SDOC__SContactTest</members>
-        <members>SDOC__SDAuth</members>
-        <members>SDOC__SDBatch</members>
-        <members>SDOC__SDConfig</members>
-        <members>SDOC__SDCreateController</members>
-        <members>SDOC__SDEmailController</members>
-        <members>SDOC__SDExceptions</members>
-        <members>SDOC__SDFileList</members>
-        <members>SDOC__SDFileUpload</members>
-        <members>SDOC__SDImage</members>
-        <members>SDOC__SDImageTest</members>
-        <members>SDOC__SDJobTemplateController</members>
-        <members>SDOC__SDListCreateController</members>
-        <members>SDOC__SDMigrateController</members>
-        <members>SDOC__SDPDFUploadController</members>
-        <members>SDOC__SDQueue</members>
-        <members>SDOC__SDQueue2</members>
-        <members>SDOC__SDQueueMaster</members>
-        <members>SDOC__SDQueueRetry</members>
-        <members>SDOC__SDRedirect</members>
-        <members>SDOC__SDRest</members>
-        <members>SDOC__SDSG</members>
-        <members>SDOC__SDTemplate</members>
-        <members>SDOC__SDTemplateController</members>
-        <members>SDOC__SDTemplateEditor</members>
-        <members>SDOC__SDTemplateWrapper</members>
-        <members>SDOC__SDTestSuite</members>
-        <members>SDOC__SDTranslate</members>
-        <members>SDOC__SDUtil</members>
-        <members>SDOC__SDVerifyController</members>
-        <members>SDOC__SDVerifyControllerTest</members>
-        <members>SDOC__SDXMLDom</members>
-        <members>SDOC__SDXMLDomTest</members>
-        <members>SDOC__SD_XMLDom</members>
-        <members>SDOC__SD_XMLDomTest</members>
-        <members>SDOC__SD_XMLNode</members>
-        <members>SDOC__SD_XMLNodeTest</members>
-        <members>SDOC__SD_XMLUtils</members>
-        <members>SDOC__SDoc</members>
-        <members>SDOC__SDocEmail</members>
-        <members>SDOC__SDocEmailTest</members>
-        <members>SDOC__SDocGenerator</members>
-        <members>SDOC__SDocGeneratorBatch</members>
-        <members>SDOC__SDocGeneratorBatchTest</members>
-        <members>SDOC__SDocGeneratorTest</members>
-        <members>SDOC__SDocPDF</members>
-        <members>SDOC__SDocPDFTest</members>
-        <members>SDOC__SDocRest</members>
-        <members>SDOC__SDocRestMock</members>
-        <members>SDOC__SDocRestTest</members>
-        <members>SDOC__SDocTest</members>
-        <members>SDOC__SDocTriggerHandler</members>
-        <members>SDOC__SOQL</members>
-        <members>SDOC__SOQL_Test</members>
-        <members>SDOC__SObjectBase</members>
-        <members>SDOC__SObjectBaseTest</members>
-        <members>SDOC__SObjectUtility</members>
-        <members>SDOC__SObjectUtilityTest</members>
-        <members>SDOC__STask</members>
-        <members>SDOC__STaskTest</members>
-        <members>SDOC__SecureQuery</members>
-        <members>SDOC__SecureQueryTest</members>
-        <members>SDOC__Template</members>
-        <members>SDOC__TemplateEmail</members>
-        <members>SDOC__TemplateEmailTest</members>
-        <members>SDOC__TemplatePicklistBase</members>
-        <members>SDOC__TemplateSelectionController</members>
-        <members>SDOC__TemplateSelectionControllerTest</members>
-        <members>SDOC__TemplateTest</members>
-        <members>SDOC__TestDataFactory</members>
-        <members>SDOC__TestDataGenerator</members>
-        <members>SDOC__UserInput</members>
-        <members>SDOC__UserInputInvocable</members>
-        <members>SDOC__UserInputInvocableTest</members>
-        <members>SDOC__UserInputTest</members>
-        <members>SDOC__UserManagementTestUtil</members>
-        <members>SDOC__VerificationDatum</members>
-        <members>SDOC__Verifier</members>
-        <members>SDOC__VerifierTest</members>
-        <members>SDOC__ViewDocumentController</members>
-        <members>SDOC__ViewDocumentControllerTest</members>
-        <members>SDOC__sendGridMockHttpResponseGenerator</members>
         <members>SJun29cls1</members>
         <members>SKVAug16Class1</members>
         <members>SKVClass1</members>
@@ -671,38 +543,6 @@
         <members>v6A0</members>
         <members>v7</members>
         <members>v8</members>
-        <members>webider_ltcfree__EventAdditionalFieldsPicklist</members>
-        <members>webider_ltcfree__EventHyperLinkVariation</members>
-        <members>webider_ltcfree__EventListViewsPicklist</members>
-        <members>webider_ltcfree__EventSortByPicklist</members>
-        <members>webider_ltcfree__EventsRestrictToHostOptions</members>
-        <members>webider_ltcfree__FeatureAccessException</members>
-        <members>webider_ltcfree__FeatureConsoleAPI</members>
-        <members>webider_ltcfree__FeatureConsoleController</members>
-        <members>webider_ltcfree__FeatureConsoleControllerTest</members>
-        <members>webider_ltcfree__ListViewAPI</members>
-        <members>webider_ltcfree__ListViewApiMock</members>
-        <members>webider_ltcfree__ListViewApiTestClass</members>
-        <members>webider_ltcfree__LookupController</members>
-        <members>webider_ltcfree__MassDeleteController</members>
-        <members>webider_ltcfree__MassEditController</members>
-        <members>webider_ltcfree__PSUtility</members>
-        <members>webider_ltcfree__PostInstallClass</members>
-        <members>webider_ltcfree__RecordTypeHandler</members>
-        <members>webider_ltcfree__RecordTypeSelectionController</members>
-        <members>webider_ltcfree__TaskAdditionalFieldsPicklist</members>
-        <members>webider_ltcfree__TaskHyperLinkVariation</members>
-        <members>webider_ltcfree__TaskListViewsPicklist</members>
-        <members>webider_ltcfree__TaskSortyByPicklist</members>
-        <members>webider_ltcfree__TasksRestrictToHostOptions</members>
-        <members>webider_ltcfree__TestEventscontroller</members>
-        <members>webider_ltcfree__TestPostInstallClass</members>
-        <members>webider_ltcfree__TestRecordTypeHandler</members>
-        <members>webider_ltcfree__TestTasksController</members>
-        <members>webider_ltcfree__TestUtilityClass</members>
-        <members>webider_ltcfree__eventsController</members>
-        <members>webider_ltcfree__inlineEditController</members>
-        <members>webider_ltcfree__tasksController</members>
         <members>y10</members>
         <members>y11</members>
         <members>y12</members>
@@ -711,10 +551,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>SDOC__HelpIcon</members>
-        <members>SDOC__PDFStitch</members>
-        <members>SDOC__SDTemplateCSSComponent</members>
-        <members>SDOC__SDXMLComponent</members>
         <members>SiteFooter</members>
         <members>SiteHeader</members>
         <members>SiteLogin</members>
@@ -726,6 +562,7 @@
     <types>
         <members>AnswersHome</members>
         <members>ApexPage</members>
+        <members>ApexPage2</members>
         <members>ApexPage5</members>
         <members>Apexpage1</members>
         <members>Apexpage6</members>
@@ -744,47 +581,6 @@
         <members>InMaintenance</members>
         <members>MicrobatchSelfReg</members>
         <members>MyProfilePage</members>
-        <members>SDOC__GeneratePDF</members>
-        <members>SDOC__QueueableUploaderRetry</members>
-        <members>SDOC__SDAudit</members>
-        <members>SDOC__SDAuth</members>
-        <members>SDOC__SDConfig</members>
-        <members>SDOC__SDCreate1</members>
-        <members>SDOC__SDCreate2</members>
-        <members>SDOC__SDCreate3</members>
-        <members>SDOC__SDEdit</members>
-        <members>SDOC__SDEmail</members>
-        <members>SDOC__SDFileList</members>
-        <members>SDOC__SDFileReplace</members>
-        <members>SDOC__SDFileUpload</members>
-        <members>SDOC__SDJobContact</members>
-        <members>SDOC__SDJobDOC</members>
-        <members>SDOC__SDJobDOCX</members>
-        <members>SDOC__SDJobDelete</members>
-        <members>SDOC__SDJobPDF</members>
-        <members>SDOC__SDJobXML</members>
-        <members>SDOC__SDLicenses</members>
-        <members>SDOC__SDMigrate</members>
-        <members>SDOC__SDPDFMerge</members>
-        <members>SDOC__SDPDFUpload</members>
-        <members>SDOC__SDRedirect</members>
-        <members>SDOC__SDRedirectGD</members>
-        <members>SDOC__SDRelationshipDelete</members>
-        <members>SDOC__SDRestoreTemplate</members>
-        <members>SDOC__SDTemplateCSV</members>
-        <members>SDOC__SDTemplateDOC</members>
-        <members>SDOC__SDTemplateDOCX</members>
-        <members>SDOC__SDTemplateEditor</members>
-        <members>SDOC__SDTemplateEditorProperties</members>
-        <members>SDOC__SDTemplateHTML</members>
-        <members>SDOC__SDTemplatePDF</members>
-        <members>SDOC__SDTemplatePPT</members>
-        <members>SDOC__SDTemplateXLS</members>
-        <members>SDOC__SDTemplateXML</members>
-        <members>SDOC__SDTranslate</members>
-        <members>SDOC__SDVerify</members>
-        <members>SDOC__TextEditor</members>
-        <members>SDOC__ViewDocument</members>
         <members>SaiNewPage1</members>
         <members>Sainewpage2</members>
         <members>SiteLogin</members>
@@ -794,55 +590,34 @@
         <members>StdExceptionTemplate</members>
         <members>Unauthorized</members>
         <members>UnderConstruction</members>
-        <members>webider_ltcfree__ACT_Feature_Console</members>
-        <members>webider_ltcfree__About_Activity_Management</members>
-        <members>webider_ltcfree__GetSessionIdVF</members>
         <name>ApexPage</name>
     </types>
     <types>
         <members>AccountDeletion</members>
         <members>AccountTrigger1</members>
         <members>ApexTrigger1</members>
+        <members>ApexTrigger2</members>
         <members>ContactTrigger1</members>
         <members>Leadtrigger1</members>
-        <members>SDOC__SDJobs</members>
-        <members>SDOC__SDRelationship</members>
-        <members>SDOC__SDRelationshipDelete</members>
-        <members>SDOC__SDTemplate</members>
-        <members>SDOC__SDocTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
         <members>ARIndexCmp</members>
         <members>AURATest7</members>
-        <members>AboutActivity</members>
-        <members>ActivityRecordType</members>
         <members>AuRATest1</members>
         <members>AuRATest2</members>
         <members>AuRATest3</members>
         <members>AuraComponent5</members>
         <members>Aura_Bundle_Test1</members>
         <members>AutoComponenet1</members>
-        <members>ChooseStatus</members>
-        <members>EventUserSetting</members>
-        <members>Lookup</members>
         <members>LwcTest1</members>
         <members>Lwctest</members>
-        <members>MassFieldUpdate</members>
-        <members>MultiAddComp</members>
         <members>Saiaura</members>
-        <members>TaskUserSetting</members>
-        <members>TasksComponent</members>
-        <members>UtilityInlineUpdate</members>
-        <members>ViewRecord</members>
-        <members>confirmationBox</members>
-        <members>eventsComponent</members>
         <members>forgotPassword</members>
         <members>loginForm</members>
         <members>selfRegister</members>
         <members>setExpId</members>
         <members>setStartUrl</members>
-        <members>viewRecordFooter</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
@@ -909,8 +684,6 @@
         <members>MicrosoftTeamsimage</members>
         <members>MicrosoftTeamsimage1</members>
         <members>logo</members>
-        <members>webider_ltcfree__small_logo</members>
-        <members>webider_ltcfree__small_logo1</members>
         <name>ContentAsset</name>
     </types>
     <types>
@@ -926,7 +699,6 @@
     <types>
         <members>AppTest1</members>
         <members>Marketing_console</members>
-        <members>SDOC__S_Docs</members>
         <members>Shopping</members>
         <members>appconsole</members>
         <members>sham_App</members>
@@ -944,7 +716,6 @@
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
         <members>standard__Sites</members>
-        <members>webider_ltcfree__Activity_Management</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -1012,57 +783,22 @@
         <members>Accobj4__c.Field1__c</members>
         <members>Accobj4__c.Field2__c</members>
         <members>Account.AccountLookUpField__c</members>
-        <members>Account.AccountNumber</members>
-        <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
-        <members>Account.AnnualRevenue</members>
         <members>Account.AutorabitExtId__c</members>
-        <members>Account.BillingAddress</members>
-        <members>Account.ChannelProgramLevelName</members>
-        <members>Account.ChannelProgramName</members>
-        <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
-        <members>Account.DandbCompanyId</members>
         <members>Account.Date_of_End__c</members>
-        <members>Account.Description</members>
-        <members>Account.DunsNumber</members>
-        <members>Account.Fax</members>
         <members>Account.GB__c</members>
         <members>Account.GIRI_PS_F1__c</members>
         <members>Account.GIRI_PS_ON_ACCOUNT__c</members>
         <members>Account.Index__c</members>
-        <members>Account.Industry</members>
-        <members>Account.IsCustomerPortal</members>
-        <members>Account.IsExcludedFromRealign</members>
-        <members>Account.IsPartner</members>
         <members>Account.Is_an_email_sent__c</members>
-        <members>Account.Jigsaw</members>
         <members>Account.MyCoolCheckBox__c</members>
-        <members>Account.NaicsCode</members>
-        <members>Account.NaicsDesc</members>
-        <members>Account.Name</members>
-        <members>Account.NumberOfEmployees</members>
         <members>Account.NumberofLocations__c</members>
-        <members>Account.OwnerId</members>
-        <members>Account.Ownership</members>
-        <members>Account.ParentId</members>
-        <members>Account.Phone</members>
-        <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
-        <members>Account.ShippingAddress</members>
-        <members>Account.Sic</members>
-        <members>Account.SicDesc</members>
-        <members>Account.Site</members>
-        <members>Account.TickerSymbol</members>
-        <members>Account.Tier</members>
         <members>Account.TmobileEmailAddress__c</members>
-        <members>Account.Tradestyle</members>
-        <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
-        <members>Account.Website</members>
-        <members>Account.YearStarted</members>
         <members>Account.f1__c</members>
         <members>Account.pick1__c</members>
         <members>AccountAPP1__c.Appf1__c</members>
@@ -1241,333 +977,7 @@
         <members>SBM2__c.F1__c</members>
         <members>SBM2__c.F2__c</members>
         <members>SBTWOObj1__c.SBTWOFeidl1__c</members>
-        <members>SDOC__Envelope__c.SDOC__Verification_Secret__c</members>
-        <members>SDOC__Envelope__c.SDOC__View_Expiration__c</members>
-        <members>SDOC__Envelope__c.SDOC__View_Recipient__c</members>
-        <members>SDOC__SDJob__c.SDOC__Account__c</members>
-        <members>SDOC__SDJob__c.SDOC__Aid__c</members>
-        <members>SDOC__SDJob__c.SDOC__Apex_Job_ID__c</members>
-        <members>SDOC__SDJob__c.SDOC__Attempts__c</members>
-        <members>SDOC__SDJob__c.SDOC__Auto_Upload__c</members>
-        <members>SDOC__SDJob__c.SDOC__Batch_Group_ID__c</members>
-        <members>SDOC__SDJob__c.SDOC__Batch_Number__c</members>
-        <members>SDOC__SDJob__c.SDOC__Contact__c</members>
-        <members>SDOC__SDJob__c.SDOC__Data_Uneditable__c</members>
-        <members>SDOC__SDJob__c.SDOC__Did__c</members>
-        <members>SDOC__SDJob__c.SDOC__Doclist__c</members>
-        <members>SDOC__SDJob__c.SDOC__EmailURL__c</members>
-        <members>SDOC__SDJob__c.SDOC__Email_From__c</members>
-        <members>SDOC__SDJob__c.SDOC__Email_Params__c</members>
-        <members>SDOC__SDJob__c.SDOC__Fid__c</members>
-        <members>SDOC__SDJob__c.SDOC__Finish_Pending_Docs__c</members>
-        <members>SDOC__SDJob__c.SDOC__Include_All_Related_Files__c</members>
-        <members>SDOC__SDJob__c.SDOC__JobURL__c</members>
-        <members>SDOC__SDJob__c.SDOC__Job_Chained_From__c</members>
-        <members>SDOC__SDJob__c.SDOC__Lead__c</members>
-        <members>SDOC__SDJob__c.SDOC__LineItemDataXML__c</members>
-        <members>SDOC__SDJob__c.SDOC__NetworkId__c</members>
-        <members>SDOC__SDJob__c.SDOC__Num_Partitions__c</members>
-        <members>SDOC__SDJob__c.SDOC__ObjApiName__c</members>
-        <members>SDOC__SDJob__c.SDOC__ObjSortValFieldsForSDoc__c</members>
-        <members>SDOC__SDJob__c.SDOC__ObjSortValNum__c</members>
-        <members>SDOC__SDJob__c.SDOC__ObjSortVal__c</members>
-        <members>SDOC__SDJob__c.SDOC__Oid__c</members>
-        <members>SDOC__SDJob__c.SDOC__Partition_Number__c</members>
-        <members>SDOC__SDJob__c.SDOC__Position_In_Batch__c</members>
-        <members>SDOC__SDJob__c.SDOC__Process_Job_Splitters_Concurrently__c</members>
-        <members>SDOC__SDJob__c.SDOC__RecordData2XML__c</members>
-        <members>SDOC__SDJob__c.SDOC__RecordDataXML__c</members>
-        <members>SDOC__SDJob__c.SDOC__RunAs__c</members>
-        <members>SDOC__SDJob__c.SDOC__SDCreate3_Parameters__c</members>
-        <members>SDOC__SDJob__c.SDOC__SDoc1_View__c</members>
-        <members>SDOC__SDJob__c.SDOC__SDoc1__c</members>
-        <members>SDOC__SDJob__c.SDOC__SDoc2_View__c</members>
-        <members>SDOC__SDJob__c.SDOC__SDoc2__c</members>
-        <members>SDOC__SDJob__c.SDOC__SSign_Envelope_ID__c</members>
-        <members>SDOC__SDJob__c.SDOC__SSign_First_Signer_URL__c</members>
-        <members>SDOC__SDJob__c.SDOC__SSign_Language__c</members>
-        <members>SDOC__SDJob__c.SDOC__SendEmail__c</members>
-        <members>SDOC__SDJob__c.SDOC__Start__c</members>
-        <members>SDOC__SDJob__c.SDOC__Status_Details__c</members>
-        <members>SDOC__SDJob__c.SDOC__Status_Link__c</members>
-        <members>SDOC__SDJob__c.SDOC__Status__c</members>
-        <members>SDOC__SDJob__c.SDOC__TaskID__c</members>
-        <members>SDOC__SDJob__c.SDOC__Task_Subject__c</members>
-        <members>SDOC__SDJob__c.SDOC__Type__c</members>
-        <members>SDOC__SDJob__c.SDOC__Uses_File_Master__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Account__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Asset__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Case__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Contact__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Contract__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Created__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Comment__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Created_On__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Name__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Number__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Status__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Document_Type__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Edit_Link__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Email_Link__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Lead__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Opportunity__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Product2__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Product__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_Comment__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Link__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Status_Text__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_GD_Status__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc_Rel_Status__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__SDoc__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Solution__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__Upload__c</members>
-        <members>SDOC__SDRelationship__c.SDOC__View_Link__c</members>
         <members>SDOC__SDRelationship__c.sf1__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Active__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Allow_Create_New_Attachment__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Allow_Edit__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Allow_SharePoint_Target_Editing__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Allow_Toggle_Task_Creation__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Auto_Create_Attachment_On_Email__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Base_Object__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Base_Related_Object__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Box_Enabled__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Component_IDs__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__ContactRole__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Contact_Quick_Pick_Clause__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Content_Version_Field_JSON__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Core_Version__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Create_Attachment_Name__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Create_Attachment__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Create_File__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Create_New_Attachment_with_Each_Edit__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Default__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Description__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Document_Category__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Dont_Save_Mass_Merge_Docs__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Dont_Wrap_Word_Doc_In_Table__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__E_Sign_Days_Until_Expiration__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__E_Sign_Vendor__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__E_Signature_Solution__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_From_OrgWideAddressId__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_From_OrgWideAddress_Only__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_From_Use_Signature_If_User_Email__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_From_User_Override__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_Body__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_ReplyTo__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_SendTo__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_Subject__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_bcc__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Lock_cc__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_ReplyTo__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Require_Subject__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Restricted_Domains__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_ReturnToRecord__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_SendTo__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Send_To_Long__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_Subject__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_bcc__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Email_cc__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Enable_Detail_Reports__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Enforced_Merge_Fields__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Finished_Preprocessing_Docx_Template__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Footer2__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__FooterSame__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Footer__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Format_Icon__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__GD_Enabled__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__GD_Use_Native_Format__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Google_Drive_Folder_Id__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Has_Error__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Header2__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__HeaderSame__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Header__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__InclArticles__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Language__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MSX_Rich_Text_Image_Dimensions__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Embed_Images__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_BackGrndImgStyle__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_BackGrndImgUrl__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPFooter_Content__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_BackGrndImgStyle__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_BackGrndImgUrl__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_FPHeader_Content__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Header_And_Footer_Definitions__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Line_Items_In_Header_Or_Footer__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Definition__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Footer_Margin__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Header_Margin__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Height__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Margin_Left__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Margin_Right__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Page_Width__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_BackGrndImgStyle__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_BackGrndImgUrl__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPFooter_Content__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_BackGrndImgStyle__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_BackGrndImgUrl__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_SPHeader_Content__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Unit_of_Measure__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__MS_Use_Advanced_Properties__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Allow_Email__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Clear_Email_Jobs__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Clear_Jobs__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Exclude_Page_Breaks__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Page_Break_Every_N_Docs__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Sort_Field__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Mass_Merge_Summary_Document__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Master_Template__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Num_Splitters__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Org_Agnostic_ID__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__PDF_Unicode__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__PDF_Upload_File_Quality__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Preview_ID__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Related_Lists__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Remind_After_Generate__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Remind_Before_Expire__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Remove_Attachment_On_Delete__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Restore_Link__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__S3_Enabled__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__SD_K__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__SP_Enabled__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__SSign_Hide_Logo__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Save_Data__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Secure_Document_Delivery_Enabled__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Share_Point_Document_Library__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Share_Point_Folder_Name__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Show_Warning_Messages__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Tags_2__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Tags__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Auto_Create_Default__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Auto_Create__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Details_Override__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Due_Add_Business_Only__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Due_Add_Days__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Status__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Task_Subject__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_CSS_XML__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_Format__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML10__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML2__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML3__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML4__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML5__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML6__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML7__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML8__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML9__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode10__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode2__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode3__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode4__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode5__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode6__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode7__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode8__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode9__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML_Encode__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Template_XML__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Terms_XML_Encode__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Terms_XML__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Translate_Email_Settings_Data__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__TranslationTags__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Unicode_Level__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__User_Choice_Definitions__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Version_History_Keep_Limit__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__Version__c</members>
-        <members>SDOC__SDTemplate__c.SDOC__XML_Mass_Merge_Master_Tag__c</members>
-        <members>SDOC__SDoc__c.SDOC__Allow_Edit__c</members>
-        <members>SDOC__SDoc__c.SDOC__Apex_Job_ID__c</members>
-        <members>SDOC__SDoc__c.SDOC__Attachment_ID__c</members>
-        <members>SDOC__SDoc__c.SDOC__Attachment_Name__c</members>
-        <members>SDOC__SDoc__c.SDOC__Comment__c</members>
-        <members>SDOC__SDoc__c.SDOC__Create_Attachment__c</members>
-        <members>SDOC__SDoc__c.SDOC__Create_File__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data2__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data3__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data4__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data_Language__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data_Uneditable__c</members>
-        <members>SDOC__SDoc__c.SDOC__Data__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_CSS__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_Format__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_ID__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_Name__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_Number__c</members>
-        <members>SDOC__SDoc__c.SDOC__Document_Type__c</members>
-        <members>SDOC__SDoc__c.SDOC__Edit_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_BCC__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_CC__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_ReplyTo__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_SendTo__c</members>
-        <members>SDOC__SDoc__c.SDOC__Email_Subject__c</members>
-        <members>SDOC__SDoc__c.SDOC__Envelope__c</members>
-        <members>SDOC__SDoc__c.SDOC__File_ID__c</members>
-        <members>SDOC__SDoc__c.SDOC__GD_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__GD_Status_Text__c</members>
-        <members>SDOC__SDoc__c.SDOC__GD_Status__c</members>
-        <members>SDOC__SDoc__c.SDOC__GD_Upload_By__c</members>
-        <members>SDOC__SDoc__c.SDOC__ISOCodeConversionRate__c</members>
-        <members>SDOC__SDoc__c.SDOC__ISOCodeCorporate__c</members>
-        <members>SDOC__SDoc__c.SDOC__ISOCodeObj__c</members>
-        <members>SDOC__SDoc__c.SDOC__LineItemData2XML__c</members>
-        <members>SDOC__SDoc__c.SDOC__LineItemData3XML__c</members>
-        <members>SDOC__SDoc__c.SDOC__LineItemDataXML__c</members>
-        <members>SDOC__SDoc__c.SDOC__ObjSortVal__c</members>
-        <members>SDOC__SDoc__c.SDOC__ObjectID15__c</members>
-        <members>SDOC__SDoc__c.SDOC__ObjectID18__c</members>
-        <members>SDOC__SDoc__c.SDOC__ObjectID__c</members>
-        <members>SDOC__SDoc__c.SDOC__ObjectType__c</members>
-        <members>SDOC__SDoc__c.SDOC__Preview_Request_URL__c</members>
-        <members>SDOC__SDoc__c.SDOC__RecordData2XML__c</members>
-        <members>SDOC__SDoc__c.SDOC__RecordDataXML__c</members>
-        <members>SDOC__SDoc__c.SDOC__Related_ObjectID18__c</members>
-        <members>SDOC__SDoc__c.SDOC__RelationshipCount__c</members>
-        <members>SDOC__SDoc__c.SDOC__S3_ETag__c</members>
-        <members>SDOC__SDoc__c.SDOC__SDJob__c</members>
-        <members>SDOC__SDoc__c.SDOC__SDTemplate__c</members>
-        <members>SDOC__SDoc__c.SDOC__SP_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__SP_Status_Text__c</members>
-        <members>SDOC__SDoc__c.SDOC__SP_Upload_By__c</members>
-        <members>SDOC__SDoc__c.SDOC__Spillover_Doc_Ids__c</members>
-        <members>SDOC__SDoc__c.SDOC__Status__c</members>
-        <members>SDOC__SDoc__c.SDOC__Task_Due_Date__c</members>
-        <members>SDOC__SDoc__c.SDOC__Task_Status__c</members>
-        <members>SDOC__SDoc__c.SDOC__Task_Subject__c</members>
-        <members>SDOC__SDoc__c.SDOC__Upload__c</members>
-        <members>SDOC__SDoc__c.SDOC__Verification_Secret__c</members>
-        <members>SDOC__SDoc__c.SDOC__Version__c</members>
-        <members>SDOC__SDoc__c.SDOC__View_Link__c</members>
-        <members>SDOC__SDoc__c.SDOC__WM__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Allow_Templates_With_Error_to_Generate__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Concurrent_Master_Wait_Time__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppAudienceURL__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppCertificateName__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppConsumerKey__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppLoginURL__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppTokenURL__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__ConnectedAppUserName__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Disable_Contact_Record_Queries_For_Email__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Disable_SDJob_Get_Content_For_Data__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Dont_Run_SDTemplate_Trigger__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Enable_Create_Salesforce_Task_Feature__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Keep_Span_Tags_When_Using_Job_Splitters__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__LogLevel__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Platform_Encryption_Enabled__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Process_Job_Splitters_Concurrently__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SDEdit_Custom_URL__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SDRelationship_Lookup_Names__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SDTemplateEditor_Page_Size__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Batch_Size__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Fail_If_Template_Error__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__SD_Jobs_Top_of_Queue__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Salesforce_Home_URL__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Send_SDJobs_Email_as_Future__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Stabilize_URLs_Checked__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Use_File_Id_For_AWS_Folders__c</members>
-        <members>SDOC__SDocsSettings__c.SDOC__Use_Legacy_AWS_S3_Spaces__c</members>
         <members>SEObject1__c.field1__c</members>
         <members>SEObject1__c.field2__c</members>
         <members>SKM26Obj1__c.F2__c</members>
@@ -2141,7 +1551,6 @@
         <members>AYObj1__c</members>
         <members>A_b__c</members>
         <members>Accobj4__c</members>
-        <members>Account</members>
         <members>AccountAPP1__c</members>
         <members>Account_Address__c</members>
         <members>AcntrObj1__c</members>
@@ -2257,12 +1666,6 @@
         <members>SBM1__c</members>
         <members>SBM2__c</members>
         <members>SBTWOObj1__c</members>
-        <members>SDOC__Envelope__c</members>
-        <members>SDOC__SDJob__c</members>
-        <members>SDOC__SDRelationship__c</members>
-        <members>SDOC__SDTemplate__c</members>
-        <members>SDOC__SDoc__c</members>
-        <members>SDOC__SDocsSettings__c</members>
         <members>SEObject1__c</members>
         <members>SK1__c</members>
         <members>SKM26Obj1__c</members>
@@ -2551,12 +1954,6 @@
         <members>SBM1__c-en_US</members>
         <members>SBM2__c-en_US</members>
         <members>SBTWOObj1__c-en_US</members>
-        <members>SDOC__Envelope__c-en_US</members>
-        <members>SDOC__SDJob__c-en_US</members>
-        <members>SDOC__SDRelationship__c-en_US</members>
-        <members>SDOC__SDTemplate__c-en_US</members>
-        <members>SDOC__SDoc__c-en_US</members>
-        <members>SDOC__SDocsSettings__c-en_US</members>
         <members>SEObject1__c-en_US</members>
         <members>SK1__c-en_US</members>
         <members>SKM26Obj1__c-en_US</members>
@@ -2720,9 +2117,6 @@
         <members>Oct23obj1__c</members>
         <members>Opportunity_historyreport__c</members>
         <members>QObj2__c</members>
-        <members>SDOC__SDConfig</members>
-        <members>SDOC__SDJob__c</members>
-        <members>SDOC__SDTemplate__c</members>
         <members>SEObject1__c</members>
         <members>STObj1__c</members>
         <members>STObj2__c</members>
@@ -2748,9 +2142,6 @@
         <members>shamshun_tabobject__c</members>
         <members>support__c</members>
         <members>tes__x</members>
-        <members>webider_ltcfree__About_Activity_Management</members>
-        <members>webider_ltcfree__Activity_Component_Pro</members>
-        <members>webider_ltcfree__Activity_Components_Demo_Page</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -3133,8 +2524,6 @@
         <members>Jun3_DocSai/Jun3docfile1</members>
         <members>SD1</members>
         <members>SD1/SDDD</members>
-        <members>SDOC__S_Docs_App</members>
-        <members>SDOC__S_Docs_App/SDOC__logo_square_white_png</members>
         <members>SSS1</members>
         <members>SSS1/SSSF1</members>
         <members>SSS1/SSSSf2</members>
@@ -3165,10 +2554,6 @@
         <members>ShivaFolder1/shivadocfile2</members>
         <members>ShivaFolder1/shivadocfile3</members>
         <members>qantest11</members>
-        <members>webider_ltcfree__ACT_Pack</members>
-        <members>webider_ltcfree__ACT_Pack/webider_ltcfree__ACT_Pack_Demo_Page_Logo</members>
-        <members>webider_ltcfree__ACT_Pack/webider_ltcfree__ACT_Pack_Logo</members>
-        <members>webider_ltcfree__ACT_Pack/webider_ltcfree__ACT_Pack_Setup_Page_Logo</members>
         <name>Document</name>
     </types>
     <types>
@@ -3289,8 +2674,6 @@
         <members>Twst1</members>
         <members>appconsole_UtilityBar</members>
         <members>sham_App_UtilityBar</members>
-        <members>webider_ltcfree__Activity_Components_Demo_Page</members>
-        <members>webider_ltcfree__Activity_Management_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -3578,12 +2961,6 @@
         <members>SBM1__c-SBM1 Layout</members>
         <members>SBM2__c-SBM2 Layout</members>
         <members>SBTWOObj1__c-SBTWOObj1 Layout</members>
-        <members>SDOC__Envelope__c-SDOC__Envelope Layout</members>
-        <members>SDOC__SDJob__c-SDOC__SDJob Layout</members>
-        <members>SDOC__SDRelationship__c-SDOC__SDoc Relationship Layout</members>
-        <members>SDOC__SDTemplate__c-SDOC__SDoc Template Layout</members>
-        <members>SDOC__SDoc__c-SDOC__SDoc Layout</members>
-        <members>SDOC__SDocs_Metadata_Setting__mdt-SDOC__SDocs Metadata Setting Layout</members>
         <members>SEObject1__c-SEObject1 Layout</members>
         <members>SK1__c-SK1 Layout</members>
         <members>SKM26Obj1__c-SKM26Obj1 Layout</members>
@@ -3744,20 +3121,6 @@
     </types>
     <types>
         <members>aCCOUNTLIST</members>
-        <members>documentEditorModal</members>
-        <members>documentVersionModal</members>
-        <members>emailEditorModal</members>
-        <members>envelopeMaker</members>
-        <members>errorAlert</members>
-        <members>generateDocumentFromObject</members>
-        <members>generateDocumentSdk</members>
-        <members>generatedDocumentsForObject</members>
-        <members>modalToastEventSender</members>
-        <members>sDocMaker</members>
-        <members>sObjectSearchBar</members>
-        <members>templatePicker</members>
-        <members>templateTile</members>
-        <members>trackUsage</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
@@ -3768,9 +3131,6 @@
     <types>
         <members>QCC_Call_Session_Channel</members>
         <members>QCC_Case_Channel</members>
-        <members>SDOC__Doc_Delete</members>
-        <members>SDOC__Doc_Gen_Request</members>
-        <members>SDOC__Doc_Gen_Result</members>
         <name>LightningMessageChannel</name>
     </types>
     <types>
@@ -3778,15 +3138,6 @@
         <members>ACR2__c.All</members>
         <members>ACR3__c.All</members>
         <members>AR_Obj1__c.All</members>
-        <members>Account.AllAccounts</members>
-        <members>Account.MyAccounts</members>
-        <members>Account.NewLastWeek</members>
-        <members>Account.NewThisWeek</members>
-        <members>Account.PlatinumandGoldSLACustomers</members>
-        <members>Account.X223Listview</members>
-        <members>Account.kcs_dev__AllAccounts</members>
-        <members>Account.kcs_dev__MyAccounts</members>
-        <members>Account.kcs_dev__NewThisWeek</members>
         <members>ContactPointPhone_Contact_Point_Phone_La__c.All</members>
         <members>DLConfigTestObj__c.All</members>
         <members>DataLoader__c.All</members>
@@ -3795,11 +3146,6 @@
         <members>Oct23obj1__c.All</members>
         <members>Opportunity_historyreport__c.All</members>
         <members>QObj2__c.All</members>
-        <members>SDOC__SDJob__c.SDOC__All</members>
-        <members>SDOC__SDTemplate__c.SDOC__All</members>
-        <members>SDOC__SDTemplate__c.SDOC__All_Inactive_Templates</members>
-        <members>SDOC__SDTemplate__c.SDOC__Archived_Templates</members>
-        <members>SDOC__SDoc__c.SDOC__All</members>
         <members>SEObject1__c.All</members>
         <members>STObj1__c.All</members>
         <members>STObj2__c.All</members>
@@ -3908,11 +3254,6 @@
         <members>PRS1</members>
         <members>PRS2</members>
         <members>PradeepPermSet1</members>
-        <members>SDOC__SDocs_Administrator</members>
-        <members>SDOC__SDocs_Jobs_Guest_Users</members>
-        <members>SDOC__SDocs_LWC_Community_User</members>
-        <members>SDOC__SDocs_User</members>
-        <members>SDOC__S_Doc_Site_Guest_User</members>
         <members>check_kr</members>
         <members>feb8th</members>
         <members>giri</members>
@@ -3936,10 +3277,6 @@
         <members>CM_ChangeEvents_Account</members>
         <members>CM_ChangeEvents_Contact</members>
         <name>PlatformEventChannelMember</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
     </types>
     <types>
         <members>ARProfile10_profilePasswordPolicy1559371796234</members>
@@ -3991,14 +3328,6 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
-        <members>SDOC__LogACall</members>
-        <members>SDOC__NewCase</members>
-        <members>SDOC__NewContact</members>
-        <members>SDOC__NewEvent</members>
-        <members>SDOC__NewNote</members>
-        <members>SDOC__NewOpportunity</members>
-        <members>SDOC__NewTask</members>
-        <members>SDOC__SendEmail</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
@@ -4363,11 +3692,6 @@
         <name>ReportType</name>
     </types>
     <types>
-        <members>Sai_Test_Restrictionrule1</members>
-        <members>Sai_Test_restriction_rule2</members>
-        <name>RestrictionRule</name>
-    </types>
-    <types>
         <members>sso_2222</members>
         <name>SamlSsoConfig</name>
     </types>
@@ -4466,10 +3790,6 @@
         <members>SB100__c</members>
         <members>SBM1__c</members>
         <members>SBM2__c</members>
-        <members>SDOC__Envelope__c</members>
-        <members>SDOC__SDJob__c</members>
-        <members>SDOC__SDTemplate__c</members>
-        <members>SDOC__SDoc__c</members>
         <members>SK1__c</members>
         <members>SKM26Obj1__c</members>
         <members>SKVAug16Obj1__c</members>
@@ -4561,10 +3881,6 @@
         <name>SharingRules</name>
     </types>
     <types>
-        <members>SDOC__SDoc</members>
-        <members>SDOC__Shared</members>
-        <members>SDOC__ckEditor</members>
-        <members>SDOC__jQueryUI</members>
         <members>SNA_6sxse_sf_default_cdn_SaiBundle11</members>
         <members>SNA_9fhTq_sf_default_cdn_GiriLWR1</members>
         <members>SNA_DRdZE_sf_default_cdn_KrithiLWR1</members>
@@ -4585,7 +3901,6 @@
         <members>Saiest</members>
         <members>SiteSamples</members>
         <members>demo</members>
-        <members>webider_ltcfree__webiderResources</members>
         <name>StaticResource</name>
     </types>
     <types>
@@ -4603,10 +3918,8 @@
     <types>
         <members>AR_Obj1__c.ARSValidationRule3</members>
         <members>AR_Obj1__c.ARpValidationRule4</members>
-        <members>Account.V1</members>
         <members>EC_AccObj1__c.ECVRule1</members>
         <members>MergeObject1__c.MergeValRuleObjtest1</members>
-        <members>SDOC__SDRelationship__c.SDOC__GD_Link</members>
         <members>SaiAug1Obj1__c.Userval1</members>
         <members>TFSObject2__c.TFSVal2</members>
         <name>ValidationRule</name>
@@ -4614,19 +3927,6 @@
     <types>
         <members>A1__c.Giri_Button</members>
         <members>A1__c.Test1</members>
-        <members>Account.Billing</members>
-        <members>Account.customlink1</members>
-        <members>Account.kcs_dev__AltavistaNews</members>
-        <members>Account.kcs_dev__GoogleMaps</members>
-        <members>Account.kcs_dev__GoogleNews</members>
-        <members>Account.kcs_dev__GoogleSearch</members>
-        <members>Account.kcs_dev__HooversProfile</members>
-        <members>Account.kcs_dev__YahooMaps</members>
-        <members>SDOC__SDJob__c.SDOC__Delete_Logs</members>
-        <members>SDOC__SDRelationship__c.SDOC__Upload_to_Google_Docs</members>
-        <members>SDOC__SDRelationship__c.SDOC__Upload_to_S3</members>
-        <members>SDOC__SDTemplate__c.SDOC__Edit_TemplateXML</members>
-        <members>SDOC__SDTemplate__c.SDOC__SDClone</members>
         <name>WebLink</name>
     </types>
     <types>

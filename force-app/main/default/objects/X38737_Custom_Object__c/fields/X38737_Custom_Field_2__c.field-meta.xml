@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X38737_Custom_Field_2__c</fullName>
+    <externalId>false</externalId>
+    <label>38737-Custom-Field-2</label>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>38737-Custom-Objects</relationshipLabel>
+    <relationshipName>X38737_Custom_Objects</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
