@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- (Optional) A comma delimited list of SFDC Document IDs (from Documents Tab) that will be included in any outbound email. --></help>
-    <label><!-- Incl. Documents with Email --></label>
-    <name>SDOC__Did__c</name>
-</CustomFieldTranslation>
